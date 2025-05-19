@@ -1,15 +1,38 @@
 {
   "global": {
-    "header": {
-      "brand": "Bamboolutions",
       "nav_home": "Home",
       "nav_about": "About Us",
-      "nav_products": "Products"
-    },
+      "nav_products": "Products",
+      "nav_trays": "Trays",
+      "nav_bowls": "Bowls",
+      "nav_plates": "Plates",
+      "nav_clamshell": "Clamshell Containers",
+      "nav_sushi": "Sushi Containers",
+      "nav_bakery": "Bakery Containers",
+      "nav_cupnegg": "Cup Trays / Egg Cartons",
+      "nav_profile": "Company Profile",
+      "nav_plantation": "Bamboo Plantation",
+      "nav_pplant": "Bamboo Fiber Plant",
+      "nav_tfactory": "Eco Tableware Factory",
+      "nav_sustainability": "Sustainability",
+      "nav_contact": "Contac",
+      "current_language": "EN",
+      "languages": {
+        "en": "English",
+        "fr": "Français",
+        "es": "Español",
+        "ar": "العربية",
+        "de": "Deutsch",
+        "ja": "日本語",
+        "zh": "中文"
+      },
+
     "index": {
     "hero": {
-      "title": "Sustainable Bamboo Solutions",
-      "subtitle": "Eco-Friendly Packaging Experts"
+      "title1": "Sustainable Tableware for a Greener Future",
+      "subtitle1": "Premium biodegradable bamboo fiber products for eco-conscious businesses.",
+      "button1" : "Request Information",
+      
     },
     "features": {
       "heading": "Why Choose Us?",
