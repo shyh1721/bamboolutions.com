@@ -1,0 +1,28 @@
+{
+  "global": {
+    "header": {
+      "brand": "Bamboolutions",
+      "nav_home": "Home",
+      "nav_about": "About Us",
+      "nav_products": "Products"
+    },
+    "index": {
+    "hero": {
+      "title": "Sustainable Bamboo Solutions",
+      "subtitle": "Eco-Friendly Packaging Experts"
+    },
+    "features": {
+      "heading": "Why Choose Us?",
+      "item1": "100% Biodegradable"
+    }
+  },
+    "company": {
+    "hero": {
+      "title": "12 Years of Sustainable Innovation",
+      "subtitle": "Leading the Way in Eco-Friendly Solutions"
+    },
+    "overview": {
+      "title": "Company Overview",
+      "text": "Since our founding in 2013..."
+    }
+  },
