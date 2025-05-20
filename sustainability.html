@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-translate="sustainability.title">Sustainability - Bamboolutions</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+position: relative;
+}
+.nav-link::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #4D8B31;
+transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+width: 100%;
+}
+.language-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+right: 0;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+z-index: 50;
+min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+display: block;
+}
+.certificate-card {
+transition: all 0.3s ease;
+}
+.certificate-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+input:focus {
+outline: none;
+}
+.benefit-card {
+transition: transform 0.3s ease;
+}
+.benefit-card:hover {
+transform: translateY(-5px);
+}
+.certificate-modal {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.8);
+z-index: 1000;
+justify-content: center;
+align-items: center;
+}
+.certificate-modal.active {
+display: flex;
+}
+</style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Header Section -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolutions</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="index.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_home">Home</a>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_product">
+Products
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="trays.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_trays">Trays</a>
+<a href="bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bowls">Bowls</a>
+<a href="plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_plates">Plates</a>
+<a href="clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_clamshell">Clamshell Containers</a>
+<a href="sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_sushi">Sushi Containers</a>
+<a href="bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bakery">Bakery Containers</a>
+<a href="cup&egg.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_cupnegg">Cup Trays / Egg Cartons</a>
+</div>
+</div>
+</div>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_about">
+About Us
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="company-profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_profile">Company Profile</a>
+<a href="plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_plantation">Bamboo Plantation</a>
+<a href="processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_pplant">Bamboo Fiber Plant</a>
+<a href="tableware-facility.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_tfactory">Eco Tableware Factory</a>
+</div>
+</div>
+</div>
+<a href="sustainability.html" data-readdy="true" class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_sustainability">Sustainability</a>
+<a href="contact.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_contact">Contact</a>
+</nav>
+<div class="flex items-center space-x-4">
+  <div class="language-selector relative">
+    <button class="flex items-center space-x-1 text-gray-700 hover:text-primary transition-colors">
+      <div class="w-6 h-6 flex items-center justify-center">
+        <i class="ri-global-line"></i>
+      </div>
+      <span data-translate="global.current_language">EN</span>
+      <div class="w-4 h-4 flex items-center justify-center">
+        <i class="ri-arrow-down-s-line"></i>
+      </div>
+    </button>
+    <div class="language-dropdown">
+      <a href="#"
+         data-lang="en"
+         data-translate="global.languages.en"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">English</a>
+      <a href="#"
+         data-lang="fr"
+         data-translate="global.languages.fr"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Français</a>
+      <a href="#"
+         data-lang="es"
+         data-translate="global.languages.es"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
+      <a href="#"
+         data-lang="ar"
+         data-translate="global.languages.ar"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
+      <a href="#"
+         data-lang="de"
+         data-translate="global.languages.de"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
+      <a href="#"
+         data-lang="ja"
+         data-translate="global.languages.ja"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
+      <a href="#"
+         data-lang="zh"
+         data-translate="global.languages.zh"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+    </div>
+  </div>
+  <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+    <i class="ri-menu-line text-2xl"></i>
+  </button>
+</div>
+</header>
+<!-- Main Content -->
+<div class="mt-16">
+<!-- Main Content Area -->
+<main class="flex-1">
+<!-- Hero Section -->
+<section class="relative h-[400px] overflow-hidden">
+<div style="background-image: url('assets/sustainability_hero.webp'); background-size: cover; background-position: center;" class="w-full h-full absolute inset-0">
+<div class="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30"></div>
+<div class="absolute inset-0 flex items-center justify-center text-center z-10">
+<div class="max-w-3xl">
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-4" data-translate="sustainability.hero.title">Sustainability Commitment</h1>
+<p class="text-xl text-white/90" data-translate="sustainability.hero.subtitle">Pioneering eco-friendly manufacturing with our integrated closed-loop supply chain</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Production Process Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-gray-800 mb-4 text-center" data-translate="sustainability.process.title">Sustainable Production Process</h2>
+<p class="text-gray-600 text-center max-w-3xl mx-auto mb-12" data-translate="sustainability.process.subtitle">Our innovative manufacturing approach minimizes environmental impact at every stage</p>
+<div class="relative max-w-4xl mx-auto">
+<!-- Timeline Line -->
+<div class="absolute left-1/2 top-0 bottom-0 w-1 bg-primary/20 transform -translate-x-1/2 hidden md:block"></div>
+<!-- Step 1 -->
+<div class="relative md:flex items-center mb-16">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<h3 class="text-xl font-semibold text-gray-800 mb-3" data-translate="sustainability.process.step1_heading">Responsible Harvesting</h3>
+<p class="text-gray-600" data-translate="sustainability.process.step1_text">We selectively harvest only mature bamboo stalks (4-5 years old), preserving the root system and younger plants. This sustainable approach allows the bamboo to regenerate naturally without replanting.</p>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 bg-white z-10 hidden md:block">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white">
+<i class="ri-scissors-cut-line"></i>
+</div>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="relative md:flex items-center mb-16">
+<div class="md:w-1/2 pr-12 hidden md:block"></div>
+<div class="absolute left-1/2 transform -translate-x-1/2 bg-white z-10 hidden md:block">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white">
+<i class="ri-file-reduce-line"></i>
+</div>
+</div>
+<div class="md:w-1/2 md:pl-12">
+<h3 class="text-xl font-semibold text-gray-800 mb-3" data-translate="sustainability.process.step2_heading">Eco-Friendly Pulping</h3>
+<p class="text-gray-600" data-translate="sustainability.process.step2_text">Our mechanical pulping process breaks down bamboo fibers without harsh chemicals. We use a closed-loop water system that recycles 95% of process water, dramatically reducing water consumption compared to traditional paper manufacturing.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative md:flex items-center mb-16">
+<div class="hidden md:block w-1/2 pr-12 text-right">
+<h3 class="text-xl font-semibold text-gray-800 mb-3" data-translate="sustainability.process.step3_heading">Molding & Forming</h3>
+<p class="text-gray-600" data-translate="sustainability.process.step3_text">Our innovative heat-press technology shapes bamboo fiber into various tableware products using minimal energy. The process uses natural plant-based binders instead of synthetic adhesives, ensuring the final product remains fully biodegradable.</p>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 bg-white z-10 hidden md:block">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white">
+<i class="ri-shape-line"></i>
+</div>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="relative md:flex items-center">
+<div class="md:w-1/2 pr-12 hidden md:block"></div>
+<div class="absolute left-1/2 transform -translate-x-1/2 bg-white z-10 hidden md:block">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white">
+<i class="ri-recycle-line"></i>
+</div>
+</div>
+<div class="md:w-1/2 md:pl-12">
+<h3 class="text-xl font-semibold text-gray-800 mb-3" data-translate="sustainability.process.step4_heading">Waste Management</h3>
+<p class="text-gray-600" data-translate="sustainability.process.step4_text">Our zero-waste approach ensures all bamboo byproducts are repurposed. Fiber scraps are recycled back into production, while other residues are converted to biomass fuel that powers our facilities, creating a truly circular manufacturing system.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Closed Loop System -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-gray-800 mb-4 text-center" data-translate="sustainability.close_loop.title">Closed Loop Water & Waste System</h2>
+<p class="text-gray-600 text-center max-w-3xl mx-auto mb-12" data-translate="sustainability.close_loop.subtitle">Our innovative approach to resource management minimizes environmental impact</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="rounded-lg overflow-hidden shadow-lg">
+<img src="assets/waste_management.webp" alt="Closed Loop System" class="w-full h-full object-cover object-top">
+</div>
+<div>
+<div class="mb-8">
+<h3 class="text-xl font-semibold text-gray-800 mb-3" data-translate="sustainability.close_loop.water_title">Water Conservation</h3>
+<p class="text-gray-600 mb-4" data-translate="sustainability.close_loop.water_text1">Our state-of-the-art water recycling system captures, filters, and reuses 95% of the water used in our fiber processing operations. This closed-loop approach dramatically reduces our freshwater consumption compared to traditional manufacturing methods.</p>
+<p class="text-gray-600" data-translate="sustainability.close_loop.water_text2">The multi-stage filtration system removes impurities without chemical treatments, ensuring that any water eventually released back into the environment is clean and free from contaminants.</p>
+</div>
+<div>
+<h3 class="text-xl font-semibold text-gray-800 mb-3" data-translate="sustainability.close_loop.waste_title">Waste Management</h3>
+<p class="text-gray-600 mb-4" data-translate="sustainability.close_loop.waste_intro">We've implemented a comprehensive zero-waste manufacturing approach where all production byproducts are repurposed:</p>
+<ul class="space-y-2">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="ml-3 text-gray-600" data-translate="sustainability.close_loop.list1">Fiber scraps are recycled back into the production process</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="ml-3 text-gray-600" data-translate="sustainability.close_loop.list2">Bamboo residues are converted to biomass fuel that powers our facilities</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="ml-3 text-gray-600" data-translate="sustainability.close_loop.list3">Organic waste is composted and used as fertilizer in our bamboo plantations</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="ml-3 text-gray-600" data-translate="sustainability.close_loop.list4">Wastewater sludge is processed into biochar, a valuable soil amendment</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Certification Photo Section -->
+<section class="py-16 bg-gray-50 hidden">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-gray-800 mb-4 text-center">Certification Gallery</h2>
+<p class="text-gray-600 text-center max-w-3xl mx-auto mb-12">Our commitment to sustainability is backed by internationally recognized certifications</p>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert1">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=FSC%2520certification%2520certificate%2520for%2520sustainable%2520bamboo%2520forestry%252C%2520official%2520document%2520with%2520Forest%2520Stewardship%2520Council%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=11&orientation=landscape" alt="FSC Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">FSC Certificate</h3>
+<p class="text-sm text-gray-600">Forest Stewardship Council</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert2">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=SFCC%2520certification%2520certificate%2520for%2520sustainable%2520forestry%2520and%2520chain%2520of%2520custody%252C%2520official%2520document%2520with%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=12&orientation=landscape" alt="SFCC Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">SFCC Certificate</h3>
+<p class="text-sm text-gray-600">Sustainable Forestry Chain of Custody</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert3">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=ISO%252014001%2520environmental%2520management%2520certification%2520certificate%252C%2520official%2520document%2520with%2520ISO%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=13&orientation=landscape" alt="ISO 14001 Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">ISO 14001 Certificate</h3>
+<p class="text-sm text-gray-600">Environmental Management</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert4">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=ISO%25209001%2520quality%2520management%2520certification%2520certificate%252C%2520official%2520document%2520with%2520ISO%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=14&orientation=landscape" alt="ISO 9001 Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">ISO 9001 Certificate</h3>
+<p class="text-sm text-gray-600">Quality Management</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert5">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=compostable%2520certification%2520certificate%2520for%2520bamboo%2520fiber%2520products%252C%2520official%2520document%2520with%2520compostable%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=15&orientation=landscape" alt="Compostable Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">Compostable Certificate</h3>
+<p class="text-sm text-gray-600">EN 13432 Standard</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert6">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=food%2520safety%2520certification%2520certificate%2520for%2520bamboo%2520fiber%2520tableware%252C%2520official%2520document%2520with%2520food%2520safety%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=16&orientation=landscape" alt="Food Safety Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">Food Safety Certificate</h3>
+<p class="text-sm text-gray-600">FDA Compliant</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert7">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=BPI%2520certification%2520certificate%2520for%2520biodegradable%2520products%252C%2520official%2520document%2520with%2520Biodegradable%2520Products%2520Institute%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=17&orientation=landscape" alt="BPI Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">BPI Certificate</h3>
+<p class="text-sm text-gray-600">Biodegradable Products Institute</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert8">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=carbon%2520neutral%2520certification%2520certificate%2520for%2520manufacturing%2520facility%252C%2520official%2520document%2520with%2520carbon%2520neutral%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=18&orientation=landscape" alt="Carbon Neutral Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">Carbon Neutral Certificate</h3>
+<p class="text-sm text-gray-600">Manufacturing Facility</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert9">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=EU%2520biobased%2520product%2520certification%2520certificate%2520for%2520bamboo%2520fiber%2520tableware%252C%2520official%2520document%2520with%2520EU%2520biobased%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=19&orientation=landscape" alt="EU Biobased Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">EU Biobased Certificate</h3>
+<p class="text-sm text-gray-600">European Biobased Standard</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm cursor-pointer" data-img="cert10">
+<div class="h-48 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=fair%2520trade%2520certification%2520certificate%2520for%2520bamboo%2520sourcing%252C%2520official%2520document%2520with%2520fair%2520trade%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=400&height=300&seq=20&orientation=landscape" alt="Fair Trade Certificate" class="w-full h-full object-cover object-top">
+</div>
+<div class="p-4">
+<h3 class="font-semibold text-gray-800">Fair Trade Certificate</h3>
+<p class="text-sm text-gray-600">Ethical Sourcing</p>
+</div>
+</div>
+<div class="certificate-card bg-white rounded-lg overflow-hidden shadow-sm border-2 border-dashed border-gray-300 flex flex-col items-center justify-center p-6 text-center h-full">
+<div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-4">
+<div class="w-8 h-8 flex items-center justify-center text-gray-400">
+<i class="ri-add-line text-2xl"></i>
+</div>
+</div>
+<h3 class="font-semibold text-gray-800 mb-2">More Coming Soon</h3>
+<p class="text-sm text-gray-600">We're continuously expanding our certifications</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Call-to-Action Section -->
+
+<!-- Certificate Modal -->
+<div class="certificate-modal" id="certificateModal">
+<div class="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-auto p-6 relative">
+<button class="absolute top-4 right-4 w-10 h-10 flex items-center justify-center text-gray-500 hover:text-gray-700 bg-gray-100 rounded-full" id="closeModal">
+<i class="ri-close-line text-xl"></i>
+</button>
+<div class="text-center mb-6">
+<h3 class="text-2xl font-bold text-gray-800 mb-2" id="modalTitle">Certificate Title</h3>
+<p class="text-gray-600" id="modalDescription">Certificate description</p>
+</div>
+<div class="flex justify-center mb-6">
+<img src="" alt="Certificate" id="modalImage" class="max-w-full h-auto rounded-lg">
+</div>
+<div class="flex justify-center">
+<a href="#" class="bg-primary hover:bg-primary/90 text-white px-6 py-3 !rounded-button whitespace-nowrap transition-colors flex items-center justify-center" id="downloadCertificate">
+Download Certificate
+<div class="w-5 h-5 ml-1 flex items-center justify-center">
+<i class="ri-download-line"></i>
+</div>
+</a>
+</div>
+</div>
+</div>
+</main>
+</div>
+<!-- Footer -->
+<footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="index.html" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Bamboolutions</a>
+<p class="text-gray-400 mb-6" data-translate="global.company_statement">Leading manufacturer of eco-friendly bamboo fiber tableware and packaging solutions for businesses worldwide.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.quick_links">Quick Links</h3>
+<ul class="space-y-3">
+<li><a href="index.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_home">Home</a></li>
+<li><a href="trays.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_products">Products</a></li>
+<li><a href="company-profile.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_about">About Us</a></li>
+<li><a href="sustainability.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_sustainability">Sustainability</a></li>
+<li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_contact">Contact</a></li>
+<li><a href="faq.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_faq">FAQ</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.contact_us">Contact Us</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span class="ml-3 text-gray-400" >0086-758-2107715</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span class="ml-3 text-gray-400" >sales@bamboolutions.com</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.news.heading">Stay Updated</h3>
+<p class="text-gray-400 mb-4" data-translate="global.news.subheading">Subscribe to our newsletter for the latest product updates and sustainability news.</p>
+<form class="flex flex-col space-y-3">
+<div class="relative">
+<input type="email" placeholder="john@email.com" class="w-full px-4 py-3 bg-[#1F361F] border-none rounded text-white text-sm focus:ring-2 focus:ring-primary">
+<button type="submit" class="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 px-4 !rounded-button whitespace-nowrap transition-colors" data-translate="global.news.subscribe">
+Subscribe
+</button>
+</div>
+<label class="flex items-start cursor-pointer">
+<div class="relative w-5 h-5 flex-shrink-0 mt-0.5">
+<input type="checkbox" class="absolute opacity-0 w-0 h-0">
+<div class="w-5 h-5 border border-gray-600 rounded"></div>
+<div class="hidden absolute inset-0 flex items-center justify-center bg-primary rounded">
+<i class="ri-check-line text-white text-xs"></i>
+</div>
+</div>
+<span class="ml-3 text-xs text-gray-400" data-translate="global.news.marketing">I agree to receive marketing communications from Bamboolutions.</span>
+</label>
+</form>
+</div>
+</div>
+<!-- Bottom Footer -->
+<div class="pt-8 border-t border-[#1F361F] flex flex-col md:flex-row justify-between items-center">
+<div class="text-gray-500 text-sm mb-4 md:mb-0" data-translate="global.footer.rights">
+© 2025 Bamboolutions. All rights reserved.
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.terms">Terms & Conditions</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.privacy">Privacy Policy</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.cookie">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Custom checkbox functionality
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach(checkbox => {
+checkbox.addEventListener('change', function() {
+const checkmark = this.parentElement.querySelector('.absolute.inset-0');
+if (this.checked) {
+checkmark.classList.remove('hidden');
+} else {
+checkmark.classList.add('hidden');
+}
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Mobile menu toggle
+const menuButton = document.querySelector('.ri-menu-line').parentElement;
+menuButton.addEventListener('click', function() {
+const mobileMenu = document.createElement('div');
+mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
+mobileMenu.innerHTML = `
+<div class="bg-white w-3/4 h-full overflow-y-auto">
+<div class="p-4 flex justify-between items-center border-b">
+<span class="text-xl font-medium">Menu</span>
+<button class="w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-close-line text-2xl"></i>
+</button>
+</div>
+<nav class="p-4">
+<a href="../index.html" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-gray-800">
+<span>Products</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4 hidden">
+<a href="product/trays/trays.html" class="block py-2 text-gray-700">Trays</a>
+<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">Bowls</a>
+<a href="product/plates/plates.html" class="block py-2 text-gray-700">Plates</a>
+<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">Clamshell Containers</a>
+<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">Sushi Containers</a>
+<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">Bakery Containers</a>
+<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">Cup Trays / Egg Cartons</a>
+</div>
+</div>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-gray-800">
+<span>About Us</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4 hidden">
+<a href="company-profile.html" class="block py-2 text-gray-700">Company Profile</a>
+<a href="plantation.html" class="block py-2 text-gray-700">Bamboo Plantation</a>
+<a href="processing-plant.html" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
+<a href="tableware-facility.html" class="block py-2 text-gray-700">Eco Tableware Factory</a>
+</div>
+</div>
+<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-primary font-medium">Sustainability</a>
+<a href="contact.html" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
+</nav>
+</div>
+`;
+document.body.appendChild(mobileMenu);
+document.body.style.overflow = 'hidden';
+// Close mobile menu
+const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
+closeButton.addEventListener('click', function() {
+document.body.removeChild(mobileMenu);
+document.body.style.overflow = '';
+});
+// Dropdown toggles
+const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
+dropdownToggles.forEach(toggle => {
+toggle.parentElement.addEventListener('click', function() {
+const dropdown = this.parentElement.nextElementSibling;
+dropdown.classList.toggle('hidden');
+});
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Certificate modal functionality
+const modal = document.getElementById('certificateModal');
+const closeModal = document.getElementById('closeModal');
+const modalTitle = document.getElementById('modalTitle');
+const modalDescription = document.getElementById('modalDescription');
+const modalImage = document.getElementById('modalImage');
+// Certificate cards
+const certificateCards = document.querySelectorAll('.certificate-card');
+// Certificate data
+const certificateData = {
+'FSC': {
+title: 'Forest Stewardship Council (FSC) Certification',
+description: 'Verifies that our bamboo is harvested from responsibly managed forests that provide environmental, social, and economic benefits.',
+image: 'https://readdy.ai/api/search-image?query=FSC%2520certification%2520certificate%2520for%2520sustainable%2520bamboo%2520forestry%252C%2520official%2520document%2520with%2520Forest%2520Stewardship%2520Council%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=11&orientation=landscape'
+},
+'SFCC': {
+title: 'Sustainable Forestry and Chain of Custody (SFCC) Certification',
+description: 'Ensures traceability of our bamboo fiber from sustainable forests through the entire manufacturing process.',
+image: 'https://readdy.ai/api/search-image?query=SFCC%2520certification%2520certificate%2520for%2520sustainable%2520forestry%2520and%2520chain%2520of%2520custody%252C%2520official%2520document%2520with%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=12&orientation=landscape'
+},
+'ISO14001': {
+title: 'ISO 14001 Environmental Management Certification',
+description: 'International standard for effective environmental management systems, demonstrating our commitment to measuring and improving our environmental impact.',
+image: 'https://readdy.ai/api/search-image?query=ISO%252014001%2520environmental%2520management%2520certification%2520certificate%252C%2520official%2520document%2520with%2520ISO%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=13&orientation=landscape'
+},
+'ISO9001': {
+title: 'ISO 9001 Quality Management Certification',
+description: 'International standard for quality management systems, ensuring consistent product quality and customer satisfaction throughout our operations.',
+image: 'https://readdy.ai/api/search-image?query=ISO%25209001%2520quality%2520management%2520certification%2520certificate%252C%2520official%2520document%2520with%2520ISO%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=14&orientation=landscape'
+},
+'cert1': {
+title: 'Forest Stewardship Council (FSC) Certification',
+description: 'Verifies that our bamboo is harvested from responsibly managed forests that provide environmental, social, and economic benefits.',
+image: 'https://readdy.ai/api/search-image?query=FSC%2520certification%2520certificate%2520for%2520sustainable%2520bamboo%2520forestry%252C%2520official%2520document%2520with%2520Forest%2520Stewardship%2520Council%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=11&orientation=landscape'
+},
+'cert2': {
+title: 'Sustainable Forestry and Chain of Custody (SFCC) Certification',
+description: 'Ensures traceability of our bamboo fiber from sustainable forests through the entire manufacturing process.',
+image: 'https://readdy.ai/api/search-image?query=SFCC%2520certification%2520certificate%2520for%2520sustainable%2520forestry%2520and%2520chain%2520of%2520custody%252C%2520official%2520document%2520with%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=12&orientation=landscape'
+},
+'cert3': {
+title: 'ISO 14001 Environmental Management Certification',
+description: 'International standard for effective environmental management systems, demonstrating our commitment to measuring and improving our environmental impact.',
+image: 'https://readdy.ai/api/search-image?query=ISO%252014001%2520environmental%2520management%2520certification%2520certificate%252C%2520official%2520document%2520with%2520ISO%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=13&orientation=landscape'
+},
+'cert4': {
+title: 'ISO 9001 Quality Management Certification',
+description: 'International standard for quality management systems, ensuring consistent product quality and customer satisfaction throughout our operations.',
+image: 'https://readdy.ai/api/search-image?query=ISO%25209001%2520quality%2520management%2520certification%2520certificate%252C%2520official%2520document%2520with%2520ISO%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=14&orientation=landscape'
+},
+'cert5': {
+title: 'Compostable Certification (EN 13432)',
+description: 'Confirms that our products fully decompose within 180 days in commercial composting facilities, meeting European standards for compostable materials.',
+image: 'https://readdy.ai/api/search-image?query=compostable%2520certification%2520certificate%2520for%2520bamboo%2520fiber%2520products%252C%2520official%2520document%2520with%2520compostable%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=15&orientation=landscape'
+},
+'cert6': {
+title: 'FDA Food Contact Certification',
+description: 'Verifies that our bamboo fiber products are safe for direct food contact and meet all U.S. Food and Drug Administration requirements.',
+image: 'https://readdy.ai/api/search-image?query=food%2520safety%2520certification%2520certificate%2520for%2520bamboo%2520fiber%2520tableware%252C%2520official%2520document%2520with%2520food%2520safety%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=16&orientation=landscape'
+},
+'cert7': {
+title: 'Biodegradable Products Institute (BPI) Certification',
+description: 'North American certification confirming our products meet scientific standards for industrial compostability.',
+image: 'https://readdy.ai/api/search-image?query=BPI%2520certification%2520certificate%2520for%2520biodegradable%2520products%252C%2520official%2520document%2520with%2520Biodegradable%2520Products%2520Institute%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=17&orientation=landscape'
+},
+'cert8': {
+title: 'Carbon Neutral Certification',
+description: 'Confirms that our manufacturing facility has achieved carbon neutrality through emissions reduction and carbon offset initiatives.',
+image: 'https://readdy.ai/api/search-image?query=carbon%2520neutral%2520certification%2520certificate%2520for%2520manufacturing%2520facility%252C%2520official%2520document%2520with%2520carbon%2520neutral%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=18&orientation=landscape'
+},
+'cert9': {
+title: 'EU Biobased Product Certification',
+description: 'European certification confirming that our products are made from renewable biological materials and meet sustainability criteria.',
+image: 'https://readdy.ai/api/search-image?query=EU%2520biobased%2520product%2520certification%2520certificate%2520for%2520bamboo%2520fiber%2520tableware%252C%2520official%2520document%2520with%2520EU%2520biobased%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=19&orientation=landscape'
+},
+'cert10': {
+title: 'Fair Trade Certification',
+description: 'Verifies that our bamboo is sourced using fair labor practices and that workers receive fair compensation and safe working conditions.',
+image: 'https://readdy.ai/api/search-image?query=fair%2520trade%2520certification%2520certificate%2520for%2520bamboo%2520sourcing%252C%2520official%2520document%2520with%2520fair%2520trade%2520logo%252C%2520seal%252C%2520and%2520signatures%252C%2520professional%2520document%2520photography%2520on%2520clean%2520background&width=800&height=600&seq=20&orientation=landscape'
+}
+};
+// Open modal on certificate card click
+certificateCards.forEach(card => {
+card.addEventListener('click', function() {
+const certId = this.getAttribute('data-certificate') || this.getAttribute('data-img');
+if (certId && certificateData[certId]) {
+modalTitle.textContent = certificateData[certId].title;
+modalDescription.textContent = certificateData[certId].description;
+modalImage.src = certificateData[certId].image;
+modalImage.alt = certificateData[certId].title;
+modal.classList.add('active');
+document.body.style.overflow = 'hidden';
+}
+});
+});
+// Close modal
+closeModal.addEventListener('click', function() {
+modal.classList.remove('active');
+document.body.style.overflow = '';
+});
+// Close modal when clicking outside
+modal.addEventListener('click', function(e) {
+if (e.target === modal) {
+modal.classList.remove('active');
+document.body.style.overflow = '';
+}
+});
+});
+</script>
+<script src="translations.js"></script>
+</body>
+</html>

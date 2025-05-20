@@ -1,5 +1,5 @@
 {
-  "global": {
+    "global": {
       "nav_home": "Home",
       "nav_about": "About Us",
       "nav_products": "Products",
@@ -15,7 +15,7 @@
       "nav_pplant": "Bamboo Fiber Plant",
       "nav_tfactory": "Eco Tableware Factory",
       "nav_sustainability": "Sustainability",
-      "nav_contact": "Contac",
+      "nav_contact": "Contact",
       "current_language": "EN",
       "languages": {
         "en": "English",
@@ -26,26 +26,435 @@
         "ja": "日本語",
         "zh": "中文"
       },
+      "company_statement": "Leading manufacturer of eco-friendly bamboo fiber tableware and packaging solutions for businesses worldwide.",
+      "quick_links": "Quick Links",
+      "nav_faq": "FAQ",
+      "contact_us": "Contact Us",
+      "address": "West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China",
+      "email_h": "Email",
+      "phone_heading": "Phone",
+      "news":{
+        "heading": "Stay Updated",
+        "subheading":"Subscribe to our newsletter for the latest product updates and sustainability news.",
+        "subscribe": "Subscribe",
+        "marketing": "I agree to receive marketing communications from Bamboolutions."
+      },
+      "footer": {
+        "rights": "© 2025 Bamboolutions. All rights reserved.",
+        "terms": "Terms & Conditions",
+        "privacy": "Privacy Policy",
+        "cookie": "Cookie Policy"
+      }
 
-    "index": {
-    "hero": {
-      "title1": "Sustainable Tableware for a Greener Future",
-      "subtitle1": "Premium biodegradable bamboo fiber products for eco-conscious businesses.",
-      "button1" : "Request Information",
-      
+
     },
-    "features": {
-      "heading": "Why Choose Us?",
-      "item1": "100% Biodegradable"
-    }
-  },
-    "company": {
+    "index": {
+      "title":"Bamboolutions - Eco-Friendly Bamboo Fiber Tableware",
+      "hero": {
+        "title1": "Sustainable Tableware for a Greener Future",
+        "subtitle1": "Premium biodegradable bamboo fiber products for eco-conscious businesses.",
+        "button1" : "Request Information",
+        "title2": "Integrated Manufacturing Excellence",
+        "subtitle2": "Complete in-house production ensuring quality and sustainability at every step.",
+        "button2" : "Learn About Our Process",
+        "title3": "Custom Solutions for Food Service",
+        "subtitle3": "Tailored biodegradable packaging for restaurants, cafes, and food delivery.",
+        "button3" : "Explore Products"
+      },
+      "benefits": {
+        "heading": "Why Choose Us?",
+        "t1": "Integrated Production",
+        "t2": "100% Biodegradable",
+        "t3": "90 days Compostable",
+        "t4": "Water & Grease Proof",
+        "t5": "Microwave & Freezer Safe",
+        "t6": "Custom Solutions",
+        "st1": "Complete in-house manufacturing from raw materials to finished products.",
+        "st2": "Fully compostable products that return to nature within 180 days.",
+        "st3": "Quick decomposition in industrial composting facilities within 90 days.",
+        "st4": "Superior resistance to liquids and oils without harmful chemicals.",
+        "st5": "Temperature resistant from -20°C to +120°C for versatile food applications.",
+        "st6": "Tailored designs and specifications to meet your specific business needs."
+      },
+      "category": {
+        "heading": "Bamboolutions Product Range",
+        "subheading": "Discover our comprehensive collection of eco-friendly bamboo fiber products designed for various food service applications.",
+        "cat1": "Disposable Bamboo Fiber Trays",
+        "cat2": "Disposable Bamboo Fiber Bowls",
+        "cat3": "Bamboo Fiber Cup Trays & Egg Cartons",
+        "cat4": "Disposable Bamboo Fiber Sushi Containers",
+        "cat5": "Disposable Bamboo Fiber Plates",
+        "detail1": "Sustainable packaging solutions for supermarkets, deli, and food delivery services.",
+        "detail2": "Premium eco-friendly biodegradable disposable bowls, ideal for restaurants, catering, and events.",
+        "detail3": "Functional carriers for beverages and delicate items with superior stability.",
+        "detail4": "Specialized packaging for Japanese cuisine and delicate food presentations.",
+        "detail5": "Eco-friendly and biodegradable, disposable bamboo fiber plates offer a sustainable alternative to traditional single-use tableware.",
+        "explore": "Explore Series",
+        "explore_all": "Explore All Products",
+        "explore_all_subtitle": "Discover our complete range of sustainable bamboo fiber solutions.",
+        "view_all": "View Full Catalog"
+      },
+      "cert": {
+        "title": "Quality Certifications",
+        "subtitle": "Our products meet the highest international standards for quality, safety, and environmental responsibility."
+      },
+      "cta": {
+        "title": "Ready to Make the Switch to Sustainable Packaging?",
+        "subtitle": "Join thousands of businesses worldwide who have chosen Bamboolutions for their eco-friendly packaging needs. Our team is ready to help you find the perfect solution for your business.",
+        "quote": "Request a Quote",
+        "catalog": "Download Catalog"
+      }
+      },
+
+    "profile": {
+      "title": "Company Profile - Bamboolutions",
+      "hero": {
+        "title": "12 Years of Sustainable Innovation",
+        "subtitle": "Leading the Way in Eco-Friendly Bamboo Fiber Solutions"
+      },
+      "overview": {
+        "heading": "Company Overview",
+        "subheading1": "Since our founding in 2013, Bamboolutions has been at the forefront of sustainable packaging innovation, dedicated to providing eco-friendly alternatives to traditional plastic products.",
+        "subheading2": "With 12 years of industry experience, we've established ourselves as a leading manufacturer of premium bamboo fiber tableware and food packaging solutions that combine functionality with environmental responsibility.",
+        "subheading3": "Our headquarters in Guangzhou, China, serves as the central hub for our global operations, coordinating between our three integrated production bases and our international distribution network that spans across Europe, North America, Australia, and Asia.",
+        "subheading4": "12+ Years",
+        "subheading5": "Of industry experience and innovation"
+      },
+      "mission": {
+        "h1": "Our Mission",
+        "t1": "To revolutionize the food packaging industry by providing sustainable, high-quality bamboo fiber alternatives that reduce environmental impact without compromising on performance or aesthetics.",
+        "t2": "We are committed to creating products that help businesses transition away from plastic while maintaining the functionality and convenience their customers expect."
+      },
+      "vision": {
+        "h1": "Our Vision",
+        "t1": "To become the global leader in sustainable food packaging solutions, creating a world where single-use plastics are replaced by renewable, biodegradable alternatives.",
+        "t2": "We envision a future where every restaurant, café, and food service provider worldwide has access to affordable, eco-friendly packaging options that align with both their business needs and environmental values."
+      },
+      "values": {
+        "heading": "Our Core Values",
+        "value1": "Environmental Stewardship",
+        "value2": "Innovation",
+        "value3": "Quality Excellence",
+        "value4": "Customer Partnership",
+        "t1": "We prioritize sustainability in every aspect of our business, from responsible bamboo sourcing to energy-efficient manufacturing processes.",
+        "t2": "We continuously invest in research and development to create new, improved sustainable packaging solutions that meet evolving market needs.",
+        "t3": "We maintain rigorous quality standards throughout our production process, ensuring every product meets international certifications and customer expectations.",
+        "t4": "We build long-term relationships with our clients, working collaboratively to develop customized solutions that address their specific needs and sustainability goals."
+      },
+      "production": {
+        "heading": "Integrated Production System",
+        "subheading": "Our vertically integrated approach ensures complete control over the entire production process, from bamboo cultivation to finished products.",
+        "facility1": "FSC Certified Bamboo Plantation",
+        "d1": "Our privately-owned bamboo plantations are FSC certified, ensuring sustainable harvesting practices and responsible forest management.",
+        "facility2": "Bamboo Fiber Production Base",
+        "d2": "Our state-of-the-art processing facility transforms raw bamboo into high-quality fiber using environmentally friendly methods.",
+        "facility3": "Tableware Manufacturing Base",
+        "d3": "Our dedicated production facility transforms bamboo fiber into finished tableware products using innovative molding and forming techniques.",
+        "learn": "Learn More"
+      },
+      "supply_chain_title": "Closed Loop Supply Chain",
+      "supply_chain_description": "From source to finished products, our integrated approach ensures quality control and sustainability at every stage.",
+      "sustainable_sourcing_title": "Sustainable Sourcing",
+      "sustainable_sourcing_text": "FSC certified bamboo harvested using responsible practices",
+      "fiber_processing_title": "Fiber Processing",
+      "fiber_processing_text": "Conversion to bamboo fiber using eco-friendly methods",
+      "manufacturing_title": "Manufacturing",
+      "manufacturing_text": "Production of tableware using innovative molding techniques",
+      "biodegradation_title": "Biodegradation",
+      "biodegradation_text": "Products naturally decompose within 180 days after use",
+      "operation": {
+        "title": "Global Operations",
+        "description_1": "Our headquarters in Guangzhou, China serves as the central hub for our international business operations, coordinating between our production facilities and global distribution network.",
+        "description_2": "From this strategic location, our experienced team manages sales, marketing, customer service, and logistics to ensure seamless delivery of our products to clients worldwide.",
+        "description_3": "Our global presence extends across major markets in North America, Europe, Australia, and Asia, allowing us to serve diverse customer needs while maintaining consistent quality and service standards.",
+        "support_title": "24/7 Support",
+        "support_text": "Global customer service",
+        "shipping_title": "Worldwide Shipping",
+        "shipping_text": "Fast & reliable logistics"
+      },
+      "sustainability": {
+        "title": "Our Sustainability Commitment",
+        "intro": "Environmental responsibility is at the core of everything we do at Bamboolutions.",
+        "renewable_resource_title": "Renewable Resource",
+        "renewable_resource_text": "Bamboo is one of the world's fastest-growing plants, making it an ideal renewable resource. Our bamboo can be harvested every 3-5 years without replanting.",
+        "water_conservation_title": "Water Conservation",
+        "water_conservation_text": "Our production processes use 60% less water compared to traditional paper manufacturing, and we implement water recycling systems throughout our facilities.",
+        "zero_waste_title": "Zero Waste Production",
+        "zero_waste_text": "We've implemented a zero-waste manufacturing approach where bamboo byproducts are repurposed as biomass fuel for our production facilities.",
+        "solar_power_title": "Solar Power Initiative",
+        "solar_power_text": "Our manufacturing facilities are increasingly powered by solar energy, with a goal to achieve 50% renewable energy usage by 2026.",
+        "carbon_footprint_title": "Carbon Footprint Reduction",
+        "carbon_footprint_text": "Bamboo absorbs 35% more CO2 than equivalent trees. Our plantations sequester approximately 62,000 tons of carbon dioxide annually.",
+        "community_title": "Community Support",
+        "community_text": "We provide fair employment opportunities for local communities near our plantations and facilities, supporting over 500 families through direct employment."
+      }
+    },
+
+   "contact": {
+     "title": "Contact Us - Bamboolutions",
+     "get_in_touch": "Get in touch with our team for inquiries about our eco-friendly bamboo fiber products, custom solutions, or any other questions.",
+     "locations": "Office Locations",
+     "hk": "Hong Kong",
+     "address_hk": "THE BROADWAY, NO. 54-62 LOCKHART ROAD, WANCHAI, HONG KONG",
+     "zhaoqing": "Zhaoqing",
+     "contact_details": "Contact Details",
+     "facility_add1": "Quyang Town, Jingzhou Miao and Dong Autonomous County, Huaihua City, Hunan Province",
+     "facility_add2": "Changqiao Industrial Zone, Ketang Town, Haifeng County, Shanwei City, Guangdong Province",
+     "facility_add3": "Gantang Comprehensive Processing Park, Gantang Town, Jingzhou Miao Autonomous County, Huaihua City, Hunan Province",
+     "form": {
+        "title": "Send Us a Message",
+        "subtitle": "Fill out the form below and our team will get back to you as soon as possible.",
+        "full_name": "Full Name*",
+        "company_name": "Company Name",
+        "email": "Email Address*",
+        "phone": "Phone Number",
+        "subject": "Subject*",
+        "message": "Message*",
+        "privacy_policy": {
+            "text": "I agree to the processing of my personal data in accordance with the ",
+            "link": " Privacy Policy",
+            "suffix": ".*"
+          },
+        "submit_button": "Send Message"
+      },
+     "faq": {
+        "title": "Frequently Asked Questions",
+        "moq_question": "What is the minimum order quantity (MOQ)?",
+        "moq_answer": "Our standard MOQ is 10,000 pieces per product. However, for custom designs or special requirements, the MOQ may vary. Please contact our sales team for specific information.",
+        "custom_question": "Do you offer custom designs and packaging?",
+        "custom_answer": "Yes, we offer customized solutions including product design, size adjustments, and custom packaging with your branding. Our design team will work closely with you to create products that meet your specific requirements.",
+        "lead_time_question": "What is the lead time for orders?",
+        "lead_time_answer": "Standard products typically have a lead time of 15-20 days. Custom products may require 25-30 days depending on complexity. Large orders may require additional time.",
+        "payment_question": "What payment methods do you accept?",
+        "payment_answer": "We accept T/T (wire transfer), L/C (Letter of Credit), and PayPal for international orders. For domestic orders, we also accept bank transfers and Alipay."
+      }
+     },
+  "plantation": {
+    "title": "Our Bamboo Plantation - Bamboolutions",
     "hero": {
-      "title": "12 Years of Sustainable Innovation",
-      "subtitle": "Leading the Way in Eco-Friendly Solutions"
+      "title": "Our Private Bamboo Plantations",
+      "subtitle": "Sustainably managed bamboo forests that power our vertically integrated supply chain",
+      "text": "20 km² Sustainable Bamboo Forests"
+    },
+    "video": {
+      "title": "Journey Through Our Bamboo Forests",
+      "subtitle": "Experience the serenity and sustainability of our privately-owned bamboo plantations"
     },
     "overview": {
-      "title": "Company Overview",
-      "text": "Since our founding in 2013..."
+      "title": "Plantation Overview",
+      "description_1": "Our raw materials are sourced directly from our privately-owned bamboo plantations in Hunan and Guangdong provinces, covering a total area of 20 square kilometers. These lush bamboo forests are the foundation of our sustainable business model.",
+      "description_2": "With a fully self-sufficient and vertically integrated supply chain—from raw bamboo to finished products—we maintain complete control over quality, sustainability, and efficiency throughout the entire production process.",
+      "description_3": "Our bamboo plantations are strategically located in regions with optimal growing conditions, ensuring the highest quality raw materials for our products while supporting local economies.",
+      "certification_text": "FSC® (FSC-C110780) and CFCC dual-certified forests",
+      "certification_subtext": "Ensuring responsible forest management"
+    },
+    "impact": {
+      "title": "Community Impact",
+      "employment_text": "Rural employment opportunities created through our bamboo plantations and processing facilities",
+      "income_text": "Annual collective income generated for local communities through sustainable bamboo cultivation",
+      "community_title": "Supporting Local Communities",
+      "community_text_1": "Our integrated system reinforces the long-term sustainability of the bamboo industry while providing stable employment for thousands of rural workers in Hunan and Guangdong provinces.",
+      "community_text_2": "We prioritize fair wages, safe working conditions, and professional development opportunities for all employees, many of whom have been with us for generations.",
+      "community_text_3": "By creating a sustainable economic model centered around bamboo cultivation and processing, we're helping to revitalize rural communities while producing eco-friendly products for global markets."
+    },
+    "sustainability": {
+      "title": "Our Sustainability Commitment",
+      "description_1": "All bamboo is responsibly harvested from FSC® (FSC-C110780) and CFCC dual-certified forests, ensuring a strong balance between ecological preservation and economic growth.",
+      "description_2": "Our bamboo plantations serve as carbon sinks, absorbing approximately 35% more CO₂ than equivalent hardwood forests, contributing significantly to climate change mitigation efforts.",
+      "description_3": "We practice selective harvesting techniques that maintain the health and vitality of our bamboo groves. Unlike traditional logging, bamboo harvesting doesn't require replanting as new shoots naturally emerge from the existing root system.",
+      "description_4": "Our plantations are managed without chemical pesticides or fertilizers, protecting local water sources and promoting biodiversity throughout the ecosystem.",
+      "renewable_title": "Renewable Resource",
+      "renewable_text": "Bamboo reaches maturity in just 3-5 years",
+      "carbon_title": "Carbon Positive",
+      "carbon_text": "Our plantations sequester thousands of tons of CO₂ annually"
     }
   },
+  "processing": {
+    "title": "Bamboo Fiber Processing Plant - Bamboolutions",
+    "hero": {
+      "title": "Bamboo Fiber Processing Plant",
+      "subtitle":"Located in Shanwei, Guangdong Province - Operational since 2012"
+    },
+    "intro": {
+        "title": "Core of Our Supply Chain",
+        "description_1": "Our Bamboo Fiber Processing Plant in Shanwei serves as the core of our vertically integrated supply chain. Since 2012, we have been dedicated to producing high-quality, eco-friendly bamboo fiber for sustainable packaging solutions.",
+        "description_2": "Supported by 20 square kilometers of self-owned bamboo forests, we ensure a stable and sustainable source of raw material, maintaining complete control over quality and environmental standards throughout the production process.",
+        "description_3": "Our production process is designed for zero solid waste. All by-products are repurposed into liquid fertilizer, significantly reducing resource waste and environmental impact. This closed-loop system underscores our commitment to sustainable, green manufacturing from the ground up.",
+        "zero_waste": "Zero-waste manufacturing process",
+        "stat1_text": "Tons annual fiber output",
+        "stat2_text": "Skilled employees",
+        "stat3_text": "Processing plant size",
+        "stat4_text": "Patents for processing technology"
+      },
+    "flash_drying": {
+        "title": "Advanced Flash-Drying System",
+        "description_1": "Our proprietary flash-drying technology represents a significant advancement in bamboo fiber processing. This system allows us to rapidly dry processed bamboo fiber while maintaining its structural integrity and natural properties.",
+        "description_2": "The system operates at optimal efficiency, reducing energy consumption by 35% compared to conventional drying methods while increasing production capacity. This innovation is protected by multiple patents and exemplifies our commitment to sustainable manufacturing.",
+        "list1": "Energy-efficient operation with 35% reduced consumption",
+        "list2": "Maintains fiber quality and structural integrity",
+        "list3": "Patented technology exclusive to our facility",
+        "list4": "Capacity to process 500 tons of raw material daily"
+      },
+    "video": {
+      "title": "Processing Plant in Action",
+      "subtitle": "See our state-of-the-art bamboo fiber processing facility in operation, showcasing our commitment to quality, efficiency, and sustainability."
+    }
+  },
+  "sustainability": {
+    "title": "Sustainability - Bamboolutions",
+    "hero": {
+      "title": "Sustainability Commitment",
+      "subtitle": "Pioneering eco-friendly manufacturing with our integrated closed-loop supply chain"
+    },
+    "process": {
+        "title": "Sustainable Production Process",
+        "subtitle": "Our innovative manufacturing approach minimizes environmental impact at every stage",
+        "step1_heading": "Responsible Harvesting",
+        "step1_text": "We selectively harvest only mature bamboo stalks (4-5 years old), preserving the root system and younger plants. This sustainable approach allows the bamboo to regenerate naturally without replanting.",
+        "step2_heading": "Eco-Friendly Pulping",
+        "step2_text": "Our mechanical pulping process breaks down bamboo fibers without harsh chemicals. We use a closed-loop water system that recycles 95% of process water, dramatically reducing water consumption compared to traditional paper manufacturing.",
+        "step3_heading": "Molding & Forming",
+        "step3_text": "Our innovative heat-press technology shapes bamboo fiber into various tableware products using minimal energy. The process uses natural plant-based binders instead of synthetic adhesives, ensuring the final product remains fully biodegradable.",
+        "step4_heading": "Waste Management",
+        "step4_text": "Our zero-waste approach ensures all bamboo byproducts are repurposed. Fiber scraps are recycled back into production, while other residues are converted to biomass fuel that powers our facilities, creating a truly circular manufacturing system."
+      },
+    "close_loop": {
+        "title": "Closed Loop Water & Waste System",
+        "subtitle": "Our innovative approach to resource management minimizes environmental impact",
+        "water_title": "Water Conservation",
+        "water_text1": "Our state-of-the-art water recycling system captures, filters, and reuses 95% of the water used in our fiber processing operations. This closed-loop approach dramatically reduces our freshwater consumption compared to traditional manufacturing methods.",
+        "water_text2": "The multi-stage filtration system removes impurities without chemical treatments, ensuring that any water eventually released back into the environment is clean and free from contaminants.",
+        "waste_title": "Waste Management",
+        "waste_intro": "We've implemented a comprehensive zero-waste manufacturing approach where all production byproducts are repurposed:",
+        "list1": "Fiber scraps are recycled back into the production process",
+        "list2": "Bamboo residues are converted to biomass fuel that powers our facilities",
+        "list3": "Organic waste is composted and used as fertilizer in our bamboo plantations",
+        "list4": "Wastewater sludge is processed into biochar, a valuable soil amendment"
+      }
+  },
+  "tfactory": {
+    "title": "Bamboo Tableware Production Facility - Bamboolutions",
+    "hero": {
+      "title": "Bamboo Tableware Production Facility",
+      "subtitle": "State-of-the-art manufacturing plant transforming bamboo fiber into premium eco-friendly tableware and packaging solutions"
+    },
+    "video": {
+      "title": "Facility Walkthrough",
+      "subtitle": "Take a virtual tour of our advanced manufacturing facility and witness our sustainable production process in action."
+    },
+    "stats": {
+        "stat1_label": "Tons Annual Production",
+        "stat1_subtext": "High-capacity manufacturing of bamboo fiber finished products",
+        "stat2_label": "Production Machines",
+        "stat2_subtext": "Fully automated molded tableware production equipment",
+        "stat3_label": "Square Meters",
+        "stat3_subtext": "Expansive facility area for comprehensive production operations",
+        "stat4_label": "Total Investment",
+        "stat4_subtext": "Significant capital investment in sustainable manufacturing"
+      },
+    "overview": {
+      "title": "Cutting-Edge Manufacturing Facility",
+      "intro": "Our Hunan Province production facility represents the culmination of our commitment to sustainable manufacturing excellence, utilizing bamboo fiber from our processing plant to create premium eco-friendly tableware.",
+      "paragraph1": "Located in the heart of China's bamboo region, our state-of-the-art facility spans over 110,000 square meters and houses 260 fully automated production machines. With an annual production capacity of 120,000 tons, we're equipped to meet global demand for sustainable tableware solutions.",
+      "paragraph2": "The facility incorporates advanced manufacturing technologies and stringent quality control systems to ensure every product meets our exacting standards. Our production lines are designed for maximum efficiency while maintaining our commitment to environmental responsibility.",
+      "zero_waste": {
+        "heading": "Zero Waste",
+        "subtext": "Sustainable production"
+      },
+      "iso_cert": {
+        "heading": "ISO Certified",
+        "subtext": "Quality standards"
+      }
+    },
+    "production": {
+        "title": "Production Process",
+        "intro": "Our comprehensive manufacturing process transforms bamboo fiber into premium quality tableware through these key stages.",
+        "step1_hover": "Raw Material Processing",
+        "step1_title": "1. Raw Material Processing",
+        "step1_desc": "Bamboo fiber from our processing plant is prepared and refined for production using our proprietary eco-friendly methods.",
+        "step2_hover": "Molding and Forming",
+        "step2_title": "2. Molding and Forming",
+        "step2_desc": "Our advanced molding machines precisely shape bamboo fiber into various tableware products with consistent quality.",
+        "step3_hover": "Quality Control",
+        "step3_title": "3. Quality Control",
+        "step3_desc": "Rigorous inspection processes ensure every product meets our strict standards for durability, safety, and appearance.",
+        "step4_hover": "Packaging and Distribution",
+        "step4_title": "4. Packaging and Distribution",
+        "step4_desc": "Products are packaged using eco-friendly materials and prepared for worldwide distribution to our global customers."
+      },
+    "cert": {
+        "title": "Quality Standards & Certifications",
+        "subtitle": "Our facility adheres to the highest international quality and safety standards, ensuring our products meet global requirements.",
+        "cert1_title": "ISO 9001:2015",
+        "cert1_desc": "Certified quality management system ensuring consistent product quality and customer satisfaction.",
+        "cert2_title": "ISO 14001:2015",
+        "cert2_desc": "Environmental management certification demonstrating our commitment to sustainable manufacturing practices.",
+        "cert3_title": "FDA Compliant",
+        "cert3_desc": "All products meet FDA requirements for food-contact safety, ensuring they're safe for consumer use.",
+        "cert4_title": "Biodegradable",
+        "cert4_desc": "Products certified to decompose naturally within 180 days in commercial composting facilities.",
+        "cert5_title": "FSC Chain of Custody",
+        "cert5_desc": "Certification ensuring our bamboo is sourced from responsibly managed forests and plantations.",
+        "cert6_title": "BSCI Compliant",
+        "cert6_desc": "Business Social Compliance Initiative certification for ethical labor practices and working conditions."
+      },
+    "cta": {
+        "title": "Experience Our Sustainable Production",
+        "subtitle": "Interested in seeing our facility in action? Schedule a virtual tour or request product samples to experience our quality firsthand.",
+        "tour_btn": "Schedule a Virtual Tour",
+        "samples_btn": "Request Product Samples"
+      }
+  },
+  "trays": {
+    "title": "Bamboo Fiber Trays - Bamboolutions",
+    "cat_title": "Bamboo Fiber Trays",
+    "cat_subtitle": "Sustainable, biodegradable serving solutions that combine elegance with environmental responsibility. Perfect for foodservice, catering, and retail applications."
+  },
+  "bowls": {
+    "title": "Bamboo Fiber Bowls - Bamboolutions",
+    "cat_title": "Bamboo Fiber Bowls",
+    "cat_subtitle": "Sustainable, biodegradable bowls that combine elegance with environmental responsibility. Perfect for restaurants, cafes, and home dining experiences."
+  },
+  "bakery": {
+    "title": "Bamboo Fiber Bakery Containers - Bamboolutions",
+    "cat_title": "Bamboo Fiber Bakery Containers",
+    "cat_subtitle": "Eco-friendly and sustainable bakery containers that preserve freshness while protecting the environment. Perfect for bakeries, cafes, and food service businesses."
+  },
+  "clamshell": {
+    "title": "Bamboo Fiber Clamshell Containers - Bamboolutions",
+    "cat_title": "Bamboo Fiber Clamshell Containers",
+    "cat_subtitle": "Eco-friendly clamshell containers that provide secure food packaging with environmental consciousness. Ideal for takeout, delivery, and food service businesses."
+  },
+  "sushi": {
+    "title": "Bamboo Fiber Sushi Containers - Bamboolutions",
+    "cat_title": "Bamboo Fiber Sushi Containers",
+    "cat_subtitle": "Eco-friendly sushi containers designed for optimal presentation and freshness. Perfect for restaurants, takeout services, and catering businesses."
+  },
+  "cupnegg": {
+    "title": "Bamboo Fiber Cup Trays / Egg Cartons - Bamboolutions",
+    "cat_title": "Bamboo Fiber Cup Trays / Egg Cartons",
+    "cat_subtitle": "Sustainable, biodegradable cup holders and egg trays that provide secure storage and transport solutions. Perfect for cafes, restaurants, and food service businesses."
+  },
+  "plates": {
+    "title": "Bamboo Fiber Plates - Bamboolutions",
+    "cat_title": "Bamboo Fiber Plates",
+    "cat_subtitle": "Sustainable, biodegradable plates that combine elegance with environmental responsibility. Perfect for restaurants, cafes, and home dining experiences."
+  },
+  "products": {
+      "sustainability": {
+        "title": "Our Commitment to Sustainability",
+        "description": "At Bamboolutions, we're dedicated to creating products that are as kind to the planet as they are functional for your business. Our bamboo fiber trays are 100% biodegradable and manufactured using renewable resources and eco-friendly processes.",
+        "cta": "Learn More About Our Practices",
+        "point1_title": "100% Biodegradable",
+        "point1_text": "Our trays naturally decompose within 180 days in commercial composting facilities.",
+        "point2_title": "Eco-friendly Production",
+        "point2_text": "Manufactured using renewable energy and water-saving processes to minimize environmental impact.",
+        "point3_title": "Zero Plastic",
+        "point3_text": "Made from natural bamboo fiber without any plastic additives or harmful chemicals."
+      },
+    "help": "Need Help?",
+    "contact": "Contact our product specialists for personalized assistance.",
+    "product.category_title": "Product Categories"
+    }
+
+}

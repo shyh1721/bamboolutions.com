@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-translate="contact.title">Contact Us - Bamboolutions</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Poppins', sans-serif;
+}
+.language-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+right: 0;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+z-index: 50;
+min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+display: block;
+}
+.nav-link {
+position: relative;
+}
+.nav-link::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #4D8B31;
+transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+width: 100%;
+}
+input:focus {
+outline: none;
+}
+.contact-info-item:hover {
+transform: translateY(-5px);
+}
+.contact-info-item:hover .icon-container {
+background-color: rgba(77, 139, 49, 0.2);
+}
+.contact-info-item:hover .icon-container i {
+color: #4D8B31;
+}
+</style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Header Section -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolutions</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="index.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_home">Home</a>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_products">
+Products
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="trays.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_trays">Trays</a>
+<a href="bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bowls">Bowls</a>
+<a href="plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_plates">Plates</a>
+<a href="clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_clamshell">Clamshell Containers</a>
+<a href="sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_sushi">Sushi Containers</a>
+<a href="bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bakery">Bakery Containers</a>
+<a href="cup&egg.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_cupnegg">Cup Trays / Egg Cartons</a>
+</div>
+</div>
+</div>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_about">
+About Us
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="company-profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_profile">Company Profile</a>
+<a href="plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_plantation">Bamboo Plantation</a>
+<a href="processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_pplant">Bamboo Fiber Plant</a>
+<a href="tableware-facility.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_tfactory">Eco Tableware Factory</a>
+</div>
+</div>
+</div>
+<a href="sustainability.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_sustainability">Sustainability</a>
+<a href="contact.html" data-readdy="true" class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_contact">Contact</a>
+</nav>
+<div class="flex items-center space-x-4">
+  <div class="language-selector relative">
+    <button class="flex items-center space-x-1 text-gray-700 hover:text-primary transition-colors">
+      <div class="w-6 h-6 flex items-center justify-center">
+        <i class="ri-global-line"></i>
+      </div>
+      <span data-translate="global.current_language">EN</span>
+      <div class="w-4 h-4 flex items-center justify-center">
+        <i class="ri-arrow-down-s-line"></i>
+      </div>
+    </button>
+    <div class="language-dropdown">
+      <a href="#"
+         data-lang="en"
+         data-translate="global.languages.en"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">English</a>
+      <a href="#"
+         data-lang="fr"
+         data-translate="global.languages.fr"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Français</a>
+      <a href="#"
+         data-lang="es"
+         data-translate="global.languages.es"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
+      <a href="#"
+         data-lang="ar"
+         data-translate="global.languages.ar"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
+      <a href="#"
+         data-lang="de"
+         data-translate="global.languages.de"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
+      <a href="#"
+         data-lang="ja"
+         data-translate="global.languages.ja"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
+      <a href="#"
+         data-lang="zh"
+         data-translate="global.languages.zh"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+    </div>
+  </div>
+  <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+    <i class="ri-menu-line text-2xl"></i>
+  </button>
+</div>
+</header>
+
+<!-- Page Title Section -->
+<section class="pt-32 pb-16 bg-primary/5">
+<div class="container mx-auto px-4">
+<h1 class="text-4xl md:text-5xl font-bold text-center mb-4" data-translate="global.contact_us">Contact Us</h1>
+<p class="text-gray-600 text-center max-w-3xl mx-auto" data-translate="contact.get_in_touch">Get in touch with our team for inquiries about our eco-friendly bamboo fiber products, custom solutions, or any other questions.</p>
+</div>
+</section>
+<!-- Contact Information Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+<!-- Office Locations -->
+<div class="contact-info-item bg-gray-50 p-6 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md">
+<div class="icon-container w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center mb-6 transition-colors duration-300">
+<i class="ri-building-line text-2xl text-gray-700"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4" data-translate="contact.locations">Office Locations</h3>
+<div class="space-y-4">
+<div>
+<h4 class="font-medium text-gray-800 mb-1" data-translate="contact.hk">Hong Kong</h4>
+<p class="text-gray-600" data-translate="contact.address_hk">UNIT 02, 9/F., THE BROADWAY, NO. 54-62 LOCKHART ROAD, WANCHAI, HONG KONG</p>
+</div>
+<div>
+<h4 class="font-medium text-gray-800 mb-1" data-translate="contact.zhaoqing">Zhaoqing</h4>
+<p class="text-gray-600" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China</p>
+</div>
+</div>
+</div>
+<!-- Contact Details -->
+<div class="contact-info-item bg-gray-50 p-6 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md">
+<div class="icon-container w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center mb-6 transition-colors duration-300">
+<i class="ri-contacts-line text-2xl text-gray-700"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4" data-translate="contact.contact_details">Contact Details</h3>
+<div class="space-y-4">
+<div class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center mr-3 mt-0.5">
+<i class="ri-phone-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-800 mb-1" data-translate="global.phone_heading">Phone</h4>
+<a href="tel:00862758-2107715" class="text-gray-600 hover:text-primary transition-colors" >0086-758-2107715</a>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center mr-3 mt-0.5">
+<i class="ri-printer-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-800 mb-1" data-translate="global.phone_heading">Phone</h4>
+<a href="tel:00862758-2107725" class="text-gray-600 hover:text-primary transition-colors" >0086-758-2107725</a>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-6 h-6 flex items-center justify-center mr-3 mt-0.5">
+<i class="ri-mail-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-800 mb-1" data-translate="global.email_h">Email</h4>
+<a href="mailto:sales@bamboolutions.com" class="text-gray-600 hover:text-primary transition-colors">sales@bamboolutions.com</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Business Hours -->
+<div class="contact-info-item bg-gray-50 p-6 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md">
+<div class="icon-container w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center mb-6 transition-colors duration-300">
+<i class="ri-time-line text-2xl text-gray-700"></i>
+</div>
+<h3 class="text-xl font-semibold mb-4">Business Hours</h3>
+<div class="space-y-4">
+<div>
+<h4 class="font-medium text-gray-800 mb-1">Monday - Friday</h4>
+<p class="text-gray-600">9:00 AM - 6:00 PM (GMT+8)</p>
+</div>
+<div>
+<h4 class="font-medium text-gray-800 mb-1">Saturday</h4>
+<p class="text-gray-600">9:00 AM - 1:00 PM (GMT+8)</p>
+</div>
+<div>
+<h4 class="font-medium text-gray-800 mb-1">Sunday</h4>
+<p class="text-gray-600">Closed</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Facility Locations -->
+<div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+<h2 class="text-2xl font-bold mb-6">Our Facilities</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Bamboo Plantation -->
+<div class="p-5 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-plant-line text-primary text-xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2" data-translate="profile.production.facility1">FSC Certified Bamboo Plantation</h3>
+<p class="text-gray-600 text-sm" data-translate="contact.facility_add1">Quyang Town, Jingzhou Miao and Dong Autonomous County, Huaihua City, Hunan Province</p>
+</div>
+<!-- Bamboo Fiber Processing Plant -->
+<div class="p-5 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-recycle-line text-primary text-xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2" data-translate="profile.production.facility2">Bamboo Fiber Production Base</h3>
+<p class="text-gray-600 text-sm" data-translate="contact.facility_add2">Changqiao Industrial Zone, Ketang Town, Haifeng County, Shanwei City, Guangdong Province</p>
+</div>
+<!-- Bamboo Fiber Tableware Factory -->
+<div class="p-5 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<i class="ri-factory-line text-primary text-xl"></i>
+</div>
+<h3 class="text-lg font-semibold mb-2" data-translate="profile.production.facility3">Tableware Manufacturing Base</h3>
+<p class="text-gray-600 text-sm" data-translate="contact.facility_add3" >Gantang Comprehensive Processing Park, Gantang Town, Jingzhou Miao Autonomous County, Huaihua City, Hunan Province</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Contact Form Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-3xl font-bold text-center mb-4" data-translate="contact.form.title">Send Us a Message</h2>
+<p class="text-gray-600 text-center mb-10" data-translate="contact.form.subtitle">Fill out the form below and our team will get back to you as soon as possible.</p>
+<form action="/secure/send_email_smtp.php" method="POST">
+<div class="md:col-span-1">
+<label for="name" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.full_name">Full Name*</label>
+<input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary" required>
+</div>
+<div class="md:col-span-1">
+<label for="company" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.company_name">Company Name</label>
+<input type="text" id="company" name="company" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary">
+</div>
+<div class="md:col-span-1">
+<label for="email" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.email">Email Address*</label>
+<input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary" required>
+</div>
+<div class="md:col-span-1">
+<label for="phone" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.phone">Phone Number</label>
+<input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary">
+</div>
+<div class="md:col-span-2">
+<label for="subject" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.subject">Subject*</label>
+<input type="text" id="subject" name="subject" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary" required>
+</div>
+<div class="md:col-span-2">
+<label for="message" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.message">Message*</label>
+<textarea id="message" name="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary" required></textarea>
+</div>
+<div class="md:col-span-2">
+<label class="flex items-start cursor-pointer">
+<div class="relative w-5 h-5 flex-shrink-0 mt-0.5">
+<input type="checkbox" class="absolute opacity-0 w-0 h-0" required>
+<div class="w-5 h-5 border border-gray-300 rounded"></div>
+<div class="hidden absolute inset-0 flex items-center justify-center bg-primary rounded">
+<i class="ri-check-line text-white text-xs"></i>
+</div>
+</div>
+<span data-translate="contact.form.privacy_policy.text">I agree to the processing of my personal data in accordance with the </span>
+  <a href="#" class="text-primary hover:underline" data-translate="contact.form.privacy_policy.link">Privacy Policy</a>
+  <span data-translate="contact.form.privacy_policy.suffix">.*</span>
+</label>
+</div>
+<div class="md:col-span-2 flex justify-center">
+<button type="submit" class="bg-primary hover:bg-primary/90 text-white px-8 py-3 font-medium !rounded-button whitespace-nowrap transition-colors" data-translate="contact.form.submit_button">Send Message</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12" data-translate="contact.faq.title">Frequently Asked Questions</h2>
+    <div class="max-w-3xl mx-auto space-y-6">
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold mb-3" data-translate="contact.faq.moq_question">What is the minimum order quantity (MOQ)?</h3>
+        <p class="text-gray-600" data-translate="contact.faq.moq_answer">
+          Our standard MOQ is 10,000 pieces per product. However, for custom designs or special requirements, the MOQ may vary. Please contact our sales team for specific information.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold mb-3" data-translate="contact.faq.custom_question">Do you offer custom designs and packaging?</h3>
+        <p class="text-gray-600" data-translate="contact.faq.custom_answer">
+          Yes, we offer customized solutions including product design, size adjustments, and custom packaging with your branding. Our design team will work closely with you to create products that meet your specific requirements.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold mb-3" data-translate="contact.faq.lead_time_question">What is the lead time for orders?</h3>
+        <p class="text-gray-600" data-translate="contact.faq.lead_time_answer">
+          Standard products typically have a lead time of 15-20 days. Custom products may require 25-30 days depending on complexity. Large orders may require additional time.
+        </p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-semibold mb-3" data-translate="contact.faq.payment_question">What payment methods do you accept?</h3>
+        <p class="text-gray-600" data-translate="contact.faq.payment_answer">
+          We accept T/T (wire transfer), L/C (Letter of Credit), and PayPal for international orders. For domestic orders, we also accept bank transfers and Alipay.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="index.html" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Bamboolutions</a>
+<p class="text-gray-400 mb-6" data-translate="global.company_statement">Leading manufacturer of eco-friendly bamboo fiber tableware and packaging solutions for businesses worldwide.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.quick_links">Quick Links</h3>
+<ul class="space-y-3">
+<li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_home">Home</a></li>
+<li><a href="en/category.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_products">Products</a></li>
+<li><a href="en/company-profile.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_about">About Us</a></li>
+<li><a href="en/sustainability.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_sustainability">Sustainability</a></li>
+<li><a href="en/contact.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_contact">Contact</a></li>
+<li><a href="en/faq.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_faq">FAQ</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.contact_us">Contact Us</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span class="ml-3 text-gray-400" >0086-758-2107715</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span class="ml-3 text-gray-400" >sales@bamboolutions.com</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.news.heading">Stay Updated</h3>
+<p class="text-gray-400 mb-4" data-translate="global.news.subheading">Subscribe to our newsletter for the latest product updates and sustainability news.</p>
+<form class="flex flex-col space-y-3">
+<div class="relative">
+<input type="email" placeholder="john@email.com" class="w-full px-4 py-3 bg-[#1F361F] border-none rounded text-white text-sm focus:ring-2 focus:ring-primary">
+<button type="submit" class="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 px-4 !rounded-button whitespace-nowrap transition-colors" data-translate="global.news.subscribe">
+Subscribe
+</button>
+</div>
+<label class="flex items-start cursor-pointer">
+<div class="relative w-5 h-5 flex-shrink-0 mt-0.5">
+<input type="checkbox" class="absolute opacity-0 w-0 h-0">
+<div class="w-5 h-5 border border-gray-600 rounded"></div>
+<div class="hidden absolute inset-0 flex items-center justify-center bg-primary rounded">
+<i class="ri-check-line text-white text-xs"></i>
+</div>
+</div>
+<span class="ml-3 text-xs text-gray-400" data-translate="global.news.marketing">I agree to receive marketing communications from Bamboolutions.</span>
+</label>
+</form>
+</div>
+</div>
+<!-- Bottom Footer -->
+<div class="pt-8 border-t border-[#1F361F] flex flex-col md:flex-row justify-between items-center">
+<div class="text-gray-500 text-sm mb-4 md:mb-0" data-translate="global.footer.rights">
+© 2025 Bamboolutions. All rights reserved.
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.terms">Terms & Conditions</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.privacy">Privacy Policy</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.cookie">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Custom checkbox functionality
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach(checkbox => {
+checkbox.addEventListener('change', function() {
+const checkmark = this.parentElement.querySelector('.absolute.inset-0');
+if (this.checked) {
+checkmark.classList.remove('hidden');
+} else {
+checkmark.classList.add('hidden');
+}
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const status = urlParams.get('status');
+    const message = urlParams.get('message');
+
+    if (status === 'success') {
+        alert('Thank you! Your message has been sent successfully.');
+        window.history.replaceState({}, document.title, window.location.pathname);
+    } else if (status === 'error') {
+        alert(`Error: ${message || 'Failed to send message. Please try again.'}`);
+        window.history.replaceState({}, document.title, window.location.pathname);
+    }
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Mobile menu toggle
+const menuButton = document.querySelector('.ri-menu-line').parentElement;
+menuButton.addEventListener('click', function() {
+const mobileMenu = document.createElement('div');
+mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
+mobileMenu.innerHTML = `
+<div class="bg-white w-3/4 h-full overflow-y-auto">
+<div class="p-4 flex justify-between items-center border-b">
+<span class="text-xl font-medium">Menu</span>
+<button class="w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-close-line text-2xl"></i>
+</button>
+</div>
+<nav class="p-4">
+<a href="../index.html" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-gray-800">
+<span>Products</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4 hidden">
+<a href="product/trays/trays.html" class="block py-2 text-gray-700">Trays</a>
+<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">Bowls</a>
+<a href="product/plates/plates.html" class="block py-2 text-gray-700">Plates</a>
+<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">Clamshell Containers</a>
+<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">Sushi Containers</a>
+<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">Bakery Containers</a>
+<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">Cup Trays / Egg Cartons</a>
+</div>
+</div>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-gray-800">
+<span>About Us</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4 hidden">
+<a href="company-profile.html" class="block py-2 text-gray-700">Company Profile</a>
+<a href="plantation.html" class="block py-2 text-gray-700">Bamboo Plantation</a>
+<a href="processing-plant.html" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
+<a href="tableware-facility.html" class="block py-2 text-gray-700">Eco Tableware Factory</a>
+</div>
+</div>
+<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-gray-800">Sustainability</a>
+<a href="contact.html" class="block py-3 border-b border-gray-100 text-primary font-medium">Contact</a>
+</nav>
+</div>
+`;
+document.body.appendChild(mobileMenu);
+document.body.style.overflow = 'hidden';
+// Close mobile menu
+const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
+closeButton.addEventListener('click', function() {
+document.body.removeChild(mobileMenu);
+document.body.style.overflow = '';
+});
+// Dropdown toggles
+const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
+dropdownToggles.forEach(toggle => {
+toggle.parentElement.addEventListener('click', function() {
+const dropdown = this.parentElement.nextElementSibling;
+dropdown.classList.toggle('hidden');
+});
+});
+});
+});
+</script>
+<script src="translations.js"></script>
+
+</body>
+</html>

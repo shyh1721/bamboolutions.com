@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-translate="processing.title">Bamboo Fiber Processing Plant - Bamboolutions</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Poppins', sans-serif;
+}
+.nav-link {
+position: relative;
+}
+.nav-link::after {
+content: '';
+position: absolute;
+bottom: -5px;
+left: 0;
+width: 0;
+height: 2px;
+background-color: #4D8B31;
+transition: width 0.3s ease;
+}
+.nav-link:hover::after, .nav-link.active::after {
+width: 100%;
+}
+.stat-card {
+transition: all 0.3s ease;
+}
+.stat-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+input:focus {
+outline: none;
+}
+.video-container {
+    position: relative;
+    cursor: pointer;
+    background: #000;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: white;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.play-button:hover {
+    opacity: 1;
+}
+
+#bambooVideo {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+}
+.breadcrumb-item {
+position: relative;
+display: flex;
+align-items: center;
+}
+.breadcrumb-item:not(:last-child)::after {
+content: '';
+display: block;
+width: 6px;
+height: 6px;
+border-top: 1.5px solid #9CA3AF;
+border-right: 1.5px solid #9CA3AF;
+transform: rotate(45deg);
+margin: 0 10px;
+}
+.language-dropdown {
+display: none;
+position: absolute;
+top: 100%;
+right: 0;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+z-index: 50;
+min-width: 160px;
+}
+.language-selector:hover .language-dropdown {
+display: block;
+}
+</style>
+</head>
+<body class="overflow-x-hidden">
+<!-- Header Section -->
+<header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolutions</a>
+<nav class="hidden md:flex items-center space-x-8">
+<a href="index.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_home">Home</a>
+<div class="relative group">
+<button class="nav-link text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_products">
+Products
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="trays.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_trays">Trays</a>
+<a href="bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bowls">Bowls</a>
+<a href="plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_plates">Plates</a>
+<a href="clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_clamshell">Clamshell Containers</a>
+<a href="sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_sushi">Sushi Containers</a>
+<a href="bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bakery">Bakery Containers</a>
+<a href="cup&egg.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_cupnegg">Cup Trays / Egg Cartons</a>
+</div>
+</div>
+</div>
+<div class="relative group">
+<button class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_about">
+About Us
+<div class="w-4 h-4 ml-1 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</button>
+<div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+<div class="py-2">
+<a href="company-profile.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_profile">Company Profile</a>
+<a href="plantation.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_plantation">Bamboo Plantation</a>
+<a href="processing-plant.html" data-readdy="true" class="block px-4 py-2 text-sm text-primary font-medium bg-gray-50" data-translate="global.nav_pplant">Bamboo Fiber Plant</a>
+<a href="tableware-facility.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_tfactory">Eco Tableware Factory</a>
+</div>
+</div>
+</div>
+<a href="sustainability.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_sustainability">Sustainability</a>
+<a href="contact.html" data-readdy="true" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_contact">Contact</a>
+</nav>
+<div class="flex items-center space-x-4">
+  <div class="language-selector relative">
+    <button class="flex items-center space-x-1 text-gray-700 hover:text-primary transition-colors">
+      <div class="w-6 h-6 flex items-center justify-center">
+        <i class="ri-global-line"></i>
+      </div>
+      <span data-translate="global.current_language">EN</span>
+      <div class="w-4 h-4 flex items-center justify-center">
+        <i class="ri-arrow-down-s-line"></i>
+      </div>
+    </button>
+    <div class="language-dropdown">
+      <a href="#"
+         data-lang="en"
+         data-translate="global.languages.en"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">English</a>
+      <a href="#"
+         data-lang="fr"
+         data-translate="global.languages.fr"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Français</a>
+      <a href="#"
+         data-lang="es"
+         data-translate="global.languages.es"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Español</a>
+      <a href="#"
+         data-lang="ar"
+         data-translate="global.languages.ar"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">العربية</a>
+      <a href="#"
+         data-lang="de"
+         data-translate="global.languages.de"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
+      <a href="#"
+         data-lang="ja"
+         data-translate="global.languages.ja"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
+      <a href="#"
+         data-lang="zh"
+         data-translate="global.languages.zh"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+    </div>
+  </div>
+  <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
+    <i class="ri-menu-line text-2xl"></i>
+  </button>
+</div>
+</header>
+
+<!-- Main Content -->
+<main class="flex-1">
+<!-- Hero Section -->
+<section class="relative h-[500px] overflow-hidden">
+<div style="background-image: url('assets/bamboo_plant_main.webp'); background-size: cover; background-position: center;" class="w-full h-full absolute inset-0">
+<div class="absolute inset-0 bg-black/40"></div>
+<div class="container mx-auto px-6 h-full flex items-center relative z-10">
+<div class="max-w-3xl">
+<h1 class="text-4xl md:text-5xl font-bold text-white mb-4" data-translate="processing.hero.title">Bamboo Fiber Processing Plant</h1>
+<p class="text-xl text-white/90 mb-6" data-translate="processing.hero.subtitle" >Located in Shanwei, Guangdong Province - Operational since 2012</p>
+<div class="grid grid-cols-2 gap-4 mt-8">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Introduction Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="text-3xl font-bold text-gray-800 mb-6" data-translate="processing.intro.title">Core of Our Supply Chain</h2>
+<p class="text-gray-600 mb-4" data-translate="processing.intro.description_1">Our Bamboo Fiber Processing Plant in Shanwei serves as the core of our vertically integrated supply chain. Since 2012, we have been dedicated to producing high-quality, eco-friendly bamboo fiber for sustainable packaging solutions.</p>
+<p class="text-gray-600 mb-4" data-translate="processing.intro.description_2">Supported by 20 square kilometers of self-owned bamboo forests, we ensure a stable and sustainable source of raw material, maintaining complete control over quality and environmental standards throughout the production process.</p>
+<p class="text-gray-600 mb-6" data-translate="processing.intro.description_3">Our production process is designed for zero solid waste. All by-products are repurposed into liquid fertilizer, significantly reducing resource waste and environmental impact. This closed-loop system underscores our commitment to sustainable, green manufacturing from the ground up.</p>
+<div class="inline-flex items-center mt-2">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-recycle-line text-xl"></i>
+</div>
+</div>
+<p class="text-gray-700 font-medium" data-translate="processing.intro.zero_waste">Zero-waste manufacturing process</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-plant-line text-xl"></i>
+</div>
+</div>
+<div class="text-3xl font-bold text-gray-800 mb-2">180,000</div>
+<p class="text-gray-600" data-translate="processing.intro.stat1_text">Tons annual fiber output</p>
+</div>
+<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-team-line text-xl"></i>
+</div>
+</div>
+<div class="text-3xl font-bold text-gray-800 mb-2">100+</div>
+<p class="text-gray-600" data-translate="processing.intro.stat2_text">Skilled employees</p>
+</div>
+<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-building-line text-xl"></i>
+</div>
+</div>
+<div class="text-3xl font-bold text-gray-800 mb-2">40,000 m²</div>
+<p class="text-gray-600" data-translate="processing.intro.stat3_text">Processing plant size</p>
+</div>
+<div class="stat-card bg-gray-50 rounded-lg p-6 shadow-sm">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+<div class="w-6 h-6 flex items-center justify-center text-primary">
+<i class="ri-award-line text-xl"></i>
+</div>
+</div>
+<div class="text-3xl font-bold text-gray-800 mb-2">20+</div>
+<p class="text-gray-600" data-translate="processing.intro.stat4_text">Patents for processing technology</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Flash-Drying System Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="order-2 lg:order-1">
+<h2 class="text-3xl font-bold text-gray-800 mb-6" data-translate="processing.flash_drying.title">Advanced Flash-Drying System</h2>
+<p class="text-gray-600 mb-4" data-translate="processing.flash_drying.description_1">Our proprietary flash-drying technology represents a significant advancement in bamboo fiber processing. This system allows us to rapidly dry processed bamboo fiber while maintaining its structural integrity and natural properties.</p>
+<p class="text-gray-600 mb-4" data-translate="processing.flash_drying.description_2">The system operates at optimal efficiency, reducing energy consumption by 35% compared to conventional drying methods while increasing production capacity. This innovation is protected by multiple patents and exemplifies our commitment to sustainable manufacturing.</p>
+<ul class="mt-6 space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700" data-translate="processing.flash_drying.list1">Energy-efficient operation with 35% reduced consumption</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700" data-translate="processing.flash_drying.list2">Maintains fiber quality and structural integrity</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700" data-translate="processing.flash_drying.list3">Patented technology exclusive to our facility</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700" data-translate="processing.flash_drying.list4">Capacity to process 500 tons of raw material daily</span>
+</li>
+</ul>
+</div>
+<div class="order-1 lg:order-2">
+<div class="rounded-lg overflow-hidden shadow-lg">
+<img src="assets/flash-drying-system.webp" alt="Flash-Drying System" class="w-full h-full object-cover object-top">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Video Showcase Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-6">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-3xl font-bold text-gray-800 mb-6 text-center" data-translate="processing.video.title">Processing Plant in Action</h2>
+<div class="max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg aspect-video">
+            <!-- Aspect ratio container (16:9) -->
+            <div class="relative w-full h-0 pb-[56.25%]">
+                <iframe class="absolute top-0 left-0 w-full h-full"
+                        src="https://www.youtube.com/embed/ZJiDViQh31w"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+<p class="text-gray-600 mt-6 text-center" data-translate="processing.video.subtitle">See our state-of-the-art bamboo fiber processing facility in operation, showcasing our commitment to quality, efficiency, and sustainability.</p>
+</div>
+</div>
+</section>
+<!-- Processing Equipment Showcase -->
+<section class="py-16 bg-gray-50 hidden ">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Advanced Processing Equipment</h2>
+<!-- First Equipment Block -->
+<div class="flex flex-col lg:flex-row items-center gap-12 mb-20">
+<div class="lg:w-1/2">
+<h3 class="text-2xl font-semibold text-gray-800 mb-4">Fiber Extraction System</h3>
+<p class="text-gray-600 mb-4">Our custom-designed fiber extraction system efficiently separates bamboo fibers while preserving their natural properties. This proprietary technology enables us to achieve superior fiber quality with minimal energy consumption.</p>
+<ul class="mt-6 space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700">Processing capacity of 25 tons per hour</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700">Automated quality control monitoring</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700">Water recycling system reduces consumption by 80%</span>
+</li>
+</ul>
+</div>
+<div class="lg:w-1/2">
+<div class="rounded-lg overflow-hidden shadow-lg">
+<img src="https://readdy.ai/api/search-image?query=advanced%2520industrial%2520bamboo%2520fiber%2520extraction%2520machinery%2520with%2520large%2520stainless%2520steel%2520components%252C%2520conveyor%2520systems%2520moving%2520raw%2520bamboo%2520material%252C%2520control%2520panels%2520with%2520digital%2520displays%252C%2520clean%2520factory%2520environment%252C%2520workers%2520in%2520safety%2520gear%2520monitoring%2520equipment%252C%2520professional%2520industrial%2520photography&width=800&height=600&seq=23&orientation=landscape" alt="Fiber Extraction System" class="w-full h-full object-cover object-top">
+</div>
+</div>
+</div>
+<!-- Second Equipment Block -->
+<div class="flex flex-col lg:flex-row-reverse items-center gap-12">
+<div class="lg:w-1/2">
+<h3 class="text-2xl font-semibold text-gray-800 mb-4">Refinement and Processing Line</h3>
+<p class="text-gray-600 mb-4">Our advanced refinement line transforms raw bamboo fiber into the high-quality material used in our eco-friendly products. The system includes multiple stages of cleaning, refining, and quality control to ensure consistent output.</p>
+<ul class="mt-6 space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700">Six-stage refinement process for optimal fiber quality</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700">Integrated AI-powered quality inspection system</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex items-center justify-center text-primary mr-3">
+<i class="ri-check-line"></i>
+</div>
+<span class="text-gray-700">Energy-efficient motors reduce power consumption by 40%</span>
+</li>
+</ul>
+</div>
+<div class="lg:w-1/2">
+<div class="rounded-lg overflow-hidden shadow-lg">
+<img src="https://readdy.ai/api/search-image?query=modern%2520bamboo%2520fiber%2520refinement%2520production%2520line%2520with%2520sophisticated%2520machinery%252C%2520conveyor%2520systems%2520transporting%2520processed%2520fiber%252C%2520quality%2520control%2520stations%2520with%2520technicians%2520in%2520lab%2520coats%252C%2520clean%2520industrial%2520environment%2520with%2520bright%2520lighting%252C%2520professional%2520industrial%2520photography&width=800&height=600&seq=24&orientation=landscape" alt="Refinement and Processing Line" class="w-full h-full object-cover object-top">
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#2C4A2C] text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="index.html" class="text-2xl font-['Pacifico'] text-white mb-4 inline-block">Bamboolutions</a>
+<p class="text-gray-400 mb-6" data-translate="global.company_statement">Leading manufacturer of eco-friendly bamboo fiber tableware and packaging solutions for businesses worldwide.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 rounded-full bg-[#1F361F] flex items-center justify-center hover:bg-primary transition-colors">
+<i class="ri-instagram-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.quick_links">Quick Links</h3>
+<ul class="space-y-3">
+<li><a href="index.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_home">Home</a></li>
+<li><a href="trays.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_products">Products</a></li>
+<li><a href="company-profile.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_about">About Us</a></li>
+<li><a href="sustainability.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_sustainability">Sustainability</a></li>
+<li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_contact">Contact</a></li>
+<li><a href="faq.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_faq">FAQ</a></li>
+</ul>
+</div>
+<!-- Contact Info -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.contact_us">Contact Us</h3>
+<ul class="space-y-3">
+<li class="flex items-start">
+<div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
+<i class="ri-map-pin-line"></i>
+</div>
+<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-phone-line"></i>
+</div>
+<span class="ml-3 text-gray-400" >0086-758-2107715</span>
+</li>
+<li class="flex items-center">
+<div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
+<i class="ri-mail-line"></i>
+</div>
+<span class="ml-3 text-gray-400" >sales@bamboolutions.com</span>
+</li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h3 class="text-lg font-semibold mb-4" data-translate="global.news.heading">Stay Updated</h3>
+<p class="text-gray-400 mb-4" data-translate="global.news.subheading">Subscribe to our newsletter for the latest product updates and sustainability news.</p>
+<form class="flex flex-col space-y-3">
+<div class="relative">
+<input type="email" placeholder="john@email.com" class="w-full px-4 py-3 bg-[#1F361F] border-none rounded text-white text-sm focus:ring-2 focus:ring-primary">
+<button type="submit" class="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 px-4 !rounded-button whitespace-nowrap transition-colors" data-translate="global.news.subscribe">
+Subscribe
+</button>
+</div>
+<label class="flex items-start cursor-pointer">
+<div class="relative w-5 h-5 flex-shrink-0 mt-0.5">
+<input type="checkbox" class="absolute opacity-0 w-0 h-0">
+<div class="w-5 h-5 border border-gray-600 rounded"></div>
+<div class="hidden absolute inset-0 flex items-center justify-center bg-primary rounded">
+<i class="ri-check-line text-white text-xs"></i>
+</div>
+</div>
+<span class="ml-3 text-xs text-gray-400" data-translate="global.news.marketing">I agree to receive marketing communications from Bamboolutions.</span>
+</label>
+</form>
+</div>
+</div>
+<!-- Bottom Footer -->
+<div class="pt-8 border-t border-[#1F361F] flex flex-col md:flex-row justify-between items-center">
+<div class="text-gray-500 text-sm mb-4 md:mb-0" data-translate="global.footer.rights">
+© 2025 Bamboolutions. All rights reserved.
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.terms">Terms & Conditions</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.privacy">Privacy Policy</a>
+<a href="#" class="text-gray-500 hover:text-white text-sm transition-colors" data-translate="global.footer.cookie">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Custom checkbox functionality
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach(checkbox => {
+checkbox.addEventListener('change', function() {
+const checkmark = this.parentElement.querySelector('.absolute.inset-0');
+if (this.checked) {
+checkmark.classList.remove('hidden');
+} else {
+checkmark.classList.add('hidden');
+}
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Mobile menu toggle
+const menuButton = document.querySelector('.ri-menu-line').parentElement;
+menuButton.addEventListener('click', function() {
+const mobileMenu = document.createElement('div');
+mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
+mobileMenu.innerHTML = `
+<div class="bg-white w-3/4 h-full overflow-y-auto">
+<div class="p-4 flex justify-between items-center border-b">
+<span class="text-xl font-medium">Menu</span>
+<button class="w-10 h-10 flex items-center justify-center text-gray-700">
+<i class="ri-close-line text-2xl"></i>
+</button>
+</div>
+<nav class="p-4">
+<a href="../index.html" data-readdy="true" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-gray-800">
+<span>Products</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4 hidden">
+<a href="product/trays/trays.html" data-readdy="true" class="block py-2 text-gray-700">Trays</a>
+<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">Bowls</a>
+<a href="product/plates/plates.html" class="block py-2 text-gray-700">Plates</a>
+<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">Clamshell Containers</a>
+<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">Sushi Containers</a>
+<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">Bakery Containers</a>
+<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">Cup Trays / Egg Cartons</a>
+</div>
+</div>
+<div class="py-3 border-b border-gray-100">
+<div class="flex justify-between items-center text-primary font-medium">
+<span>About Us</span>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+<div class="mt-2 pl-4">
+<a href="company-profile.html" data-readdy="true" class="block py-2 text-gray-700">Company Profile</a>
+<a href="plantation.html" data-readdy="true" class="block py-2 text-gray-700">Bamboo Plantation</a>
+<a href="processing-plant.html" class="block py-2 text-primary font-medium">Bamboo Fiber Plant</a>
+<a href="tableware-facility.html" data-readdy="true" class="block py-2 text-gray-700">Eco Tableware Factory</a>
+</div>
+</div>
+<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-gray-800">Sustainability</a>
+<a href="contact.html" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
+</nav>
+</div>
+`;
+document.body.appendChild(mobileMenu);
+document.body.style.overflow = 'hidden';
+// Close mobile menu
+const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
+closeButton.addEventListener('click', function() {
+document.body.removeChild(mobileMenu);
+document.body.style.overflow = '';
+});
+// Dropdown toggles
+const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
+dropdownToggles.forEach(toggle => {
+toggle.parentElement.addEventListener('click', function() {
+const dropdown = this.parentElement.nextElementSibling;
+dropdown.classList.toggle('hidden');
+});
+});
+});
+});
+document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('bambooVideo');
+    const playButton = document.getElementById('playButton');
+
+    playButton.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none'; // Hide play button when playing
+        } else {
+            video.pause();
+        }
+    });
+
+    video.addEventListener('click', () => {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = 'none';
+        } else {
+            video.pause();
+            playButton.style.display = 'block';
+        }
+    });
+});
+document.addEventListener('DOMContentLoaded', function() {
+});
+</script>
+<script src="translations.js"></script>
+</body>
+</html>
