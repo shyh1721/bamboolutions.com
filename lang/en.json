@@ -23,6 +23,9 @@
         "es": "Español",
         "ar": "العربية",
         "de": "Deutsch",
+        "pt": "Português",
+        "it": "Italiano",
+        "hi": "hindī",
         "ja": "日本語",
         "zh": "中文"
       },
@@ -45,9 +48,10 @@
         "privacy": "Privacy Policy",
         "cookie": "Cookie Policy"
       }
-
-
     },
+
+
+
     "index": {
       "title":"Bamboolutions - Eco-Friendly Bamboo Fiber Tableware",
       "hero": {
@@ -104,7 +108,8 @@
         "quote": "Request a Quote",
         "catalog": "Download Catalog"
       }
-      },
+    },
+
 
     "profile": {
       "title": "Company Profile - Bamboolutions",
@@ -190,6 +195,7 @@
       }
     },
 
+
    "contact": {
      "title": "Contact Us - Bamboolutions",
      "get_in_touch": "Get in touch with our team for inquiries about our eco-friendly bamboo fiber products, custom solutions, or any other questions.",
@@ -229,6 +235,8 @@
         "payment_answer": "We accept T/T (wire transfer), L/C (Letter of Credit), and PayPal for international orders. For domestic orders, we also accept bank transfers and Alipay."
       }
      },
+
+
   "plantation": {
     "title": "Our Bamboo Plantation - Bamboolutions",
     "hero": {
@@ -269,6 +277,8 @@
       "carbon_text": "Our plantations sequester thousands of tons of CO₂ annually"
     }
   },
+
+
   "processing": {
     "title": "Bamboo Fiber Processing Plant - Bamboolutions",
     "hero": {
@@ -300,6 +310,9 @@
       "subtitle": "See our state-of-the-art bamboo fiber processing facility in operation, showcasing our commitment to quality, efficiency, and sustainability."
     }
   },
+
+
+
   "sustainability": {
     "title": "Sustainability - Bamboolutions",
     "hero": {
@@ -332,6 +345,8 @@
         "list4": "Wastewater sludge is processed into biochar, a valuable soil amendment"
       }
   },
+
+
   "tfactory": {
     "title": "Bamboo Tableware Production Facility - Bamboolutions",
     "hero": {

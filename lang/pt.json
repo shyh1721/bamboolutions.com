@@ -1,0 +1,478 @@
+{
+  "global": {
+    "nav_home": "Início",
+    "nav_about": "Sobre Nós",
+    "nav_products": "Produtos",
+    "nav_trays": "Bandejas",
+    "nav_bowls": "Tigelas",
+    "nav_plates": "Pratos",
+    "nav_clamshell": "Embalagens Tipo Clamshell",
+    "nav_sushi": "Embalagens para Sushi",
+    "nav_bakery": "Embalagens para Padaria",
+    "nav_cupnegg": "Suportes para Copos / Caixas para Ovos",
+    "nav_profile": "Perfil da Empresa",
+    "nav_plantation": "Plantação de Bambu",
+    "nav_pplant": "Fábrica de Fibra de Bambu",
+    "nav_tfactory": "Fábrica de Talheres Ecológicos",
+    "nav_sustainability": "Sustentabilidade",
+    "nav_contact": "Contato",
+    "current_language": "PT",
+   "languages": {
+        "en": "English",
+        "fr": "Français",
+        "es": "Español",
+        "ar": "العربية",
+        "de": "Deutsch",
+        "pt": "Português",
+        "it": "Italiano",
+        "hi": "hindī",
+        "ja": "日本語",
+        "zh": "中文"
+      },
+    "company_statement": "Fabricante líder de talheres e embalagens ecológicas de fibra de bambu para empresas em todo o mundo.",
+    "quick_links": "Links Rápidos",
+    "nav_faq": "Perguntas Frequentes",
+    "contact_us": "Fale Conosco",
+    "address": "Rua West Xin An, Duanzhou, Zhaoqing, Guangdong, 526060, China",
+    "email_h": "Email",
+    "phone_heading": "Telefone",
+    "news": {
+      "heading": "Fique Atualizado",
+      "subheading": "Assine nossa newsletter para receber as últimas atualizações de produtos e notícias sobre sustentabilidade.",
+      "subscribe": "Assinar",
+      "marketing": "Concordo em receber comunicações de marketing da Bamboolutions."
+    },
+    "footer": {
+      "rights": "© 2025 Bamboolutions. Todos os direitos reservados.",
+      "terms": "Termos e Condições",
+      "privacy": "Política de Privacidade",
+      "cookie": "Política de Cookies"
+    }
+  },
+
+
+  "index": {
+    "title": "Bamboolutions - Talheres Sustentáveis de Fibra de Bambu",
+    "hero": {
+      "title1": "Talheres Sustentáveis para um Futuro mais Verde",
+      "subtitle1": "Produtos biodegradáveis premium de fibra de bambu para empresas conscientes.",
+      "button1": "Solicitar Informações",
+      "title2": "Excelência em Fabricação Integrada",
+      "subtitle2": "Produção interna completa garantindo qualidade e sustentabilidade em cada etapa.",
+      "button2": "Conheça Nosso Processo",
+      "title3": "Soluções Personalizadas para Alimentos",
+      "subtitle3": "Embalagens biodegradáveis sob medida para restaurantes, cafés e entregas de alimentos.",
+      "button3": "Explorar Produtos"
+    },
+    "benefits": {
+      "heading": "Por que Escolher a Bamboolutions?",
+      "t1": "Produção Integrada",
+      "t2": "100% Biodegradável",
+      "t3": "Compostável em 90 dias",
+      "t4": "Resistente à Água e Gordura",
+      "t5": "Micro-ondas e Congelador Seguro",
+      "t6": "Soluções Personalizadas",
+      "st1": "Fabricação completa interna desde as matérias-primas até os produtos acabados.",
+      "st2": "Produtos totalmente compostáveis que retornam à natureza em até 180 dias.",
+      "st3": "Decomposição rápida em instalações de compostagem industrial em até 90 dias.",
+      "st4": "Alta resistência a líquidos e óleos sem produtos químicos nocivos.",
+      "st5": "Resistência de -20°C a +120°C para diversas aplicações alimentares.",
+      "st6": "Designs personalizados para atender às necessidades específicas do seu negócio."
+    },
+    "category": {
+      "heading": "Linha de Produtos Bamboolutions",
+      "subheading": "Descubra nossa coleção completa de produtos ecológicos de fibra de bambu para aplicações alimentícias.",
+      "cat1": "Bandejas Descartáveis de Fibra de Bambu",
+      "cat2": "Tigelas Descartáveis de Fibra de Bambu",
+      "cat3": "Suportes para Copos e Cartelas de Ovos de Fibra de Bambu",
+      "cat4": "Embalagens para Sushi de Fibra de Bambu",
+      "cat5": "Pratos Descartáveis de Fibra de Bambu",
+      "detail1": "Soluções sustentáveis para supermercados, delicatessens e entregas.",
+      "detail2": "Tigelas biodegradáveis premium para restaurantes, eventos e catering.",
+      "detail3": "Suportes funcionais para bebidas e ovos com excelente estabilidade.",
+      "detail4": "Embalagens especializadas para culinária japonesa e alimentos delicados.",
+      "detail5": "Pratos biodegradáveis como alternativa sustentável aos descartáveis tradicionais.",
+      "explore": "Explorar Série",
+      "explore_all": "Explorar Todos os Produtos",
+      "explore_all_subtitle": "Conheça nossa linha completa de soluções sustentáveis de bambu.",
+      "view_all": "Ver Catálogo Completo"
+    },
+    "cert": {
+      "title": "Certificações de Qualidade",
+      "subtitle": "Nossos produtos atendem aos mais altos padrões internacionais de qualidade, segurança e responsabilidade ambiental."
+    },
+    "cta": {
+      "title": "Pronto para Mudar para Embalagens Sustentáveis?",
+      "subtitle": "Junte-se a milhares de empresas ao redor do mundo que escolheram a Bamboolutions. Nossa equipe está pronta para ajudar.",
+      "quote": "Solicitar Cotação",
+      "catalog": "Baixar Catálogo"
+    }
+  },
+
+
+
+  "profile": {
+    "title": "Perfil da Empresa - Bamboolutions",
+    "hero": {
+      "title": "12 Anos de Inovação Sustentável",
+      "subtitle": "Liderando o Caminho em Soluções de Fibra de Bambu Ecológicas"
+    },
+    "overview": {
+      "heading": "Visão Geral da Empresa",
+      "subheading1": "Desde nossa fundação em 2013, a Bamboolutions está na vanguarda da inovação em embalagens sustentáveis, dedicada a fornecer alternativas ecológicas aos produtos tradicionais de plástico.",
+      "subheading2": "Com 12 anos de experiência no setor, estabelecemos nossa posição como fabricante líder de utensílios de mesa e embalagens para alimentos de fibra de bambu premium, que combinam funcionalidade com responsabilidade ambiental.",
+      "subheading3": "Nossa sede em Guangzhou, China, serve como centro das nossas operações globais, coordenando entre nossas três bases integradas de produção e nossa rede internacional de distribuição que abrange Europa, América do Norte, Austrália e Ásia.",
+      "subheading4": "Mais de 12 Anos",
+      "subheading5": "De experiência e inovação no setor"
+    },
+    "mission": {
+      "h1": "Nossa Missão",
+      "t1": "Revolucionar a indústria de embalagens alimentícias oferecendo alternativas sustentáveis e de alta qualidade em fibra de bambu que reduzam o impacto ambiental sem comprometer desempenho ou estética.",
+      "t2": "Estamos comprometidos em criar produtos que auxiliem empresas na transição do plástico, mantendo a funcionalidade e conveniência esperadas por seus clientes."
+    },
+    "vision": {
+      "h1": "Nossa Visão",
+      "t1": "Tornar-se líder global em soluções sustentáveis para embalagens alimentícias, criando um mundo onde plásticos descartáveis sejam substituídos por alternativas renováveis e biodegradáveis.",
+      "t2": "Visualizamos um futuro onde cada restaurante, café e fornecedor de serviços alimentícios no mundo tenha acesso a embalagens ecológicas acessíveis que alinhem suas necessidades comerciais aos valores ambientais."
+    },
+    "values": {
+      "heading": "Nossos Valores Fundamentais",
+      "value1": "Gestão Ambiental",
+      "value2": "Inovação",
+      "value3": "Excelência em Qualidade",
+      "value4": "Parceria com o Cliente",
+      "t1": "Priorizamos a sustentabilidade em todos os aspectos do nosso negócio, desde a origem responsável do bambu até processos de fabricação energeticamente eficientes.",
+      "t2": "Investimos continuamente em pesquisa e desenvolvimento para criar novas e aprimoradas soluções de embalagens sustentáveis que atendam às necessidades do mercado em evolução.",
+      "t3": "Mantemos rigorosos padrões de qualidade em todo o processo produtivo, garantindo que cada produto atenda às certificações internacionais e expectativas dos clientes.",
+      "t4": "Construímos relacionamentos de longo prazo com nossos clientes, trabalhando colaborativamente para desenvolver soluções personalizadas que atendam suas necessidades específicas e objetivos de sustentabilidade."
+    },
+    "production": {
+      "heading": "Sistema de Produção Integrado",
+      "subheading": "Nosso método verticalmente integrado garante controle completo sobre todo o processo produtivo, desde o cultivo do bambu até os produtos acabados.",
+      "facility1": "Plantação de Bambu Certificada FSC",
+      "d1": "Nossas plantações privadas de bambu são certificadas FSC, garantindo práticas sustentáveis de colheita e manejo florestal responsável.",
+      "facility2": "Base de Produção de Fibra de Bambu",
+      "d2": "Nossa moderna instalação transforma bambu cru em fibra de alta qualidade usando métodos ambientalmente amigáveis.",
+      "facility3": "Base de Fabricação de Utensílios de Mesa",
+      "d3": "Nossa unidade dedicada transforma fibra de bambu em produtos finais utilizando técnicas inovadoras de moldagem e conformação.",
+      "learn": "Saiba Mais"
+    },
+    "supply_chain_title": "Cadeia de Suprimentos em Circuito Fechado",
+    "supply_chain_description": "Do recurso até o produto final, nossa abordagem integrada garante controle de qualidade e sustentabilidade em cada etapa.",
+    "sustainable_sourcing_title": "Origem Sustentável",
+    "sustainable_sourcing_text": "Bambu certificado FSC colhido com práticas responsáveis",
+    "fiber_processing_title": "Processamento da Fibra",
+    "fiber_processing_text": "Conversão em fibra de bambu usando métodos ecológicos",
+    "manufacturing_title": "Fabricação",
+    "manufacturing_text": "Produção de utensílios de mesa com técnicas inovadoras de moldagem",
+    "biodegradation_title": "Biodegradação",
+    "biodegradation_text": "Produtos se decompõem naturalmente em até 180 dias após o uso",
+    "operation": {
+      "title": "Operações Globais",
+      "description_1": "Nossa sede em Guangzhou, China, serve como centro das operações internacionais, coordenando entre nossas instalações de produção e rede global de distribuição.",
+      "description_2": "Deste local estratégico, nossa equipe experiente gerencia vendas, marketing, atendimento ao cliente e logística para garantir a entrega eficiente dos nossos produtos mundialmente.",
+      "description_3": "Nossa presença global se estende pelos principais mercados da América do Norte, Europa, Austrália e Ásia, permitindo atender às diversas necessidades dos clientes com qualidade e serviço consistentes.",
+      "support_title": "Suporte 24/7",
+      "support_text": "Atendimento ao cliente global",
+      "shipping_title": "Envio Mundial",
+      "shipping_text": "Logística rápida e confiável"
+    },
+    "sustainability": {
+      "title": "Nosso Compromisso com a Sustentabilidade",
+      "intro": "A responsabilidade ambiental está no centro de tudo que fazemos na Bamboolutions.",
+      "renewable_resource_title": "Recurso Renovável",
+      "renewable_resource_text": "O bambu é uma das plantas que mais cresce no mundo, tornando-se um recurso renovável ideal. Nosso bambu pode ser colhido a cada 3-5 anos sem necessidade de replantio.",
+      "water_conservation_title": "Conservação da Água",
+      "water_conservation_text": "Nossos processos produtivos utilizam 60% menos água comparado à fabricação tradicional de papel, além de implementar sistemas de reciclagem de água em nossas instalações.",
+      "zero_waste_title": "Produção de Resíduo Zero",
+      "zero_waste_text": "Adotamos uma abordagem de fabricação de resíduo zero, onde subprodutos do bambu são reaproveitados como combustível de biomassa para nossas instalações.",
+      "solar_power_title": "Iniciativa de Energia Solar",
+      "solar_power_text": "Nossas instalações de fabricação são cada vez mais alimentadas por energia solar, com meta de atingir 50% de uso de energia renovável até 2026.",
+      "carbon_footprint_title": "Redução da Pegada de Carbono",
+      "carbon_footprint_text": "O bambu absorve 35% mais CO2 que árvores equivalentes. Nossas plantações sequestram cerca de 62.000 toneladas de dióxido de carbono anualmente.",
+      "community_title": "Apoio à Comunidade",
+      "community_text": "Oferecemos oportunidades de emprego justas para comunidades locais próximas às nossas plantações e instalações, apoiando mais de 500 famílias com emprego direto."
+    }
+  },
+
+
+
+  "contact": {
+    "title": "Fale Conosco - Bamboolutions",
+    "get_in_touch": "Entre em contato com nossa equipe para consultas sobre nossos produtos ecológicos de fibra de bambu, soluções personalizadas ou qualquer outra dúvida.",
+    "locations": "Locais dos Escritórios",
+    "hk": "Hong Kong",
+    "address_hk": "THE BROADWAY, NO. 54-62 LOCKHART ROAD, WANCHAI, HONG KONG",
+    "zhaoqing": "Zhaoqing",
+    "contact_details": "Detalhes para Contato",
+    "facility_add1": "Cidade de Quyang, Condado Autônomo Jingzhou Miao e Dong, Cidade de Huaihua, Província de Hunan",
+    "facility_add2": "Zona Industrial Changqiao, Cidade de Ketang, Condado de Haifeng, Cidade de Shanwei, Província de Guangdong",
+    "facility_add3": "Parque de Processamento Abrangente de Gantang, Cidade de Gantang, Condado Autônomo Jingzhou Miao, Cidade de Huaihua, Província de Hunan",
+    "form": {
+      "title": "Envie-nos uma Mensagem",
+      "subtitle": "Preencha o formulário abaixo e nossa equipe responderá o mais breve possível.",
+      "full_name": "Nome Completo*",
+      "company_name": "Nome da Empresa",
+      "email": "Endereço de Email*",
+      "phone": "Número de Telefone",
+      "subject": "Assunto*",
+      "message": "Mensagem*",
+      "privacy_policy": {
+        "text": "Eu concordo com o processamento dos meus dados pessoais de acordo com a ",
+        "link": " Política de Privacidade",
+        "suffix": ".*"
+      },
+      "submit_button": "Enviar Mensagem"
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "moq_question": "Qual é a quantidade mínima de pedido (MOQ)?",
+      "moq_answer": "Nosso MOQ padrão é de 10.000 unidades por produto. Porém, para designs personalizados ou requisitos especiais, o MOQ pode variar. Por favor, entre em contato com nossa equipe de vendas para informações específicas.",
+      "custom_question": "Vocês oferecem designs e embalagens personalizadas?",
+      "custom_answer": "Sim, oferecemos soluções personalizadas incluindo design de produto, ajustes de tamanho e embalagens customizadas com sua marca. Nossa equipe de design trabalhará junto com você para criar produtos que atendam às suas necessidades específicas.",
+      "lead_time_question": "Qual é o prazo para os pedidos?",
+      "lead_time_answer": "Produtos padrão geralmente têm prazo de 15-20 dias. Produtos personalizados podem levar 25-30 dias dependendo da complexidade. Pedidos grandes podem exigir tempo adicional.",
+      "payment_question": "Quais métodos de pagamento vocês aceitam?",
+      "payment_answer": "Aceitamos T/T (transferência bancária), L/C (Carta de Crédito) e PayPal para pedidos internacionais. Para pedidos nacionais, também aceitamos transferências bancárias e Alipay."
+    }
+  },
+
+
+  "plantation": {
+    "title": "Nossa Plantação de Bambu - Bamboolutions",
+    "hero": {
+      "title": "Nossas Plantações Privadas de Bambu",
+      "subtitle": "Florestas de bambu geridas de forma sustentável que alimentam nossa cadeia de suprimentos verticalmente integrada",
+      "text": "20 km² de Florestas Sustentáveis de Bambu"
+    },
+    "video": {
+      "title": "Jornada pelas Nossas Florestas de Bambu",
+      "subtitle": "Experimente a serenidade e sustentabilidade de nossas plantações privadas de bambu"
+    },
+    "overview": {
+      "title": "Visão Geral da Plantação",
+      "description_1": "Nossas matérias-primas são obtidas diretamente de nossas plantações privadas de bambu nas províncias de Hunan e Guangdong, cobrindo uma área total de 20 quilômetros quadrados. Essas exuberantes florestas de bambu são a base do nosso modelo de negócios sustentável.",
+      "description_2": "Com uma cadeia de suprimentos totalmente autossuficiente e verticalmente integrada — desde o bambu cru até os produtos acabados — mantemos controle total sobre qualidade, sustentabilidade e eficiência durante todo o processo produtivo.",
+      "description_3": "Nossas plantações de bambu estão estrategicamente localizadas em regiões com condições ideais de crescimento, garantindo matérias-primas da mais alta qualidade para nossos produtos enquanto apoiamos as economias locais.",
+      "certification_text": "Florestas certificadas duplamente FSC® (FSC-C110780) e CFCC",
+      "certification_subtext": "Garantindo manejo florestal responsável"
+    },
+    "impact": {
+      "title": "Impacto na Comunidade",
+      "employment_text": "Oportunidades de emprego rural criadas por meio de nossas plantações de bambu e instalações de processamento",
+      "income_text": "Renda coletiva anual gerada para comunidades locais por meio do cultivo sustentável de bambu",
+      "community_title": "Apoio às Comunidades Locais",
+      "community_text_1": "Nosso sistema integrado reforça a sustentabilidade de longo prazo da indústria do bambu, enquanto oferece emprego estável para milhares de trabalhadores rurais nas províncias de Hunan e Guangdong.",
+      "community_text_2": "Priorizamos salários justos, condições seguras de trabalho e oportunidades de desenvolvimento profissional para todos os funcionários, muitos dos quais estão conosco há gerações.",
+      "community_text_3": "Ao criar um modelo econômico sustentável centrado no cultivo e processamento do bambu, ajudamos a revitalizar comunidades rurais enquanto produzimos produtos ecológicos para mercados globais."
+    },
+    "sustainability": {
+      "title": "Nosso Compromisso com a Sustentabilidade",
+      "description_1": "Todo bambu é colhido de forma responsável em florestas duplamente certificadas FSC® (FSC-C110780) e CFCC, garantindo um equilíbrio sólido entre preservação ecológica e crescimento econômico.",
+      "description_2": "Nossas plantações de bambu funcionam como sumidouros de carbono, absorvendo aproximadamente 35% mais CO₂ do que florestas equivalentes de madeira dura, contribuindo significativamente para os esforços de mitigação das mudanças climáticas.",
+      "description_3": "Praticamos técnicas seletivas de colheita que mantêm a saúde e vitalidade dos nossos bambuzais. Diferente do corte tradicional, a colheita do bambu não requer replantio, pois novos brotos surgem naturalmente do sistema radicular existente.",
+      "description_4": "Nossas plantações são manejadas sem pesticidas ou fertilizantes químicos, protegendo as fontes locais de água e promovendo a biodiversidade em todo o ecossistema.",
+      "renewable_title": "Recurso Renovável",
+      "renewable_text": "O bambu atinge a maturidade em apenas 3-5 anos",
+      "carbon_title": "Positivo em Carbono",
+      "carbon_text": "Nossas plantações sequestram milhares de toneladas de CO₂ anualmente"
+    }
+  },
+
+
+  "processing": {
+    "title": "Planta de Processamento de Fibra de Bambu - Bamboolutions",
+    "hero": {
+      "title": "Planta de Processamento de Fibra de Bambu",
+      "subtitle": "Localizada em Shanwei, Província de Guangdong - Operacional desde 2012"
+    },
+    "intro": {
+      "title": "Núcleo da Nossa Cadeia de Suprimentos",
+      "description_1": "Nossa Planta de Processamento de Fibra de Bambu em Shanwei serve como o núcleo da nossa cadeia de suprimentos verticalmente integrada. Desde 2012, dedicamo-nos à produção de fibra de bambu ecológica e de alta qualidade para soluções sustentáveis de embalagem.",
+      "description_2": "Apoiados por 20 quilômetros quadrados de florestas de bambu de propriedade própria, garantimos uma fonte estável e sustentável de matéria-prima, mantendo controle total sobre a qualidade e os padrões ambientais durante todo o processo de produção.",
+      "description_3": "Nosso processo de produção é projetado para gerar zero resíduos sólidos. Todos os subprodutos são reaproveitados como fertilizante líquido, reduzindo significativamente o desperdício de recursos e o impacto ambiental. Este sistema de ciclo fechado reforça nosso compromisso com a fabricação sustentável e ecológica desde a base.",
+      "zero_waste": "Processo de fabricação sem resíduos",
+      "stat1_text": "Toneladas anuais de produção de fibra",
+      "stat2_text": "Funcionários qualificados",
+      "stat3_text": "Tamanho da planta de processamento",
+      "stat4_text": "Patentes para tecnologia de processamento"
+    },
+    "flash_drying": {
+      "title": "Sistema Avançado de Secagem Rápida",
+      "description_1": "Nossa tecnologia proprietária de secagem rápida representa um avanço significativo no processamento de fibra de bambu. Este sistema nos permite secar rapidamente a fibra de bambu processada, mantendo sua integridade estrutural e propriedades naturais.",
+      "description_2": "O sistema opera com eficiência ótima, reduzindo o consumo de energia em 35% comparado aos métodos tradicionais, ao mesmo tempo que aumenta a capacidade de produção. Essa inovação é protegida por múltiplas patentes e exemplifica nosso compromisso com a fabricação sustentável.",
+      "list1": "Operação energeticamente eficiente com redução de consumo em 35%",
+      "list2": "Mantém a qualidade da fibra e a integridade estrutural",
+      "list3": "Tecnologia patenteada exclusiva de nossa instalação",
+      "list4": "Capacidade para processar 500 toneladas de matéria-prima diariamente"
+    },
+    "video": {
+      "title": "Planta de Processamento em Ação",
+      "subtitle": "Veja nossa instalação de processamento de fibra de bambu de última geração em operação, demonstrando nosso compromisso com qualidade, eficiência e sustentabilidade."
+    }
+  },
+
+
+  "sustainability": {
+    "title": "Sustentabilidade - Bamboolutions",
+    "hero": {
+      "title": "Compromisso com a Sustentabilidade",
+      "subtitle": "Pioneirismo na fabricação ecológica com nossa cadeia de suprimentos integrada em ciclo fechado"
+    },
+    "process": {
+      "title": "Processo de Produção Sustentável",
+      "subtitle": "Nossa abordagem inovadora de fabricação minimiza o impacto ambiental em cada etapa",
+      "step1_heading": "Colheita Responsável",
+      "step1_text": "Colhemos seletivamente apenas talos de bambu maduros (4-5 anos), preservando o sistema radicular e as plantas mais jovens. Essa abordagem sustentável permite que o bambu se regenere naturalmente sem necessidade de replantio.",
+      "step2_heading": "Polpação Ecológica",
+      "step2_text": "Nosso processo mecânico de polpação quebra as fibras de bambu sem o uso de produtos químicos agressivos. Utilizamos um sistema de água em ciclo fechado que recicla 95% da água do processo, reduzindo drasticamente o consumo de água em comparação com a fabricação tradicional de papel.",
+      "step3_heading": "Modelagem e Formação",
+      "step3_text": "Nossa inovadora tecnologia de prensagem a quente molda a fibra de bambu em vários produtos de utensílios usando energia mínima. O processo utiliza aglutinantes naturais à base de plantas em vez de adesivos sintéticos, garantindo que o produto final seja totalmente biodegradável.",
+      "step4_heading": "Gestão de Resíduos",
+      "step4_text": "Nossa abordagem de zero resíduos garante que todos os subprodutos do bambu sejam reaproveitados. Resíduos de fibra são reciclados de volta à produção, enquanto outros resíduos são convertidos em combustível de biomassa que alimenta nossas instalações, criando um sistema de fabricação verdadeiramente circular."
+    },
+    "close_loop": {
+      "title": "Sistema de Água e Resíduos em Ciclo Fechado",
+      "subtitle": "Nossa abordagem inovadora de gestão de recursos minimiza o impacto ambiental",
+      "water_title": "Conservação da Água",
+      "water_text1": "Nosso sistema de reciclagem de água de última geração captura, filtra e reutiliza 95% da água usada nas operações de processamento de fibra. Essa abordagem em ciclo fechado reduz drasticamente o consumo de água doce em comparação com métodos tradicionais de fabricação.",
+      "water_text2": "O sistema de filtração em múltiplas etapas remove impurezas sem tratamentos químicos, garantindo que qualquer água eventualmente liberada no meio ambiente esteja limpa e livre de contaminantes.",
+      "waste_title": "Gestão de Resíduos",
+      "waste_intro": "Implementamos uma abordagem abrangente de fabricação sem resíduos, onde todos os subprodutos da produção são reaproveitados:",
+      "list1": "Resíduos de fibra são reciclados de volta ao processo produtivo",
+      "list2": "Resíduos de bambu são convertidos em combustível de biomassa que alimenta nossas instalações",
+      "list3": "Resíduos orgânicos são compostados e usados como fertilizante em nossas plantações de bambu",
+      "list4": "O lodo de águas residuais é processado em biochar, um valioso condicionador de solo"
+    }
+  },
+
+
+
+  "tfactory": {
+    "title": "Fábrica de Produção de Utensílios de Bambu - Bamboolutions",
+    "hero": {
+      "title": "Fábrica de Produção de Utensílios de Bambu",
+      "subtitle": "Planta de fabricação de última geração que transforma fibra de bambu em utensílios e embalagens ecológicas premium"
+    },
+    "video": {
+      "title": "Tour pela Fábrica",
+      "subtitle": "Faça um tour virtual pela nossa avançada instalação de fabricação e testemunhe nosso processo sustentável de produção em ação."
+    },
+    "stats": {
+      "stat1_label": "Produção Anual em Toneladas",
+      "stat1_subtext": "Produção em alta capacidade de produtos acabados em fibra de bambu",
+      "stat2_label": "Máquinas de Produção",
+      "stat2_subtext": "Equipamentos totalmente automatizados para produção de utensílios moldados",
+      "stat3_label": "Metros Quadrados",
+      "stat3_subtext": "Área expansiva da instalação para operações completas de produção",
+      "stat4_label": "Investimento Total",
+      "stat4_subtext": "Investimento de capital significativo em fabricação sustentável"
+    },
+    "overview": {
+      "title": "Instalação de Fabricação de Última Geração",
+      "intro": "Nossa instalação de produção na Província de Hunan representa a culminação de nosso compromisso com a excelência na fabricação sustentável, utilizando fibra de bambu da nossa planta de processamento para criar utensílios ecológicos premium.",
+      "paragraph1": "Localizada no coração da região do bambu da China, nossa instalação de última geração abrange mais de 110.000 metros quadrados e abriga 260 máquinas de produção totalmente automatizadas. Com capacidade anual de produção de 120.000 toneladas, estamos equipados para atender à demanda global por soluções sustentáveis de utensílios.",
+      "paragraph2": "A instalação incorpora tecnologias avançadas de fabricação e sistemas rigorosos de controle de qualidade para garantir que cada produto atenda aos nossos padrões exigentes. Nossas linhas de produção são projetadas para máxima eficiência, mantendo nosso compromisso com a responsabilidade ambiental.",
+      "zero_waste": {
+        "heading": "Zero Resíduos",
+        "subtext": "Produção sustentável"
+      },
+      "iso_cert": {
+        "heading": "Certificada ISO",
+        "subtext": "Padrões de qualidade"
+      }
+    },
+    "production": {
+      "title": "Processo de Produção",
+      "intro": "Nosso processo abrangente de fabricação transforma fibra de bambu em utensílios de alta qualidade através destas etapas principais.",
+      "step1_hover": "Processamento da Matéria-Prima",
+      "step1_title": "1. Processamento da Matéria-Prima",
+      "step1_desc": "A fibra de bambu da nossa planta de processamento é preparada e refinada para a produção usando nossos métodos ecológicos proprietários.",
+      "step2_hover": "Moldagem e Formação",
+      "step2_title": "2. Moldagem e Formação",
+      "step2_desc": "Nossas máquinas avançadas de moldagem dão forma precisa à fibra de bambu em vários produtos de utensílios com qualidade consistente.",
+      "step3_hover": "Controle de Qualidade",
+      "step3_title": "3. Controle de Qualidade",
+      "step3_desc": "Processos rigorosos de inspeção garantem que cada produto atenda aos nossos padrões estritos de durabilidade, segurança e aparência.",
+      "step4_hover": "Embalagem e Distribuição",
+      "step4_title": "4. Embalagem e Distribuição",
+      "step4_desc": "Os produtos são embalados com materiais ecológicos e preparados para distribuição mundial aos nossos clientes globais."
+    },
+    "cert": {
+      "title": "Padrões e Certificações de Qualidade",
+      "subtitle": "Nossa instalação segue os mais altos padrões internacionais de qualidade e segurança, garantindo que nossos produtos atendam aos requisitos globais.",
+      "cert1_title": "ISO 9001:2015",
+      "cert1_desc": "Sistema certificado de gestão da qualidade garantindo qualidade consistente do produto e satisfação do cliente.",
+      "cert2_title": "ISO 14001:2015",
+      "cert2_desc": "Certificação de gestão ambiental que demonstra nosso compromisso com práticas sustentáveis de fabricação.",
+      "cert3_title": "Conformidade FDA",
+      "cert3_desc": "Todos os produtos atendem aos requisitos da FDA para segurança em contato com alimentos, garantindo que sejam seguros para uso do consumidor.",
+      "cert4_title": "Biodegradável",
+      "cert4_desc": "Produtos certificados para decompor-se naturalmente dentro de 180 dias em instalações comerciais de compostagem.",
+      "cert5_title": "FSC Cadeia de Custódia",
+      "cert5_desc": "Certificação garantindo que nosso bambu é proveniente de florestas e plantações geridas de forma responsável.",
+      "cert6_title": "Conformidade BSCI",
+      "cert6_desc": "Certificação da Business Social Compliance Initiative para práticas trabalhistas éticas e condições de trabalho."
+    },
+    "cta": {
+      "title": "Experimente Nossa Produção Sustentável",
+      "subtitle": "Interessado em ver nossa instalação em funcionamento? Agende um tour virtual ou solicite amostras de produtos para conhecer nossa qualidade em primeira mão.",
+      "tour_btn": "Agendar Tour Virtual",
+      "samples_btn": "Solicitar Amostras de Produtos"
+    }
+  },
+
+
+
+  "trays": {
+    "title": "Bandejas de Fibra de Bambu - Bamboolutions",
+    "cat_title": "Bandejas de Fibra de Bambu",
+    "cat_subtitle": "Soluções de serviço sustentáveis e biodegradáveis que combinam elegância com responsabilidade ambiental. Perfeitas para foodservice, catering e aplicações de varejo."
+  },
+  "bowls": {
+    "title": "Tigelas de Fibra de Bambu - Bamboolutions",
+    "cat_title": "Tigelas de Fibra de Bambu",
+    "cat_subtitle": "Tigelas sustentáveis e biodegradáveis que unem elegância e responsabilidade ambiental. Ideais para restaurantes, cafés e experiências de refeições em casa."
+  },
+  "bakery": {
+    "title": "Recipientes para Padaria de Fibra de Bambu - Bamboolutions",
+    "cat_title": "Recipientes para Padaria de Fibra de Bambu",
+    "cat_subtitle": "Recipientes ecológicos e sustentáveis para padarias que preservam a frescura enquanto protegem o meio ambiente. Perfeitos para padarias, cafés e negócios de foodservice."
+  },
+  "clamshell": {
+    "title": "Recipientes Clamshell de Fibra de Bambu - Bamboolutions",
+    "cat_title": "Recipientes Clamshell de Fibra de Bambu",
+    "cat_subtitle": "Recipientes clamshell ecológicos que oferecem embalagem segura para alimentos com consciência ambiental. Ideais para takeaway, delivery e negócios de foodservice."
+  },
+  "sushi": {
+    "title": "Recipientes para Sushi de Fibra de Bambu - Bamboolutions",
+    "cat_title": "Recipientes para Sushi de Fibra de Bambu",
+    "cat_subtitle": "Recipientes ecológicos para sushi, projetados para ótima apresentação e frescor. Perfeitos para restaurantes, serviços de takeaway e catering."
+  },
+  "cupnegg": {
+    "title": "Bandejas para Copos / Caixas para Ovos de Fibra de Bambu - Bamboolutions",
+    "cat_title": "Bandejas para Copos / Caixas para Ovos de Fibra de Bambu",
+    "cat_subtitle": "Suportes para copos e bandejas para ovos sustentáveis e biodegradáveis que garantem armazenamento e transporte seguros. Ideais para cafés, restaurantes e foodservice."
+  },
+  "plates": {
+    "title": "Pratos de Fibra de Bambu - Bamboolutions",
+    "cat_title": "Pratos de Fibra de Bambu",
+    "cat_subtitle": "Pratos sustentáveis e biodegradáveis que unem elegância e responsabilidade ambiental. Perfeitos para restaurantes, cafés e refeições em casa."
+  },
+  "products": {
+    "sustainability": {
+      "title": "Nosso Compromisso com a Sustentabilidade",
+      "description": "Na Bamboolutions, estamos dedicados a criar produtos tão gentis com o planeta quanto funcionais para o seu negócio. Nossas bandejas de fibra de bambu são 100% biodegradáveis e fabricadas usando recursos renováveis e processos ecológicos.",
+      "cta": "Saiba Mais Sobre Nossas Práticas",
+      "point1_title": "100% Biodegradável",
+      "point1_text": "Nossas bandejas se decompõem naturalmente em até 180 dias em instalações comerciais de compostagem.",
+      "point2_title": "Produção Ecológica",
+      "point2_text": "Fabricadas usando energia renovável e processos que economizam água para minimizar o impacto ambiental.",
+      "point3_title": "Sem Plástico",
+      "point3_text": "Feitas de fibra natural de bambu, sem aditivos plásticos ou produtos químicos nocivos."
+    },
+    "help": "Precisa de Ajuda?",
+    "contact": "Entre em contato com nossos especialistas em produtos para assistência personalizada.",
+    "product.category_title": "Categorias de Produtos"
+  }
+}

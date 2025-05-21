@@ -1,0 +1,468 @@
+{
+  "global": {
+    "nav_home": "Startseite",
+    "nav_about": "Über uns",
+    "nav_products": "Produkte",
+    "nav_trays": "Tabletts",
+    "nav_bowls": "Schalen",
+    "nav_plates": "Teller",
+    "nav_clamshell": "Klappbehälter",
+    "nav_sushi": "Sushi-Behälter",
+    "nav_bakery": "Bäckereibehälter",
+    "nav_cupnegg": "Becherträger / Eierkartons",
+    "nav_profile": "Unternehmensprofil",
+    "nav_plantation": "Bambusplantage",
+    "nav_pplant": "Bambusfaseranlage",
+    "nav_tfactory": "Fabrik für Öko-Geschirr",
+    "nav_sustainability": "Nachhaltigkeit",
+    "nav_contact": "Kontakt",
+    "current_language": "DE",
+    "languages": {
+        "en": "English",
+        "fr": "Français",
+        "es": "Español",
+        "ar": "العربية",
+        "de": "Deutsch",
+        "pt": "Português",
+        "it": "Italiano",
+        "hi": "hindī",
+        "ja": "日本語",
+        "zh": "中文"
+      },
+    "company_statement": "Führender Hersteller von umweltfreundlichem Bambusfasergeschirr und Verpackungslösungen für Unternehmen weltweit.",
+    "quick_links": "Schnellzugriff",
+    "nav_faq": "FAQ",
+    "contact_us": "Kontaktieren Sie uns",
+    "address": "West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China",
+    "email_h": "E-Mail",
+    "phone_heading": "Telefon",
+    "news": {
+      "heading": "Bleiben Sie informiert",
+      "subheading": "Abonnieren Sie unseren Newsletter für Produktneuheiten und Nachhaltigkeitsupdates.",
+      "subscribe": "Abonnieren",
+      "marketing": "Ich stimme zu, Marketinginformationen von Bamboolutions zu erhalten."
+    },
+    "footer": {
+      "rights": "© 2025 Bamboolutions. Alle Rechte vorbehalten.",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "privacy": "Datenschutzrichtlinie",
+      "cookie": "Cookie-Richtlinie"
+    }
+  },
+  "index": {
+    "title": "Bamboolutions - Umweltfreundliches Geschirr aus Bambusfaser",
+    "hero": {
+      "title1": "Nachhaltiges Geschirr für eine grünere Zukunft",
+      "subtitle1": "Hochwertige biologisch abbaubare Bambusfaserprodukte für umweltbewusste Unternehmen.",
+      "button1": "Informationen anfordern",
+      "title2": "Integrierte Fertigungskompetenz",
+      "subtitle2": "Vollständige Inhouse-Produktion für Qualität und Nachhaltigkeit in jedem Schritt.",
+      "button2": "Erfahren Sie mehr über unseren Prozess",
+      "title3": "Individuelle Lösungen für die Gastronomie",
+      "subtitle3": "Maßgeschneiderte biologisch abbaubare Verpackungen für Restaurants, Cafés und Lieferdienste.",
+      "button3": "Produkte entdecken"
+    },
+    "benefits": {
+      "heading": "Warum uns wählen?",
+      "t1": "Integrierte Produktion",
+      "t2": "100% biologisch abbaubar",
+      "t3": "In 90 Tagen kompostierbar",
+      "t4": "Wasser- & fettbeständig",
+      "t5": "Mikrowellen- & gefriergeeignet",
+      "t6": "Individuelle Lösungen",
+      "st1": "Komplette Inhouse-Herstellung von Rohmaterialien bis zum Endprodukt.",
+      "st2": "Vollständig kompostierbare Produkte, die innerhalb von 180 Tagen zur Natur zurückkehren.",
+      "st3": "Schneller Abbau in industriellen Kompostieranlagen innerhalb von 90 Tagen.",
+      "st4": "Hervorragender Schutz gegen Flüssigkeiten und Öle ohne schädliche Chemikalien.",
+      "st5": "Temperaturbeständig von -20°C bis +120°C für vielseitige Anwendungen.",
+      "st6": "Individuelles Design und Spezifikationen für Ihre Geschäftsanforderungen."
+    },
+    "category": {
+      "heading": "Bamboolutions Produktpalette",
+      "subheading": "Entdecken Sie unsere umfassende Kollektion umweltfreundlicher Bambusfaserprodukte für verschiedenste Anwendungen im Lebensmittelbereich.",
+      "cat1": "Einwegtabletts aus Bambusfaser",
+      "cat2": "Einwegschalen aus Bambusfaser",
+      "cat3": "Becherträger & Eierkartons aus Bambusfaser",
+      "cat4": "Sushi-Behälter aus Bambusfaser",
+      "cat5": "Einwegteller aus Bambusfaser",
+      "detail1": "Nachhaltige Verpackungslösungen für Supermärkte, Feinkost und Lieferdienste.",
+      "detail2": "Hochwertige biologisch abbaubare Schalen – ideal für Gastronomie, Catering und Events.",
+      "detail3": "Funktionale Träger für Getränke und empfindliche Artikel mit hoher Stabilität.",
+      "detail4": "Spezialisierte Verpackungen für japanische Küche und feine Speisen.",
+      "detail5": "Umweltfreundliche Einwegteller als nachhaltige Alternative zu herkömmlichem Geschirr.",
+      "explore": "Serien entdecken",
+      "explore_all": "Alle Produkte entdecken",
+      "explore_all_subtitle": "Entdecken Sie unser komplettes Sortiment nachhaltiger Bambusfaserlösungen.",
+      "view_all": "Gesamtkatalog ansehen"
+    },
+    "cert": {
+      "title": "Qualitätszertifizierungen",
+      "subtitle": "Unsere Produkte erfüllen höchste internationale Standards für Qualität, Sicherheit und Umweltverantwortung."
+    },
+    "cta": {
+      "title": "Bereit für den Umstieg auf nachhaltige Verpackung?",
+      "subtitle": "Schließen Sie sich tausenden Unternehmen weltweit an, die auf Bamboolutions vertrauen. Unser Team hilft Ihnen, die passende Lösung zu finden.",
+      "quote": "Angebot anfordern",
+      "catalog": "Katalog herunterladen"
+    }
+  },
+  "profile": {
+    "title": "Unternehmensprofil - Bamboolutions",
+    "hero": {
+      "title": "12 Jahre nachhaltige Innovation",
+      "subtitle": "Vorreiter für umweltfreundliche Lösungen aus Bambusfasern"
+    },
+    "overview": {
+      "heading": "Unternehmensübersicht",
+      "subheading1": "Seit unserer Gründung im Jahr 2013 steht Bamboolutions an der Spitze der nachhaltigen Verpackungsinnovation und bietet umweltfreundliche Alternativen zu herkömmlichen Plastikprodukten.",
+      "subheading2": "Mit 12 Jahren Branchenerfahrung haben wir uns als führender Hersteller von hochwertigem Geschirr und Lebensmittelverpackungen aus Bambusfasern etabliert, die Funktionalität mit Umweltverantwortung verbinden.",
+      "subheading3": "Unser Hauptsitz in Guangzhou, China, dient als zentrales Zentrum für unsere globalen Aktivitäten und koordiniert unsere drei integrierten Produktionsstandorte sowie unser internationales Vertriebsnetz in Europa, Nordamerika, Australien und Asien.",
+      "subheading4": "12+ Jahre",
+      "subheading5": "Branchenkenntnis und Innovation"
+    },
+    "mission": {
+      "h1": "Unsere Mission",
+      "t1": "Die Lebensmittelverpackungsbranche zu revolutionieren, indem wir nachhaltige, hochwertige Alternativen aus Bambusfasern anbieten, die die Umweltbelastung reduzieren, ohne Leistung oder Ästhetik zu beeinträchtigen.",
+      "t2": "Wir setzen uns dafür ein, Produkte zu entwickeln, die Unternehmen den Umstieg von Plastik erleichtern, ohne auf die gewohnte Funktionalität und Bequemlichkeit zu verzichten."
+    },
+    "vision": {
+      "h1": "Unsere Vision",
+      "t1": "Weltmarktführer für nachhaltige Lebensmittelverpackungslösungen zu werden und eine Welt zu schaffen, in der Einwegplastik durch erneuerbare, biologisch abbaubare Alternativen ersetzt wird.",
+      "t2": "Wir sehen eine Zukunft, in der jedes Restaurant, Café und jeder Gastronomiebetrieb weltweit Zugang zu erschwinglichen, umweltfreundlichen Verpackungen hat, die sowohl den geschäftlichen Anforderungen als auch den Umweltwerten gerecht werden."
+    },
+    "values": {
+      "heading": "Unsere Grundwerte",
+      "value1": "Umweltschutz",
+      "value2": "Innovation",
+      "value3": "Qualitätsexzellenz",
+      "value4": "Partnerschaft mit Kunden",
+      "t1": "Wir setzen auf Nachhaltigkeit in allen Bereichen unseres Unternehmens – vom verantwortungsvollen Bambusanbau bis hin zu energieeffizienten Produktionsprozessen.",
+      "t2": "Wir investieren kontinuierlich in Forschung und Entwicklung, um neue, verbesserte nachhaltige Verpackungslösungen zu schaffen, die den sich wandelnden Marktanforderungen entsprechen.",
+      "t3": "Wir halten strenge Qualitätsstandards während des gesamten Produktionsprozesses ein, um sicherzustellen, dass jedes Produkt internationalen Zertifizierungen und Kundenerwartungen entspricht.",
+      "t4": "Wir bauen langfristige Beziehungen zu unseren Kunden auf und entwickeln gemeinsam maßgeschneiderte Lösungen, die ihre spezifischen Anforderungen und Nachhaltigkeitsziele erfüllen."
+    },
+    "production": {
+      "heading": "Integriertes Produktionssystem",
+      "subheading": "Unser vertikal integrierter Ansatz gewährleistet vollständige Kontrolle über den gesamten Produktionsprozess – vom Bambusanbau bis zum fertigen Produkt.",
+      "facility1": "FSC-zertifizierte Bambusplantage",
+      "d1": "Unsere firmeneigenen Bambusplantagen sind FSC-zertifiziert und garantieren nachhaltige Erntepraktiken und verantwortungsvolle Forstwirtschaft.",
+      "facility2": "Produktionsstandort für Bambusfasern",
+      "d2": "Unsere hochmoderne Verarbeitungsanlage wandelt rohen Bambus mit umweltfreundlichen Methoden in hochwertige Fasern um.",
+      "facility3": "Produktionsstandort für Geschirr",
+      "d3": "Unsere spezialisierte Produktionsstätte fertigt aus Bambusfasern mit innovativen Form- und Pressverfahren fertige Geschirrprodukte.",
+      "learn": "Mehr erfahren"
+    },
+    "supply_chain_title": "Geschlossener Versorgungskreislauf",
+    "supply_chain_description": "Vom Ursprung bis zum fertigen Produkt stellt unser integrierter Ansatz Qualitätssicherung und Nachhaltigkeit in jeder Phase sicher.",
+    "sustainable_sourcing_title": "Nachhaltige Beschaffung",
+    "sustainable_sourcing_text": "FSC-zertifizierter Bambus aus verantwortungsvoller Ernte",
+    "fiber_processing_title": "Faserverarbeitung",
+    "fiber_processing_text": "Umwandlung in Bambusfaser durch umweltfreundliche Verfahren",
+    "manufacturing_title": "Herstellung",
+    "manufacturing_text": "Produktion von Geschirr mit innovativen Formtechniken",
+    "biodegradation_title": "Biologische Abbaubarkeit",
+    "biodegradation_text": "Produkte zersetzen sich innerhalb von 180 Tagen nach der Verwendung auf natürliche Weise",
+    "operation": {
+      "title": "Weltweite Geschäftstätigkeit",
+      "description_1": "Unser Hauptsitz in Guangzhou, China, dient als zentrales Zentrum für unsere internationalen Geschäftsaktivitäten und koordiniert unsere Produktionsstandorte und das globale Vertriebsnetz.",
+      "description_2": "Von diesem strategischen Standort aus verwaltet unser erfahrenes Team Vertrieb, Marketing, Kundenservice und Logistik, um eine reibungslose Lieferung unserer Produkte an Kunden weltweit zu gewährleisten.",
+      "description_3": "Unsere globale Präsenz erstreckt sich über wichtige Märkte in Nordamerika, Europa, Australien und Asien, wodurch wir auf unterschiedliche Kundenbedürfnisse eingehen und gleichbleibend hohe Qualitäts- und Servicestandards gewährleisten können.",
+      "support_title": "24/7 Support",
+      "support_text": "Weltweiter Kundenservice",
+      "shipping_title": "Weltweiter Versand",
+      "shipping_text": "Schnelle & zuverlässige Logistik"
+    },
+    "sustainability": {
+      "title": "Unser Engagement für Nachhaltigkeit",
+      "intro": "Umweltverantwortung steht im Mittelpunkt all unserer Aktivitäten bei Bamboolutions.",
+      "renewable_resource_title": "Erneuerbare Ressource",
+      "renewable_resource_text": "Bambus gehört zu den am schnellsten wachsenden Pflanzen der Welt und ist daher eine ideale erneuerbare Ressource. Unser Bambus kann alle 3–5 Jahre geerntet werden, ohne dass eine Neupflanzung erforderlich ist.",
+      "water_conservation_title": "Wassereinsparung",
+      "water_conservation_text": "Unsere Produktionsprozesse verbrauchen 60 % weniger Wasser im Vergleich zur herkömmlichen Papierherstellung, und wir setzen Wasserrückgewinnungssysteme in all unseren Anlagen ein.",
+      "zero_waste_title": "Null-Abfall-Produktion",
+      "zero_waste_text": "Wir haben einen Zero-Waste-Ansatz in der Fertigung umgesetzt, bei dem Bambus-Nebenprodukte als Biomassebrennstoff für unsere Produktionsanlagen wiederverwendet werden.",
+      "solar_power_title": "Solarenergie-Initiative",
+      "solar_power_text": "Unsere Produktionsstätten werden zunehmend mit Solarenergie betrieben. Unser Ziel ist es, bis 2026 einen Anteil von 50 % erneuerbarer Energie zu erreichen.",
+      "carbon_footprint_title": "Reduktion des CO₂-Fußabdrucks",
+      "carbon_footprint_text": "Bambus absorbiert 35 % mehr CO₂ als vergleichbare Bäume. Unsere Plantagen binden jährlich etwa 62.000 Tonnen Kohlendioxid.",
+      "community_title": "Unterstützung der Gemeinschaft",
+      "community_text": "Wir bieten faire Beschäftigungsmöglichkeiten für lokale Gemeinschaften in der Nähe unserer Plantagen und Produktionsstätten und unterstützen durch direkte Anstellung über 500 Familien."
+    }
+  },
+  "contact": {
+    "title": "Kontakt - Bamboolutions",
+    "get_in_touch": "Kontaktieren Sie unser Team für Anfragen zu unseren umweltfreundlichen Bambusfaserprodukten, maßgeschneiderten Lösungen oder anderen Fragen.",
+    "locations": "Bürostandorte",
+    "hk": "Hongkong",
+    "address_hk": "THE BROADWAY, NO. 54-62 LOCKHART ROAD, WANCHAI, HONGKONG",
+    "zhaoqing": "Zhaoqing",
+    "contact_details": "Kontaktinformationen",
+    "facility_add1": "Stadt Quyang, Autonomer Kreis Jingzhou der Miao und Dong, Stadt Huaihua, Provinz Hunan",
+    "facility_add2": "Industriezone Changqiao, Stadt Ketang, Kreis Haifeng, Stadt Shanwei, Provinz Guangdong",
+    "facility_add3": "Gantang Verarbeitungspark, Stadt Gantang, Autonomer Kreis Jingzhou der Miao, Stadt Huaihua, Provinz Hunan",
+    "form": {
+      "title": "Schreiben Sie uns",
+      "subtitle": "Füllen Sie das folgende Formular aus und unser Team wird sich so schnell wie möglich bei Ihnen melden.",
+      "full_name": "Vollständiger Name*",
+      "company_name": "Firmenname",
+      "email": "E-Mail-Adresse*",
+      "phone": "Telefonnummer",
+      "subject": "Betreff*",
+      "message": "Nachricht*",
+      "privacy_policy": {
+        "text": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der ",
+        "link": "Datenschutzerklärung",
+        "suffix": " zu."
+      },
+      "submit_button": "Nachricht senden"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "moq_question": "Was ist die Mindestbestellmenge (MOQ)?",
+      "moq_answer": "Unsere Standard-MOQ beträgt 10.000 Stück pro Produkt. Für Sonderanfertigungen oder spezielle Anforderungen kann die MOQ abweichen. Bitte kontaktieren Sie unser Verkaufsteam für genaue Informationen.",
+      "custom_question": "Bieten Sie individuelle Designs und Verpackungen an?",
+      "custom_answer": "Ja, wir bieten maßgeschneiderte Lösungen inklusive Produktdesign, Größenanpassungen und individueller Verpackung mit Ihrem Branding. Unser Designteam arbeitet eng mit Ihnen zusammen, um Produkte nach Ihren Anforderungen zu entwickeln.",
+      "lead_time_question": "Wie lange ist die Lieferzeit?",
+      "lead_time_answer": "Standardprodukte haben in der Regel eine Lieferzeit von 15–20 Tagen. Für Sonderanfertigungen kann die Lieferzeit je nach Komplexität 25–30 Tage betragen. Große Bestellungen können zusätzliche Zeit erfordern.",
+      "payment_question": "Welche Zahlungsmethoden akzeptieren Sie?",
+      "payment_answer": "Wir akzeptieren T/T (Banküberweisung), L/C (Akkreditiv) und PayPal für internationale Bestellungen. Für Inlandsbestellungen akzeptieren wir auch Banküberweisungen und Alipay."
+    }
+  },
+  "plantation": {
+    "title": "Unsere Bambusplantagen - Bamboolutions",
+    "hero": {
+      "title": "Unsere privaten Bambusplantagen",
+      "subtitle": "Nachhaltig bewirtschaftete Bambuswälder, die unsere vertikal integrierte Lieferkette antreiben",
+      "text": "20 km² nachhaltige Bambuswälder"
+    },
+    "video": {
+      "title": "Reise durch unsere Bambuswälder",
+      "subtitle": "Erleben Sie die Ruhe und Nachhaltigkeit unserer eigenen Bambusplantagen"
+    },
+    "overview": {
+      "title": "Überblick über die Plantagen",
+      "description_1": "Unsere Rohstoffe stammen direkt aus unseren eigenen Bambusplantagen in den Provinzen Hunan und Guangdong mit einer Gesamtfläche von 20 Quadratkilometern. Diese üppigen Bambuswälder bilden das Fundament unseres nachhaltigen Geschäftsmodells.",
+      "description_2": "Mit einer vollständig autarken und vertikal integrierten Lieferkette – vom Bambusrohstoff bis zum fertigen Produkt – behalten wir die volle Kontrolle über Qualität, Nachhaltigkeit und Effizienz im gesamten Produktionsprozess.",
+      "description_3": "Unsere Bambusplantagen befinden sich strategisch in Regionen mit optimalen Wachstumsbedingungen, um Rohstoffe höchster Qualität zu gewährleisten und gleichzeitig die lokale Wirtschaft zu unterstützen.",
+      "certification_text": "FSC® (FSC-C110780) und CFCC doppelt zertifizierte Wälder",
+      "certification_subtext": "Sicherstellung verantwortungsvoller Forstwirtschaft"
+    },
+    "impact": {
+      "title": "Auswirkungen auf die Gemeinschaft",
+      "employment_text": "Schaffung von Arbeitsplätzen im ländlichen Raum durch unsere Bambusplantagen und Verarbeitungsanlagen",
+      "income_text": "Jährliches Einkommen für lokale Gemeinden durch nachhaltigen Bambusanbau",
+      "community_title": "Unterstützung lokaler Gemeinschaften",
+      "community_text_1": "Unser integriertes System stärkt die langfristige Nachhaltigkeit der Bambusindustrie und bietet stabile Arbeitsplätze für Tausende von Landarbeitern in den Provinzen Hunan und Guangdong.",
+      "community_text_2": "Wir legen Wert auf faire Löhne, sichere Arbeitsbedingungen und Weiterbildungsmöglichkeiten für alle Mitarbeitenden – viele von ihnen sind schon seit Generationen bei uns.",
+      "community_text_3": "Durch ein nachhaltiges Wirtschaftsmodell auf der Grundlage von Bambusanbau und -verarbeitung helfen wir, ländliche Gemeinden zu revitalisieren und gleichzeitig umweltfreundliche Produkte für den Weltmarkt zu produzieren."
+    },
+    "sustainability": {
+      "title": "Unser Nachhaltigkeitsversprechen",
+      "description_1": "Der gesamte Bambus wird verantwortungsvoll aus FSC® (FSC-C110780) und CFCC doppelt zertifizierten Wäldern geerntet, was ein Gleichgewicht zwischen Umweltschutz und wirtschaftlichem Wachstum gewährleistet.",
+      "description_2": "Unsere Bambusplantagen dienen als Kohlenstoffsenken und absorbieren etwa 35 % mehr CO₂ als vergleichbare Hartholzwälder, was erheblich zum Klimaschutz beiträgt.",
+      "description_3": "Wir betreiben selektive Erntemethoden, die die Gesundheit und Vitalität unserer Bambusbestände bewahren. Im Gegensatz zur traditionellen Abholzung muss Bambus nicht neu gepflanzt werden, da neue Triebe aus dem bestehenden Wurzelsystem entstehen.",
+      "description_4": "Unsere Plantagen werden ohne chemische Pestizide oder Düngemittel bewirtschaftet, wodurch lokale Wasserquellen geschützt und die Artenvielfalt im Ökosystem gefördert werden.",
+      "renewable_title": "Erneuerbare Ressource",
+      "renewable_text": "Bambus erreicht in nur 3–5 Jahren seine Reife",
+      "carbon_title": "Kohlenstoffpositiv",
+      "carbon_text": "Unsere Plantagen binden jährlich Tausende Tonnen CO₂"
+    }
+  },
+  "processing": {
+    "title": "Bambusfaser-Verarbeitungsanlage - Bamboolutions",
+    "hero": {
+      "title": "Bambusfaser-Verarbeitungsanlage",
+      "subtitle": "Standort Shanwei, Provinz Guangdong – In Betrieb seit 2012"
+    },
+    "intro": {
+      "title": "Kern unserer Lieferkette",
+      "description_1": "Unsere Bambusfaser-Verarbeitungsanlage in Shanwei bildet das Herzstück unserer vertikal integrierten Lieferkette. Seit 2012 widmen wir uns der Herstellung hochwertiger, umweltfreundlicher Bambusfasern für nachhaltige Verpackungslösungen.",
+      "description_2": "Gestützt auf 20 Quadratkilometer eigener Bambuswälder gewährleisten wir eine stabile und nachhaltige Rohstoffquelle und behalten während des gesamten Produktionsprozesses die vollständige Kontrolle über Qualität und Umweltstandards.",
+      "description_3": "Unser Produktionsprozess ist auf Null-Feststoffabfall ausgelegt. Alle Nebenprodukte werden in Flüssigdünger umgewandelt, was den Ressourcenverbrauch und die Umweltbelastung erheblich reduziert. Dieses geschlossene System unterstreicht unser Engagement für nachhaltige, umweltfreundliche Produktion von Grund auf.",
+      "zero_waste": "Abfallfreier Herstellungsprozess",
+      "stat1_text": "Tonnen Jahresfaserproduktion",
+      "stat2_text": "Fachkundige Mitarbeiter",
+      "stat3_text": "Größe der Verarbeitungsanlage",
+      "stat4_text": "Patente für Verarbeitungstechnologie"
+    },
+    "flash_drying": {
+      "title": "Fortschrittliches Schnell-Trocknungssystem",
+      "description_1": "Unsere firmeneigene Schnell-Trocknungstechnologie stellt einen bedeutenden Fortschritt in der Bambusfaser-Verarbeitung dar. Dieses System ermöglicht es, die verarbeitete Bambusfaser schnell zu trocknen und gleichzeitig ihre Struktur und natürlichen Eigenschaften zu erhalten.",
+      "description_2": "Das System arbeitet mit optimaler Effizienz und reduziert den Energieverbrauch um 35 % gegenüber herkömmlichen Trocknungsverfahren bei gleichzeitiger Erhöhung der Produktionskapazität. Diese Innovation ist durch mehrere Patente geschützt und zeigt unser Engagement für nachhaltige Produktion.",
+      "list1": "Energieeffizienter Betrieb mit 35 % reduziertem Verbrauch",
+      "list2": "Erhält Faserqualität und strukturelle Integrität",
+      "list3": "Patentierte Technologie exklusiv für unsere Anlage",
+      "list4": "Kapazität zur Verarbeitung von 500 Tonnen Rohmaterial täglich"
+    },
+    "video": {
+      "title": "Verarbeitungsanlage in Aktion",
+      "subtitle": "Sehen Sie unsere hochmoderne Bambusfaser-Verarbeitungsanlage in Betrieb, die unser Engagement für Qualität, Effizienz und Nachhaltigkeit zeigt."
+    }
+  },
+  "sustainability": {
+    "title": "Nachhaltigkeit - Bamboolutions",
+    "hero": {
+      "title": "Unser Nachhaltigkeitsversprechen",
+      "subtitle": "Pionier umweltfreundlicher Fertigung mit unserer integrierten Closed-Loop-Lieferkette"
+    },
+    "process": {
+      "title": "Nachhaltiger Produktionsprozess",
+      "subtitle": "Unser innovativer Herstellungsansatz minimiert die Umweltbelastung in jeder Phase",
+      "step1_heading": "Verantwortungsvolle Ernte",
+      "step1_text": "Wir ernten selektiv nur reife Bambusstängel (4-5 Jahre alt) und schonen dabei das Wurzelsystem und jüngere Pflanzen. Dieser nachhaltige Ansatz ermöglicht eine natürliche Regeneration des Bambus ohne Nachpflanzung.",
+      "step2_heading": "Umweltfreundliche Zellstoffherstellung",
+      "step2_text": "Unser mechanischer Zellstoffprozess zersetzt Bambusfasern ohne den Einsatz aggressiver Chemikalien. Wir nutzen ein Closed-Loop-Wassersystem, das 95 % des Prozesswassers recycelt und somit den Wasserverbrauch im Vergleich zur herkömmlichen Papierherstellung drastisch reduziert.",
+      "step3_heading": "Formgebung & Pressen",
+      "step3_text": "Unsere innovative Heißpress-Technologie formt Bambusfasern zu verschiedenen Geschirrprodukten mit minimalem Energieaufwand. Dabei verwenden wir natürliche pflanzenbasierte Bindemittel anstelle synthetischer Klebstoffe, wodurch das Endprodukt vollständig biologisch abbaubar bleibt.",
+      "step4_heading": "Abfallmanagement",
+      "step4_text": "Unser Zero-Waste-Ansatz stellt sicher, dass alle Bambusnebenprodukte wiederverwendet werden. Faserreste werden zurück in die Produktion recycelt, andere Rückstände werden zu Biomasse-Brennstoff verarbeitet, der unsere Anlagen mit Energie versorgt – ein echtes Kreislaufsystem."
+    },
+    "close_loop": {
+      "title": "Closed-Loop Wasser- & Abfallsystem",
+      "subtitle": "Unser innovativer Ansatz im Ressourcenmanagement minimiert Umweltauswirkungen",
+      "water_title": "Wassereinsparung",
+      "water_text1": "Unser hochmodernes Wasserrückgewinnungssystem fängt 95 % des bei der Faserverarbeitung verwendeten Wassers auf, filtert und recycelt es. Dieser Closed-Loop-Ansatz reduziert unseren Frischwasserverbrauch im Vergleich zu traditionellen Verfahren erheblich.",
+      "water_text2": "Das mehrstufige Filtersystem entfernt Verunreinigungen ohne chemische Behandlung, sodass das zurückgeführte Wasser sauber und frei von Schadstoffen ist.",
+      "waste_title": "Abfallmanagement",
+      "waste_intro": "Wir haben einen umfassenden Zero-Waste-Herstellungsansatz umgesetzt, bei dem alle Produktionsnebenprodukte wiederverwendet werden:",
+      "list1": "Faserreste werden zurück in den Produktionsprozess recycelt",
+      "list2": "Bambusrückstände werden zu Biomasse-Brennstoff verarbeitet, der unsere Anlagen mit Energie versorgt",
+      "list3": "Organische Abfälle werden kompostiert und als Dünger in unseren Bambusplantagen verwendet",
+      "list4": "Klärschlamm wird zu Biokohle verarbeitet, einem wertvollen Bodenverbesserer"
+    }
+  },
+  "tfactory": {
+    "title": "Bambus-Geschirr Produktionsanlage - Bamboolutions",
+    "hero": {
+      "title": "Bambus-Geschirr Produktionsanlage",
+      "subtitle": "Modernste Fertigungsanlage, die Bambusfasern in hochwertige, umweltfreundliche Geschirr- und Verpackungslösungen verwandelt"
+    },
+    "video": {
+      "title": "Anlagenrundgang",
+      "subtitle": "Machen Sie eine virtuelle Tour durch unsere fortschrittliche Produktionsanlage und erleben Sie unseren nachhaltigen Herstellungsprozess in Aktion."
+    },
+    "stats": {
+      "stat1_label": "Jahresproduktion in Tonnen",
+      "stat1_subtext": "Hochkapazitative Fertigung von Bambusfaser-Fertigprodukten",
+      "stat2_label": "Produktionsmaschinen",
+      "stat2_subtext": "Vollautomatisierte Anlagen zur Herstellung geformten Geschirrs",
+      "stat3_label": "Quadratmeter",
+      "stat3_subtext": "Große Anlagengröße für umfassende Produktionsprozesse",
+      "stat4_label": "Gesamtinvestition",
+      "stat4_subtext": "Erhebliche Kapitalinvestition in nachhaltige Produktion"
+    },
+    "overview": {
+      "title": "Modernste Produktionsanlage",
+      "intro": "Unsere Produktionsstätte in der Provinz Hunan steht für unser Engagement für nachhaltige Fertigungsqualität. Wir verwenden Bambusfasern aus unserer Verarbeitungsanlage, um hochwertiges, umweltfreundliches Geschirr herzustellen.",
+      "paragraph1": "Im Herzen der chinesischen Bambusregion gelegen, erstreckt sich unsere moderne Anlage über mehr als 110.000 Quadratmeter und verfügt über 260 vollautomatisierte Produktionsmaschinen. Mit einer Jahreskapazität von 120.000 Tonnen sind wir in der Lage, die weltweite Nachfrage nach nachhaltigem Geschirr zu bedienen.",
+      "paragraph2": "Die Anlage integriert fortschrittliche Fertigungstechnologien und strenge Qualitätskontrollen, um sicherzustellen, dass jedes Produkt unseren hohen Standards entspricht. Unsere Produktionslinien sind auf maximale Effizienz ausgelegt, ohne unsere Umweltverantwortung zu vernachlässigen.",
+      "zero_waste": {
+        "heading": "Null Abfall",
+        "subtext": "Nachhaltige Produktion"
+      },
+      "iso_cert": {
+        "heading": "ISO Zertifiziert",
+        "subtext": "Qualitätsstandards"
+      }
+    },
+    "production": {
+      "title": "Produktionsprozess",
+      "intro": "Unser umfassender Herstellungsprozess verwandelt Bambusfasern in hochwertiges Geschirr durch diese Schlüsselphasen.",
+      "step1_hover": "Rohstoffverarbeitung",
+      "step1_title": "1. Rohstoffverarbeitung",
+      "step1_desc": "Bambusfasern aus unserer Verarbeitungsanlage werden mit unseren proprietären, umweltfreundlichen Methoden für die Produktion vorbereitet und veredelt.",
+      "step2_hover": "Formgebung und Pressen",
+      "step2_title": "2. Formgebung und Pressen",
+      "step2_desc": "Unsere modernen Formmaschinen formen Bambusfasern präzise zu verschiedenen Geschirrprodukten mit gleichbleibender Qualität.",
+      "step3_hover": "Qualitätskontrolle",
+      "step3_title": "3. Qualitätskontrolle",
+      "step3_desc": "Strenge Inspektionsverfahren stellen sicher, dass jedes Produkt unseren hohen Anforderungen an Haltbarkeit, Sicherheit und Optik entspricht.",
+      "step4_hover": "Verpackung und Distribution",
+      "step4_title": "4. Verpackung und Distribution",
+      "step4_desc": "Produkte werden mit umweltfreundlichen Materialien verpackt und für den weltweiten Versand an unsere Kunden vorbereitet."
+    },
+    "cert": {
+      "title": "Qualitätsstandards & Zertifizierungen",
+      "subtitle": "Unsere Anlage erfüllt höchste internationale Qualitäts- und Sicherheitsstandards, um sicherzustellen, dass unsere Produkte globalen Anforderungen entsprechen.",
+      "cert1_title": "ISO 9001:2015",
+      "cert1_desc": "Zertifiziertes Qualitätsmanagementsystem zur Sicherstellung gleichbleibender Produktqualität und Kundenzufriedenheit.",
+      "cert2_title": "ISO 14001:2015",
+      "cert2_desc": "Zertifizierung für Umweltmanagement, die unser Engagement für nachhaltige Produktionspraktiken zeigt.",
+      "cert3_title": "FDA-konform",
+      "cert3_desc": "Alle Produkte erfüllen FDA-Anforderungen für Lebensmittelsicherheit, wodurch sie sicher für Verbraucher sind.",
+      "cert4_title": "Biologisch abbaubar",
+      "cert4_desc": "Produkte, die zertifiziert sind, sich innerhalb von 180 Tagen in industriellen Kompostieranlagen natürlich zu zersetzen.",
+      "cert5_title": "FSC Chain of Custody",
+      "cert5_desc": "Zertifizierung, die sicherstellt, dass unser Bambus aus verantwortungsvoll bewirtschafteten Wäldern und Plantagen stammt.",
+      "cert6_title": "BSCI-konform",
+      "cert6_desc": "Zertifizierung der Business Social Compliance Initiative für ethische Arbeitsbedingungen und faire Arbeitspraktiken."
+    },
+    "cta": {
+      "title": "Erleben Sie unsere nachhaltige Produktion",
+      "subtitle": "Möchten Sie unsere Anlage in Aktion sehen? Vereinbaren Sie eine virtuelle Tour oder fordern Sie Produktmuster an, um unsere Qualität hautnah zu erleben.",
+      "tour_btn": "Virtuelle Tour vereinbaren",
+      "samples_btn": "Produktmuster anfordern"
+    }
+  },
+  "trays": {
+    "title": "Bambusfaser Tabletts - Bamboolutions",
+    "cat_title": "Bambusfaser Tabletts",
+    "cat_subtitle": "Nachhaltige, biologisch abbaubare Servierlösungen, die Eleganz mit Umweltverantwortung verbinden. Perfekt für Gastronomie, Catering und Einzelhandel."
+  },
+  "bowls": {
+    "title": "Bambusfaser Schalen - Bamboolutions",
+    "cat_title": "Bambusfaser Schalen",
+    "cat_subtitle": "Nachhaltige, biologisch abbaubare Schalen, die Eleganz mit Umweltverantwortung verbinden. Ideal für Restaurants, Cafés und private Mahlzeiten."
+  },
+  "bakery": {
+    "title": "Bambusfaser Backwarenbehälter - Bamboolutions",
+    "cat_title": "Bambusfaser Backwarenbehälter",
+    "cat_subtitle": "Umweltfreundliche und nachhaltige Backwarenbehälter, die Frische bewahren und die Umwelt schützen. Perfekt für Bäckereien, Cafés und Gastronomiebetriebe."
+  },
+  "clamshell": {
+    "title": "Bambusfaser Klappschalenbehälter - Bamboolutions",
+    "cat_title": "Bambusfaser Klappschalenbehälter",
+    "cat_subtitle": "Umweltfreundliche Klappschalenbehälter, die sichere Lebensmittelverpackung mit Umweltbewusstsein verbinden. Ideal für Takeaway, Lieferung und Gastronomie."
+  },
+  "sushi": {
+    "title": "Bambusfaser Sushi-Behälter - Bamboolutions",
+    "cat_title": "Bambusfaser Sushi-Behälter",
+    "cat_subtitle": "Umweltfreundliche Sushi-Behälter, gestaltet für optimale Präsentation und Frische. Perfekt für Restaurants, Takeaway und Catering."
+  },
+  "cupnegg": {
+    "title": "Bambusfaser Becherträger / Eierkartons - Bamboolutions",
+    "cat_title": "Bambusfaser Becherträger / Eierkartons",
+    "cat_subtitle": "Nachhaltige, biologisch abbaubare Becherhalter und Eiertrays für sicheren Transport und Aufbewahrung. Perfekt für Cafés, Restaurants und Gastronomie."
+  },
+  "plates": {
+    "title": "Bambusfaser Teller - Bamboolutions",
+    "cat_title": "Bambusfaser Teller",
+    "cat_subtitle": "Nachhaltige, biologisch abbaubare Teller, die Eleganz mit Umweltverantwortung verbinden. Ideal für Restaurants, Cafés und private Mahlzeiten."
+  },
+  "products": {
+    "sustainability": {
+      "title": "Unser Engagement für Nachhaltigkeit",
+      "description": "Bei Bamboolutions engagieren wir uns dafür, Produkte zu schaffen, die sowohl gut für die Umwelt als auch funktional für Ihr Geschäft sind. Unsere Bambusfaser-Tabletts sind 100 % biologisch abbaubar und werden aus erneuerbaren Ressourcen mit umweltfreundlichen Verfahren hergestellt.",
+      "cta": "Erfahren Sie mehr über unsere Praktiken",
+      "point1_title": "100 % Biologisch Abbaubar",
+      "point1_text": "Unsere Tabletts zersetzen sich innerhalb von 180 Tagen in industriellen Kompostieranlagen natürlich.",
+      "point2_title": "Umweltfreundliche Produktion",
+      "point2_text": "Hergestellt mit erneuerbarer Energie und wassersparenden Verfahren, um die Umweltbelastung zu minimieren.",
+      "point3_title": "Kein Plastik",
+      "point3_text": "Hergestellt aus natürlicher Bambusfaser ohne Kunststoffzusätze oder schädliche Chemikalien."
+    },
+    "help": "Brauchen Sie Hilfe?",
+    "contact": "Kontaktieren Sie unsere Produktspezialisten für persönliche Unterstützung.",
+    "product.category_title": "Produktkategorien"
+  }
+}
+
+
+
+
+
+
+
+
+
+
