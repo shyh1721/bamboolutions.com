@@ -36,6 +36,7 @@
       "id": "CB-6",
       "image": "assets/clamshell/CB-6-S.webp",
       "description": "W155*L155*H77",
+      "link": "products/CB-6.html",
       "translations": {
         "en": {
           "title": "6 inch Hamburger Clamshell Box"
@@ -64,6 +65,7 @@
       "id": "CB-800-3",
       "image": "assets/clamshell/CB-800-3-S.webp",
       "description": "W203*L203*H63",
+      "link": "products/CB-800-3.html",
       "translations": {
         "en": {
           "title": "800 ml Lunch Box - 3 Compartments"
@@ -92,6 +94,7 @@
       "id": "CB-850",
       "image": "assets/clamshell/CB-850-S.webp",
       "description": "W230*L153*H80",
+      "link": "products/CB-850.html",
       "translations": {
         "en": {
           "title": "850 ml Salad Container"
@@ -120,6 +123,7 @@
       "id": "CB-900",
       "image": "assets/clamshell/CB-900-S.webp",
       "description": "W228*L153*H80",
+      "link": "products/CB-900.html",
       "translations": {
         "en": {
           "title": "900 ml Take Out Box"

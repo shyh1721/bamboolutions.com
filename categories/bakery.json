@@ -36,6 +36,7 @@
       "id": "np-1",
       "image": "assets/no-image.png",
       "description": "",
+      "link": "",
       "translations": {
         "en": {
           "title": "New Products Coming Soon"

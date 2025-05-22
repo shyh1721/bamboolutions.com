@@ -1,39 +1,43 @@
-// translations.js
 document.addEventListener('DOMContentLoaded', function() {
     let currentLang = localStorage.getItem('preferredLang') || 'en';
     let currentCategory = window.CURRENT_CATEGORY || 'trays';
     let translations = {};
 
+    // Cache for loaded translations
+    const translationCache = new Map();
+
     async function loadAllTranslations(lang) {
-    try {
-        const [uiTranslations, categoryData] = await Promise.all([
-            fetch(`lang/${lang}.json`).then(r => r.json()),
-            fetch(`categories/${currentCategory}.json`).then(r => r.json())
-        ]);
+        const cacheKey = `${lang}-${currentCategory}`;
 
-        // Add this line to include products_page translations
-        const productsPageTranslations = uiTranslations.products_page || {};
+        if (translationCache.has(cacheKey)) {
+            return translationCache.get(cacheKey);
+        }
 
-        const productTranslations = categoryData.products.reduce((acc, product) => {
-            acc[product.id] = product.translations[lang];
-            return acc;
-        }, {});
+        try {
+            const [uiTranslations, categoryData] = await Promise.all([
+                fetch(`lang/${lang}.json`).then(r => r.json()),
+                fetch(`categories/${currentCategory}.json`).then(r => r.json())
+            ]);
 
-        return {
-            ...flattenTranslations(uiTranslations),
-            ...flattenTranslations({
-                category: categoryData.meta.translations[lang],
-                products: productTranslations,
-                products_page: productsPageTranslations  // Add this line
-            })
-        };
+            const mergedTranslations = {
+                ...flattenTranslations(uiTranslations),
+                ...flattenTranslations({
+                    category: categoryData.meta.translations[lang],
+                    products: categoryData.products.reduce((acc, product) => {
+                        acc[product.id] = product.translations[lang];
+                        return acc;
+                    }, {})
+                })
+            };
 
-    } catch (error) {
-        console.error('Error loading translations:', error);
-        return {};
+            translationCache.set(cacheKey, mergedTranslations);
+            return mergedTranslations;
+
+        } catch (error) {
+            console.error('Error loading translations:', error);
+            return {};
+        }
     }
-}
-
 
     function flattenTranslations(data, prefix = '') {
         return Object.keys(data).reduce((acc, key) => {
@@ -47,18 +51,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }, {});
     }
 
-    function saveLanguagePreference(lang) {
-        localStorage.setItem('preferredLang', lang);
-    }
-
     function applyTranslations() {
         document.querySelectorAll('[data-translate]').forEach(element => {
-            const key = element.dataset.translate;
-            const translation = translations[key];
+            const [attribute, key] = element.dataset.translate.split('|');
+            const translation = key ? translations[key] : translations[element.dataset.translate];
 
             if (translation) {
-                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                    element.placeholder = translation;
+                if (attribute === 'alt') {
+                    element.alt = translation;
                 } else {
                     element.textContent = translation;
                 }
@@ -66,20 +66,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    async function updateTranslations(lang = currentLang) {
+        translations = await loadAllTranslations(lang);
+        applyTranslations();
+    }
+
     document.querySelectorAll('.language-option').forEach(button => {
         button.addEventListener('click', async (e) => {
             e.preventDefault();
             currentLang = button.dataset.lang;
-            saveLanguagePreference(currentLang);
-            translations = await loadAllTranslations(currentLang);
-            applyTranslations();
+            localStorage.setItem('preferredLang', currentLang);
+            await updateTranslations();
         });
     });
 
-    async function initialize() {
-        translations = await loadAllTranslations(currentLang);
-        applyTranslations();
-    }
-
-    initialize();
+    // Initial setup
+    updateTranslations();
+    window.updateTranslations = updateTranslations;
 });

@@ -36,6 +36,7 @@
       "id": "ST-0.4",
       "image": "assets/sushi/ST-0.4-B.webp",
       "description": "W164*L89*H21",
+      "link": "products/ST-0.4.html",
       "translations": {
         "en": {
           "title": "300ml Sushi Container"
@@ -64,6 +65,7 @@
       "id": "ST-0.8",
       "image": "assets/sushi/ST-0.8-T.webp",
       "description": "W165*L115*H20",
+      "link": "products/ST-0.8.html",
       "translations": {
         "en": {
           "title": "350ml Sushi Container"
@@ -92,6 +94,7 @@
       "id": "ST-0.6",
       "image": "assets/sushi/ST-0.6-S.webp",
       "description": "W221*L92*H22",
+      "link": "products/ST-0.6.html",
       "translations": {
         "en": {
           "title": "450ml Sushi Container"
@@ -120,6 +123,7 @@
       "id": "ST-1.0",
       "image": "assets/sushi/ST-1.0-T.webp",
       "description": "W185*L128*H20",
+      "link": "products/ST-1.0.html",
       "translations": {
         "en": {
           "title": "500ml Sushi Container"
@@ -148,6 +152,7 @@
       "id": "ST-2.0",
       "image": "assets/sushi/ST-2.0-T.webp",
       "description": "W241*L148*H27",
+      "link": "products/ST-2.0.html",
       "translations": {
         "en": {
           "title": "1000ml Sushi Container"
@@ -176,6 +181,7 @@
       "id": "ST-1.5",
       "image": "assets/sushi/ST-1.5-S.webp",
       "description": "W238*L190*H35",
+      "link": "products/ST-1.5.html",
       "translations": {
         "en": {
           "title": "1500ml Sushi Container"

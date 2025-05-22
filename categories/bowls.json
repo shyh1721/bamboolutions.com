@@ -36,6 +36,7 @@
       "id": "Bw-8",
       "image": "assets/bowls/Bw-8-T.webp",
       "description": "Φ112*H46",
+      "link": "products/Bw-8.html",
       "translations": {
         "en": {
           "title": "8 oz Bowls"
@@ -64,6 +65,7 @@
       "id": "Bw-12",
       "image": "assets/bowls/Bw-12-S.webp",
       "description": "Φ160*H38",
+      "link": "products/Bw-12.html",
       "translations": {
         "en": {
           "title": "12 oz Bowls"
@@ -92,6 +94,7 @@
       "id": "Bw-16",
       "image": "assets/bowls/Bw-16-S.webp",
       "description": "Φ178*H40",
+      "link": "products/Bw-16.html",
       "translations": {
         "en": {
           "title": "16 oz Bowls"
@@ -120,6 +123,7 @@
       "id": "Bw-32",
       "image": "assets/bowls/Bw-32-S.webp",
       "description": "Φ208*H61",
+      "link": "products/Bw-32.html",
       "translations": {
         "en": {
           "title": "32 oz Bowls"

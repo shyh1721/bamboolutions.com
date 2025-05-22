@@ -4,40 +4,42 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     try {
         const response = await fetch(`categories/${currentCategory}.json`);
-        const categoryData = await response.json();
+        const { products } = await response.json();
 
         // Clear existing content
         productContainer.innerHTML = '';
 
-        // Generate product cards
-        categoryData.products.forEach(product => {
+        // Create document fragment for batch DOM updates
+        const fragment = document.createDocumentFragment();
+
+        products.forEach(product => {
             const card = document.createElement('div');
             card.className = 'product-card bg-white rounded-lg shadow-md overflow-hidden';
             card.innerHTML = `
                 <div class="image-container h-64 overflow-hidden">
-                    <a href="${product.link}"</a>
-                    <img src="${product.image}" alt="${product.id}" class="w-full h-full object-cover">
+                    <a href="${product.link}">
+                        <img src="${product.image}" 
+                             alt="${product.id}"
+                             class="w-full h-full object-cover"
+                             data-translate="alt|products.${product.id}.title">
+                    </a>
                 </div>
                 <div class="p-5">
-                    <a href="${product.link}"</a>
                     <h3 class="text-xl font-semibold mb-2 text-center" 
-                        data-translate="products_page.${product.id}.title">
-                        ${product.translations.en.title}
+                        data-translate="products.${product.id}.title">
                     </h3>
-                    <p class="text-gray-600 mb-4 text-center" >
+                    <p class="text-gray-600 mb-4 text-center">
                         ${product.description}
                     </p>
-                    
-                    </div>
                 </div>
             `;
-            productContainer.appendChild(card);
+            fragment.appendChild(card);
         });
 
-        // Apply translations after cards are created
-        if (window.applyTranslations) {
-            window.applyTranslations();
-        }
+        productContainer.appendChild(fragment);
+
+        // Trigger translation update after cards are created
+        window.updateTranslations?.();
 
     } catch (error) {
         console.error('Error loading categories:', error);
@@ -46,5 +48,6 @@ document.addEventListener('DOMContentLoaded', async function() {
                 Failed to load products. Please try again later.
             </div>
         `;
+        window.updateTranslations?.();
     }
 });
