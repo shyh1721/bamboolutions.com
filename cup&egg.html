@@ -72,6 +72,10 @@ input:focus {
 outline: none;
 }
 </style>
+<script>
+        // Set category
+        window.CURRENT_CATEGORY = 'cupnegg';
+    </script>
 </head>
 <body class="overflow-x-hidden">
 <!-- Header Section -->
@@ -81,7 +85,7 @@ outline: none;
 <nav class="hidden md:flex items-center space-x-8">
 <a href="index.html" class="nav-link text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_home">Home</a>
 <div class="relative group">
-<button class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_product">
+<button class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors flex items-center" data-translate="global.nav_products">
 Products
 <div class="w-4 h-4 ml-1 flex items-center justify-center">
 <i class="ri-arrow-down-s-line"></i>
@@ -89,12 +93,12 @@ Products
 </button>
 <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
 <div class="py-2">
-<a href="trays.html" data-readdy="true" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_trays">Trays</a>
+<a href="trays.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_trays">Trays</a>
 <a href="bowls.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bowls">Bowls</a>
 <a href="plates.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_plates">Plates</a>
 <a href="clamshell.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_clamshell">Clamshell Containers</a>
 <a href="sushi.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_sushi">Sushi Containers</a>
-<a href="bakery.html" data-readdy="true" class="block px-4 py-2 text-sm text-primary font-medium bg-gray-50" data-translate="global.nav_bakery">Bakery Containers</a>
+<a href="bakery.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_bakery">Bakery Containers</a>
 <a href="cup&egg.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-primary" data-translate="global.nav_cupnegg">Cup Trays / Egg Cartons</a>
 </div>
 </div>
@@ -151,18 +155,6 @@ About Us
          data-translate="global.languages.de"
          class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Deutsch</a>
       <a href="#"
-         data-lang="pt"
-         data-translate="global.languages.pt"
-         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Português</a>
-      <a href="#"
-         data-lang="it"
-         data-translate="global.languages.it"
-         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">Italiano</a>
-      <a href="#"
-         data-lang="hi"
-         data-translate="global.languages.hi"
-         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">hindī</a>
-      <a href="#"
          data-lang="ja"
          data-translate="global.languages.ja"
          class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">日本語</a>
@@ -179,26 +171,11 @@ About Us
 </header>
 <!-- Main Content -->
 <main class="mt-16 pt-8">
-<!-- Breadcrumb -->
-<div class="bg-gray-50 py-4 hidden">
-<div class="container mx-auto px-4">
-<div class="flex items-center text-sm text-gray-600">
-<a href="../../../index.html" data-readdy="true" class="hover:text-primary transition-colors">Home</a>
-<div class="w-4 h-4 flex items-center justify-center mx-1">
-<i class="ri-arrow-right-s-line"></i>
-</div>
-<a href="../../category.html" class="hover:text-primary transition-colors">Products</a>
-<div class="w-4 h-4 flex items-center justify-center mx-1">
-<i class="ri-arrow-right-s-line"></i>
-</div>
-<span class="text-primary font-medium">Bakery Containers</span>
-</div>
-</div>
-</div>
+
 <!-- Page Title -->
 <div class="container mx-auto px-4 py-8">
-<h1 class="text-4xl font-bold text-gray-900" data-translate="cupnegg.cat_title">Bamboo Fiber Cup Trays / Egg Cartons</h1>
-<p class="text-gray-600 mt-2 max-w-3xl" data-translate="cupnegg.cat_subtitle">Sustainable, biodegradable cup holders and egg trays that provide secure storage and transport solutions. Perfect for cafes, restaurants, and food service businesses.</p>
+<h1 class="text-4xl font-bold text-gray-900" data-translate="category.title">Bamboo Fiber Cup Trays / Egg Cartons</h1>
+<p class="text-gray-600 mt-2 max-w-3xl" data-translate="category.subtitle">Sustainable, biodegradable cup holders and egg trays that provide secure storage and transport solutions. Perfect for cafes, restaurants, and food service businesses.</p>
 </div>
 <!-- Two Column Layout -->
 <div class="container mx-auto px-4 pb-16">
@@ -206,7 +183,7 @@ About Us
 <!-- Left Sidebar -->
 <div class="w-full md:w-1/4 md:pr-8 mb-8 md:mb-0">
 <div class="bg-white rounded-lg shadow-sm p-6 sticky top-24">
-<h3 class="text-lg font-semibold mb-4 text-gray-900" data-translate="product.category_title">Product Categories</h3>
+<h3 class="text-lg font-semibold mb-4 text-gray-900" data-translate="products_page.product_category_title">Product Categories</h3>
 <ul class="space-y-3">
 <li>
 <a href="trays.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100" data-translate="global.nav_trays">Trays</a>
@@ -224,15 +201,15 @@ About Us
 <a href="sushi.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100" data-translate="global.nav_sushi">Sushi Containers</a>
 </li>
 <li>
-<a href="bakery.html" class="category-link active block py-2 text-primary font-medium border-b border-gray-100" data-translate="global.nav_bakery">Bakery Containers</a>
+<a href="bakery.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium border-b border-gray-100" data-translate="global.nav_bakery">Bakery Containers</a>
 </li>
 <li>
 <a href="cup&egg.html" class="category-link block py-2 text-gray-700 hover:text-primary font-medium" data-translate="global.nav_cupnegg">Cup Trays / Egg Cartons</a>
 </li>
 </ul>
 <div class="mt-10 bg-gray-50 p-4 rounded-lg">
-<h4 class="font-medium text-gray-900 mb-3" data-translate="products.help">Need Help?</h4>
-<p class="text-gray-600 text-sm mb-3" data-translate="products.contact">Contact our product specialists for personalized assistance.</p>
+<h4 class="font-medium text-gray-900 mb-3" data-translate="products_page.help">Need Help?</h4>
+<p class="text-gray-600 text-sm mb-3" data-translate="products_page.contact">Contact our product specialists for personalized assistance.</p>
 <div class="flex items-center text-sm text-gray-700 mb-2">
 <div class="w-5 h-5 flex items-center justify-center mr-2">
 <i class="ri-mail-line"></i>
@@ -251,8 +228,11 @@ About Us
 <!-- Main Content Area -->
 <div class="w-full md:w-3/4">
 <!-- Product Grid -->
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="product-container">
+  <!-- Products will be inserted here by JavaScript -->
+</div>
 
+</div>
 
 
 
@@ -283,9 +263,9 @@ About Us
 <div class="container mx-auto px-4">
 <div class="flex flex-col lg:flex-row items-center">
 <div class="w-full lg:w-2/5 mb-8 lg:mb-0 lg:pr-12">
-<h2 class="text-3xl font-bold text-gray-900 mb-4" data-translate="products.sustainability.title">Our Commitment to Sustainability</h2>
-<p class="text-gray-700 mb-6" data-translate="products.sustainability.description">At Bamboolutions, we're dedicated to creating products that are as kind to the planet as they are functional for your business. Our bamboo fiber trays are 100% biodegradable and manufactured using renewable resources and eco-friendly processes.</p>
-<a href="../../sustainability.html" data-readdy="true" class="inline-flex items-center bg-primary hover:bg-primary/90 text-white px-6 py-3 font-medium !rounded-button whitespace-nowrap transition-colors" data-translate="products.sustainability.cta">
+<h2 class="text-3xl font-bold text-gray-900 mb-4" data-translate="products_page.sustainability.title">Our Commitment to Sustainability</h2>
+<p class="text-gray-700 mb-6" data-translate="products_page.sustainability.description">At Bamboolutions, we're dedicated to creating products that are as kind to the planet as they are functional for your business. Our bamboo fiber trays are 100% biodegradable and manufactured using renewable resources and eco-friendly processes.</p>
+<a href="sustainability.html" data-readdy="true" class="inline-flex items-center bg-primary hover:bg-primary/90 text-white px-6 py-3 font-medium !rounded-button whitespace-nowrap transition-colors" data-translate="products_page.sustainability.cta">
 Learn More About Our Practices
 <div class="w-5 h-5 ml-2 flex items-center justify-center">
 <i class="ri-arrow-right-line"></i>
@@ -298,24 +278,24 @@ Learn More About Our Practices
 <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
 <i class="ri-leaf-line text-primary text-2xl"></i>
 </div>
-<h3 class="text-lg font-semibold mb-2" data-translate="products.sustainability.point1_title">100% Biodegradable</h3>
-<p class="text-gray-600 text-sm" data-translate="products.sustainability.point1_text">Our trays naturally decompose within 180 days in commercial composting facilities.</p>
+<h3 class="text-lg font-semibold mb-2" data-translate="products_page.sustainability.point1_title">100% Biodegradable</h3>
+<p class="text-gray-600 text-sm" data-translate="products_page.sustainability.point1_text">Our trays naturally decompose within 180 days in commercial composting facilities.</p>
 </div>
 <!-- Sustainability Point 2 -->
 <div class="bg-white rounded-lg p-6 shadow-sm">
 <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
 <i class="ri-factory-line text-primary text-2xl"></i>
 </div>
-<h3 class="text-lg font-semibold mb-2" data-translate="products.sustainability.point2_title">Eco-friendly Production</h3>
-<p class="text-gray-600 text-sm" data-translate="products.sustainability.point2_text">Manufactured using renewable energy and water-saving processes to minimize environmental impact.</p>
+<h3 class="text-lg font-semibold mb-2" data-translate="products_page.sustainability.point2_title">Eco-friendly Production</h3>
+<p class="text-gray-600 text-sm" data-translate="products_page.sustainability.point2_text">Manufactured using renewable energy and water-saving processes to minimize environmental impact.</p>
 </div>
 <!-- Sustainability Point 3 -->
 <div class="bg-white rounded-lg p-6 shadow-sm">
 <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
 <i class="ri-recycle-line text-primary text-2xl"></i>
 </div>
-<h3 class="text-lg font-semibold mb-2" data-translate="products.sustainability.point3_title">Zero Plastic</h3>
-<p class="text-gray-600 text-sm" data-translate="products.sustainability.point3_text">Made from natural bamboo fiber without any plastic additives or harmful chemicals.</p>
+<h3 class="text-lg font-semibold mb-2" data-translate="products_page.sustainability.point3_title">Zero Plastic</h3>
+<p class="text-gray-600 text-sm" data-translate="products_page.sustainability.point3_text">Made from natural bamboo fiber without any plastic additives or harmful chemicals.</p>
 </div>
 </div>
 </div>
@@ -433,6 +413,13 @@ checkmark.classList.add('hidden');
 });
 });
 });
+
+
+
+
+
 </script>
+<script src="js/translations.js"></script>
+<script src="js/category.js"></script>
 </body>
 </html>

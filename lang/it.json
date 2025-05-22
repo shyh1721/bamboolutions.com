@@ -497,7 +497,7 @@
     "cat_title": "Piatti in Fibra di Bambù",
     "cat_subtitle": "Piatti sostenibili e biodegradabili che uniscono eleganza e responsabilità ambientale. Perfetti per ristoranti, caffè e momenti di convivialità a casa."
   },
-  "products": {
+  "products_page": {
     "sustainability": {
       "title": "Il Nostro Impegno per la Sostenibilità",
       "description": "Da Bamboolutions, siamo dedicati a creare prodotti tanto gentili con il pianeta quanto funzionali per la tua attività. I nostri vassoi in fibra di bambù sono 100% biodegradabili e realizzati con risorse rinnovabili e processi ecologici.",
@@ -511,7 +511,7 @@
     },
     "help": "Hai Bisogno di Aiuto?",
     "contact": "Contatta i nostri specialisti di prodotto per assistenza personalizzata.",
-    "product.category_title": "Categorie di Prodotti"
+    "product_category_title": "Categorie di Prodotti"
   }
 
 }

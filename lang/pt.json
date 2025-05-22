@@ -459,7 +459,7 @@
     "cat_title": "Pratos de Fibra de Bambu",
     "cat_subtitle": "Pratos sustentáveis e biodegradáveis que unem elegância e responsabilidade ambiental. Perfeitos para restaurantes, cafés e refeições em casa."
   },
-  "products": {
+  "products_page": {
     "sustainability": {
       "title": "Nosso Compromisso com a Sustentabilidade",
       "description": "Na Bamboolutions, estamos dedicados a criar produtos tão gentis com o planeta quanto funcionais para o seu negócio. Nossas bandejas de fibra de bambu são 100% biodegradáveis e fabricadas usando recursos renováveis e processos ecológicos.",
@@ -473,6 +473,6 @@
     },
     "help": "Precisa de Ajuda?",
     "contact": "Entre em contato com nossos especialistas em produtos para assistência personalizada.",
-    "product.category_title": "Categorias de Produtos"
+    "product_category_title": "Categorias de Produtos"
   }
 }

@@ -404,42 +404,7 @@
       "samples_btn": "Solicitar Muestras de Producto"
     }
   },
-  "trays": {
-    "title": "Bandejas de Fibra de Bambú - Bamboolutions",
-    "cat_title": "Bandejas de Fibra de Bambú",
-    "cat_subtitle": "Soluciones de servicio sostenibles y biodegradables que combinan elegancia con responsabilidad ambiental. Perfectas para servicios de alimentos, catering y comercio minorista."
-  },
-  "bowls": {
-    "title": "Tazones de Fibra de Bambú - Bamboolutions",
-    "cat_title": "Tazones de Fibra de Bambú",
-    "cat_subtitle": "Tazones sostenibles y biodegradables que combinan elegancia con responsabilidad ambiental. Perfectos para restaurantes, cafeterías y comidas en casa."
-  },
-  "bakery": {
-    "title": "Contenedores para Panadería de Fibra de Bambú - Bamboolutions",
-    "cat_title": "Contenedores para Panadería de Fibra de Bambú",
-    "cat_subtitle": "Contenedores ecológicos y sostenibles para panadería que preservan la frescura y protegen el medio ambiente. Perfectos para panaderías, cafeterías y negocios de servicio de alimentos."
-  },
-  "clamshell": {
-    "title": "Contenedores tipo Clamshell de Fibra de Bambú - Bamboolutions",
-    "cat_title": "Contenedores tipo Clamshell de Fibra de Bambú",
-    "cat_subtitle": "Contenedores ecológicos tipo clamshell que ofrecen embalaje seguro para alimentos con conciencia ambiental. Ideales para comida para llevar, entrega y servicios de alimentos."
-  },
-  "sushi": {
-    "title": "Contenedores para Sushi de Fibra de Bambú - Bamboolutions",
-    "cat_title": "Contenedores para Sushi de Fibra de Bambú",
-    "cat_subtitle": "Contenedores ecológicos para sushi diseñados para presentación óptima y frescura. Perfectos para restaurantes, servicios para llevar y catering."
-  },
-  "cupnegg": {
-    "title": "Portavasos / Cartones para Huevos de Fibra de Bambú - Bamboolutions",
-    "cat_title": "Portavasos / Cartones para Huevos de Fibra de Bambú",
-    "cat_subtitle": "Portavasos y cartones para huevos sostenibles y biodegradables que ofrecen soluciones seguras para almacenamiento y transporte. Perfectos para cafeterías, restaurantes y servicios de alimentos."
-  },
-  "plates": {
-    "title": "Platos de Fibra de Bambú - Bamboolutions",
-    "cat_title": "Platos de Fibra de Bambú",
-    "cat_subtitle": "Platos sostenibles y biodegradables que combinan elegancia con responsabilidad ambiental. Perfectos para restaurantes, cafeterías y comidas en casa."
-  },
-  "products": {
+  "products_page": {
     "sustainability": {
       "title": "Nuestro Compromiso con la Sostenibilidad",
       "description": "En Bamboolutions estamos dedicados a crear productos que sean tan amables con el planeta como funcionales para su negocio. Nuestras bandejas de fibra de bambú son 100 % biodegradables y fabricadas con recursos renovables y procesos ecológicos.",
@@ -453,7 +418,7 @@
     },
     "help": "¿Necesita Ayuda?",
     "contact": "Contacte a nuestros especialistas en productos para asistencia personalizada.",
-    "product.category_title": "Categorías de Productos"
+    "product_category_title": "Categorías de Productos"
   }
 }
 

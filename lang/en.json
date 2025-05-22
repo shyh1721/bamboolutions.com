@@ -420,42 +420,10 @@
         "samples_btn": "Request Product Samples"
       }
   },
-  "trays": {
-    "title": "Bamboo Fiber Trays - Bamboolutions",
-    "cat_title": "Bamboo Fiber Trays",
-    "cat_subtitle": "Sustainable, biodegradable serving solutions that combine elegance with environmental responsibility. Perfect for foodservice, catering, and retail applications."
-  },
-  "bowls": {
-    "title": "Bamboo Fiber Bowls - Bamboolutions",
-    "cat_title": "Bamboo Fiber Bowls",
-    "cat_subtitle": "Sustainable, biodegradable bowls that combine elegance with environmental responsibility. Perfect for restaurants, cafes, and home dining experiences."
-  },
-  "bakery": {
-    "title": "Bamboo Fiber Bakery Containers - Bamboolutions",
-    "cat_title": "Bamboo Fiber Bakery Containers",
-    "cat_subtitle": "Eco-friendly and sustainable bakery containers that preserve freshness while protecting the environment. Perfect for bakeries, cafes, and food service businesses."
-  },
-  "clamshell": {
-    "title": "Bamboo Fiber Clamshell Containers - Bamboolutions",
-    "cat_title": "Bamboo Fiber Clamshell Containers",
-    "cat_subtitle": "Eco-friendly clamshell containers that provide secure food packaging with environmental consciousness. Ideal for takeout, delivery, and food service businesses."
-  },
-  "sushi": {
-    "title": "Bamboo Fiber Sushi Containers - Bamboolutions",
-    "cat_title": "Bamboo Fiber Sushi Containers",
-    "cat_subtitle": "Eco-friendly sushi containers designed for optimal presentation and freshness. Perfect for restaurants, takeout services, and catering businesses."
-  },
-  "cupnegg": {
-    "title": "Bamboo Fiber Cup Trays / Egg Cartons - Bamboolutions",
-    "cat_title": "Bamboo Fiber Cup Trays / Egg Cartons",
-    "cat_subtitle": "Sustainable, biodegradable cup holders and egg trays that provide secure storage and transport solutions. Perfect for cafes, restaurants, and food service businesses."
-  },
-  "plates": {
-    "title": "Bamboo Fiber Plates - Bamboolutions",
-    "cat_title": "Bamboo Fiber Plates",
-    "cat_subtitle": "Sustainable, biodegradable plates that combine elegance with environmental responsibility. Perfect for restaurants, cafes, and home dining experiences."
-  },
-  "products": {
+  "products_page": {
+      "help": "Need Help?",
+      "contact": "Contact our product specialists for personalized assistance.",
+      "product_category_title": "Product Categories",
       "sustainability": {
         "title": "Our Commitment to Sustainability",
         "description": "At Bamboolutions, we're dedicated to creating products that are as kind to the planet as they are functional for your business. Our bamboo fiber trays are 100% biodegradable and manufactured using renewable resources and eco-friendly processes.",
@@ -466,10 +434,7 @@
         "point2_text": "Manufactured using renewable energy and water-saving processes to minimize environmental impact.",
         "point3_title": "Zero Plastic",
         "point3_text": "Made from natural bamboo fiber without any plastic additives or harmful chemicals."
-      },
-    "help": "Need Help?",
-    "contact": "Contact our product specialists for personalized assistance.",
-    "product.category_title": "Product Categories"
+      }
     }
 
 }

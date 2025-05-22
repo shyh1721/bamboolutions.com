@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "translations": {
+      "en": {
+        "title": "Bamboo Fiber Bowls",
+        "subtitle": "Sustainable, biodegradable bowls that combine elegance with environmental responsibility. Perfect for restaurants, cafes, and home dining experiences."
+      },
+      "es": {
+        "title": "Tazones de Fibra de Bambú",
+        "subtitle": "Tazones sostenibles y biodegradables que combinan elegancia con responsabilidad ambiental. Perfectos para restaurantes, cafeterías y experiencias culinarias en casa."
+      },
+      "fr": {
+        "title": "Bols en Fibre de Bambou",
+        "subtitle": "Des bols durables et biodégradables qui allient élégance et responsabilité environnementale. Parfaits pour les restaurants, les cafés et les repas à domicile."
+      },
+      "de": {
+        "title": "Schalen aus Bambusfaser",
+        "subtitle": "Nachhaltige, biologisch abbaubare Schalen, die Eleganz mit Umweltverantwortung vereinen. Perfekt für Restaurants, Cafés und das Essen zu Hause."
+      },
+      "ja": {
+        "title": "竹繊維ボウル",
+        "subtitle": "エレガンスと環境への配慮を兼ね備えた、持続可能で生分解性のボウルです。レストラン、カフェ、自宅での食事に最適です。"
+      },
+      "zh": {
+        "title": "竹纤维碗",
+        "subtitle": "可持续且可生物降解的碗，将优雅与环保责任相结合。非常适合餐厅、咖啡馆和家庭用餐体验。"
+      },
+      "ar": {
+        "title": "أوعية من ألياف الخيزران",
+        "subtitle": "أوعية مستدامة وقابلة للتحلل تجمع بين الأناقة والمسؤولية البيئية. مثالية للمطاعم والمقاهي وتجارب تناول الطعام في المنزل."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "Bw-8",
+      "image": "assets/bowls/Bw-8-T.webp",
+      "description": "Φ112*H46",
+      "translations": {
+        "en": {
+          "title": "8 oz Bowls"
+        },
+        "es": {
+          "title": "Tazones de 8 oz"
+        },
+        "fr": {
+          "title": "Bols de 8 oz"
+        },
+        "de": {
+          "title": "8-Unzen-Schalen"
+        },
+        "ja": {
+          "title": "8オンスボウル"
+        },
+        "zh": {
+          "title": "8盎司碗"
+        },
+        "ar": {
+          "title": "أوعية سعة 8 أونصات"
+        }
+      }
+    },
+    {
+      "id": "Bw-12",
+      "image": "assets/bowls/Bw-12-S.webp",
+      "description": "Φ160*H38",
+      "translations": {
+        "en": {
+          "title": "12 oz Bowls"
+        },
+        "es": {
+          "title": "Tazones de 12 oz"
+        },
+        "fr": {
+          "title": "Bols de 12 oz"
+        },
+        "de": {
+          "title": "12-Unzen-Schalen"
+        },
+        "ja": {
+          "title": "12オンスボウル"
+        },
+        "zh": {
+          "title": "12盎司碗"
+        },
+        "ar": {
+          "title": "أوعية سعة 12 أونصة"
+        }
+      }
+    },
+    {
+      "id": "Bw-16",
+      "image": "assets/bowls/Bw-16-S.webp",
+      "description": "Φ178*H40",
+      "translations": {
+        "en": {
+          "title": "16 oz Bowls"
+        },
+        "es": {
+          "title": "Tazones de 16 oz"
+        },
+        "fr": {
+          "title": "Bols de 16 oz"
+        },
+        "de": {
+          "title": "16-Unzen-Schalen"
+        },
+        "ja": {
+          "title": "16オンスボウル"
+        },
+        "zh": {
+          "title": "16盎司碗"
+        },
+        "ar": {
+          "title": "أوعية سعة 16 أونصة"
+        }
+      }
+    },
+    {
+      "id": "Bw-32",
+      "image": "assets/bowls/Bw-32-S.webp",
+      "description": "Φ208*H61",
+      "translations": {
+        "en": {
+          "title": "32 oz Bowls"
+        },
+        "es": {
+          "title": "Tazones de 32 oz"
+        },
+        "fr": {
+          "title": "Bols de 32 oz"
+        },
+        "de": {
+          "title": "32-Unzen-Schalen"
+        },
+        "ja": {
+          "title": "32オンスボウル"
+        },
+        "zh": {
+          "title": "32盎司碗"
+        },
+        "ar": {
+          "title": "أوعية سعة 32 أونصة"
+        }
+      }
+    }
+  ]
+}

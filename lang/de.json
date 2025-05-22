@@ -439,7 +439,7 @@
     "cat_title": "Bambusfaser Teller",
     "cat_subtitle": "Nachhaltige, biologisch abbaubare Teller, die Eleganz mit Umweltverantwortung verbinden. Ideal für Restaurants, Cafés und private Mahlzeiten."
   },
-  "products": {
+  "products_page": {
     "sustainability": {
       "title": "Unser Engagement für Nachhaltigkeit",
       "description": "Bei Bamboolutions engagieren wir uns dafür, Produkte zu schaffen, die sowohl gut für die Umwelt als auch funktional für Ihr Geschäft sind. Unsere Bambusfaser-Tabletts sind 100 % biologisch abbaubar und werden aus erneuerbaren Ressourcen mit umweltfreundlichen Verfahren hergestellt.",
@@ -453,7 +453,7 @@
     },
     "help": "Brauchen Sie Hilfe?",
     "contact": "Kontaktieren Sie unsere Produktspezialisten für persönliche Unterstützung.",
-    "product.category_title": "Produktkategorien"
+    "product_category_title": "Produktkategorien"
   }
 }
 

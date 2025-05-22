@@ -441,7 +441,7 @@
   "cat_title": "竹纤维餐盘",
   "cat_subtitle": "环保可降解的高质量餐盘，兼具优雅设计与可持续理念。适用于餐厅、咖啡厅及家庭用餐场景。"
 },
-"products": {
+"products_page": {
   "sustainability": {
     "title": "我们对可持续发展的承诺",
     "description": "在 Bamboolutions，我们致力于生产既环保又实用的产品。我们的竹纤维托盘采用可再生资源，通过环保工艺制造，100%可生物降解。",
@@ -455,7 +455,7 @@
   },
   "help": "需要帮助？",
   "contact": "联系我们的产品专家，获取个性化协助。",
-  "product.category_title": "产品分类"
+  "product_category_title": "产品分类"
 }
 
 

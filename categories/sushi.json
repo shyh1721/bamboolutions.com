@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "translations": {
+      "en": {
+        "title": "Bamboo Fiber Sushi Containers",
+        "subtitle": "Eco-friendly sushi containers designed for optimal presentation and freshness. Perfect for restaurants, takeout services, and catering businesses."
+      },
+      "es": {
+        "title": "Contenedores de Sushi de Fibra de Bambú",
+        "subtitle": "Contenedores de sushi ecológicos diseñados para una presentación óptima y frescura. Perfectos para restaurantes, servicios para llevar y empresas de catering."
+      },
+      "fr": {
+        "title": "Conteneurs à Sushi en Fibre de Bambou",
+        "subtitle": "Conteneurs à sushi écologiques conçus pour une présentation et une fraîcheur optimales. Parfaits pour les restaurants, les services à emporter et les traiteurs."
+      },
+      "de": {
+        "title": "Sushi-Behälter aus Bambusfaser",
+        "subtitle": "Umweltfreundliche Sushi-Behälter, entwickelt für optimale Präsentation und Frische. Ideal für Restaurants, Take-away-Dienste und Cateringunternehmen."
+      },
+      "ja": {
+        "title": "竹繊維製の寿司容器",
+        "subtitle": "最適な見た目と新鮮さを保つために設計された環境に優しい寿司容器。飲食店、テイクアウトサービス、ケータリング業に最適です。"
+      },
+      "zh": {
+        "title": "竹纤维寿司容器",
+        "subtitle": "环保寿司容器，专为最佳展示效果和新鲜度而设计。非常适合餐厅、外卖服务和餐饮公司使用。"
+      },
+      "ar": {
+        "title": "حاويات السوشي المصنوعة من ألياف الخيزران",
+        "subtitle": "حاويات سوشي صديقة للبيئة مصممة لتوفير أفضل عرض وطزاجة. مثالية للمطاعم وخدمات الوجبات الجاهزة وشركات تقديم الطعام."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "ST-0.4",
+      "image": "assets/sushi/ST-0.4-B.webp",
+      "description": "W164*L89*H21",
+      "translations": {
+        "en": {
+          "title": "300ml Sushi Container"
+        },
+        "es": {
+          "title": "Contenedor para sushi de 300 ml"
+        },
+        "fr": {
+          "title": "Contenant à sushi de 300 ml"
+        },
+        "de": {
+          "title": "300-ml-Sushi-Behälter"
+        },
+        "ja": {
+          "title": "300ml寿司容器"
+        },
+        "zh": {
+          "title": "300毫升寿司盒"
+        },
+        "ar": {
+          "title": "حاوية سوشي سعة 300 مل"
+        }
+      }
+    },
+    {
+      "id": "ST-0.8",
+      "image": "assets/sushi/ST-0.8-T.webp",
+      "description": "W165*L115*H20",
+      "translations": {
+        "en": {
+          "title": "350ml Sushi Container"
+        },
+        "es": {
+          "title": "Contenedor para sushi de 350 ml"
+        },
+        "fr": {
+          "title": "Contenant à sushi de 350 ml"
+        },
+        "de": {
+          "title": "350-ml-Sushi-Behälter"
+        },
+        "ja": {
+          "title": "350ml寿司容器"
+        },
+        "zh": {
+          "title": "350毫升寿司盒"
+        },
+        "ar": {
+          "title": "حاوية سوشي سعة 350 مل"
+        }
+      }
+    },
+    {
+      "id": "ST-0.6",
+      "image": "assets/sushi/ST-0.6-S.webp",
+      "description": "W221*L92*H22",
+      "translations": {
+        "en": {
+          "title": "450ml Sushi Container"
+        },
+        "es": {
+          "title": "Contenedor para sushi de 450 ml"
+        },
+        "fr": {
+          "title": "Contenant à sushi de 450 ml"
+        },
+        "de": {
+          "title": "450-ml-Sushi-Behälter"
+        },
+        "ja": {
+          "title": "450ml寿司容器"
+        },
+        "zh": {
+          "title": "450毫升寿司盒"
+        },
+        "ar": {
+          "title": "حاوية سوشي سعة 450 مل"
+        }
+      }
+    },
+    {
+      "id": "ST-1.0",
+      "image": "assets/sushi/ST-1.0-T.webp",
+      "description": "W185*L128*H20",
+      "translations": {
+        "en": {
+          "title": "500ml Sushi Container"
+        },
+        "es": {
+          "title": "Contenedor para sushi de 500 ml"
+        },
+        "fr": {
+          "title": "Contenant à sushi de 500 ml"
+        },
+        "de": {
+          "title": "500-ml-Sushi-Behälter"
+        },
+        "ja": {
+          "title": "500ml寿司容器"
+        },
+        "zh": {
+          "title": "500毫升寿司盒"
+        },
+        "ar": {
+          "title": "حاوية سوشي سعة 500 مل"
+        }
+      }
+    },
+    {
+      "id": "ST-2.0",
+      "image": "assets/sushi/ST-2.0-T.webp",
+      "description": "W241*L148*H27",
+      "translations": {
+        "en": {
+          "title": "1000ml Sushi Container"
+        },
+        "es": {
+          "title": "Contenedor para sushi de 1000 ml"
+        },
+        "fr": {
+          "title": "Contenant à sushi de 1000 ml"
+        },
+        "de": {
+          "title": "1000-ml-Sushi-Behälter"
+        },
+        "ja": {
+          "title": "1000ml寿司容器"
+        },
+        "zh": {
+          "title": "1000毫升寿司盒"
+        },
+        "ar": {
+          "title": "حاوية سوشي سعة 1000 مل"
+        }
+      }
+    },
+    {
+      "id": "ST-1.5",
+      "image": "assets/sushi/ST-1.5-S.webp",
+      "description": "W238*L190*H35",
+      "translations": {
+        "en": {
+          "title": "1500ml Sushi Container"
+        },
+        "es": {
+          "title": "Contenedor para sushi de 1500 ml"
+        },
+        "fr": {
+          "title": "Contenant à sushi de 1500 ml"
+        },
+        "de": {
+          "title": "1500-ml-Sushi-Behälter"
+        },
+        "ja": {
+          "title": "1500ml寿司容器"
+        },
+        "zh": {
+          "title": "1500毫升寿司盒"
+        },
+        "ar": {
+          "title": "حاوية سوشي سعة 1500 مل"
+        }
+      }
+    }
+  ]
+}

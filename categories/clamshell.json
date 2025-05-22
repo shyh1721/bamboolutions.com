@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "translations": {
+      "en": {
+        "title": "Bamboo Fiber Clamshell Containers",
+        "subtitle": "Eco-friendly clamshell containers that provide secure food packaging with environmental consciousness. Ideal for takeout, delivery, and food service businesses."
+      },
+      "es": {
+        "title": "Contenedores tipo almeja de fibra de bambú",
+        "subtitle": "Contenedores ecológicos tipo almeja que ofrecen un empaque seguro para alimentos con conciencia ambiental. Ideales para comida para llevar, entregas y negocios de servicio de alimentos."
+      },
+      "fr": {
+        "title": "Boîtes coquilles en fibre de bambou",
+        "subtitle": "Boîtes écologiques de type coquille offrant un emballage alimentaire sécurisé et respectueux de l’environnement. Idéales pour la vente à emporter, la livraison et les entreprises de restauration."
+      },
+      "de": {
+        "title": "Klappboxen aus Bambusfaser",
+        "subtitle": "Umweltfreundliche Klappboxen, die eine sichere Lebensmittelverpackung mit Umweltbewusstsein bieten. Ideal für Take-away, Lieferservice und Gastronomiebetriebe."
+      },
+      "ja": {
+        "title": "竹繊維製クラムシェル容器",
+        "subtitle": "環境に配慮したエコなクラムシェル容器で、安全な食品包装を提供します。テイクアウト、デリバリー、飲食業に最適です。"
+      },
+      "zh": {
+        "title": "竹纤维贝壳式餐盒",
+        "subtitle": "环保的贝壳式餐盒，提供安全的食品包装，兼顾环保理念。非常适合外卖、送餐和餐饮服务企业使用。"
+      },
+      "ar": {
+        "title": "حاويات صدفيّة من ألياف الخيزران",
+        "subtitle": "حاويات صديقة للبيئة توفر تغليفًا آمنًا للطعام مع مراعاة الجوانب البيئية. مثالية للطلبات الخارجية، التوصيل، وأعمال خدمات الطعام."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "CB-6",
+      "image": "assets/clamshell/CB-6-S.webp",
+      "description": "W155*L155*H77",
+      "translations": {
+        "en": {
+          "title": "6 inch Hamburger Clamshell Box"
+        },
+        "es": {
+          "title": "Caja tipo concha para hamburguesa de 6 pulgadas"
+        },
+        "fr": {
+          "title": "Boîte coquille hamburger 6 pouces"
+        },
+        "de": {
+          "title": "6-Zoll-Hamburger-Muschelschale"
+        },
+        "ja": {
+          "title": "6インチ ハンバーガー用クラムシェルボックス"
+        },
+        "zh": {
+          "title": "6英寸汉堡壳盒"
+        },
+        "ar": {
+          "title": "علبة همبرغر صدفيّة 6 إنش"
+        }
+      }
+    },
+    {
+      "id": "CB-800-3",
+      "image": "assets/clamshell/CB-800-3-S.webp",
+      "description": "W203*L203*H63",
+      "translations": {
+        "en": {
+          "title": "800 ml Lunch Box - 3 Compartments"
+        },
+        "es": {
+          "title": "Caja de almuerzo de 800 ml - 3 compartimentos"
+        },
+        "fr": {
+          "title": "Boîte déjeuner 800 ml - 3 compartiments"
+        },
+        "de": {
+          "title": "800-ml-Lunchbox – 3 Fächer"
+        },
+        "ja": {
+          "title": "800ml ランチボックス（3区画）"
+        },
+        "zh": {
+          "title": "800毫升三格午餐盒"
+        },
+        "ar": {
+          "title": "علبة غداء 800 مل – 3 أقسام"
+        }
+      }
+    },
+    {
+      "id": "CB-850",
+      "image": "assets/clamshell/CB-850-S.webp",
+      "description": "W230*L153*H80",
+      "translations": {
+        "en": {
+          "title": "850 ml Salad Container"
+        },
+        "es": {
+          "title": "Envase para ensalada de 850 ml"
+        },
+        "fr": {
+          "title": "Contenant à salade 850 ml"
+        },
+        "de": {
+          "title": "850-ml-Salatbehälter"
+        },
+        "ja": {
+          "title": "850ml サラダ容器"
+        },
+        "zh": {
+          "title": "850毫升沙拉盒"
+        },
+        "ar": {
+          "title": "حاوية سلطة 850 مل"
+        }
+      }
+    },
+    {
+      "id": "CB-900",
+      "image": "assets/clamshell/CB-900-S.webp",
+      "description": "W228*L153*H80",
+      "translations": {
+        "en": {
+          "title": "900 ml Take Out Box"
+        },
+        "es": {
+          "title": "Caja para llevar de 900 ml"
+        },
+        "fr": {
+          "title": "Boîte à emporter 900 ml"
+        },
+        "de": {
+          "title": "900-ml-Take-away-Box"
+        },
+        "ja": {
+          "title": "900ml テイクアウトボックス"
+        },
+        "zh": {
+          "title": "900毫升外卖盒"
+        },
+        "ar": {
+          "title": "علبة طعام جاهز 900 مل"
+        }
+      }
+    }
+  ]
+}

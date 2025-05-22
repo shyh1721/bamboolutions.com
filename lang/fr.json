@@ -439,7 +439,7 @@
     "cat_title": "Assiettes en Fibre de Bambou",
     "cat_subtitle": "Assiettes durables et biodégradables qui allient élégance et responsabilité environnementale. Idéal pour les restaurants, cafés et repas à domicile."
   },
-  "products": {
+  "products_page": {
     "sustainability": {
       "title": "Notre Engagement pour la Durabilité",
       "description": "Chez Bamboolutions, nous nous engageons à créer des produits aussi respectueux de la planète que fonctionnels pour votre entreprise. Nos plateaux en fibre de bambou sont 100 % biodégradables et fabriqués à partir de ressources renouvelables avec des procédés écologiques.",
@@ -453,7 +453,7 @@
     },
     "help": "Besoin d’aide ?",
     "contact": "Contactez nos spécialistes produits pour une assistance personnalisée.",
-    "product.category_title": "Catégories de Produits"
+    "product_category_title": "Catégories de Produits"
   }
 }
 

@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "translations": {
+      "en": {
+        "title": "Bamboo Fiber Cup Trays / Egg Cartons",
+        "subtitle": "Sustainable, biodegradable cup trays and egg trays that provide secure storage and transport solutions. Perfect for cafes, restaurants, and food service businesses."
+      },
+      "es": {
+        "title": "Bandejas para tazas de fibra de bambú / Cartones para huevos",
+        "subtitle": "Bandejas sostenibles y biodegradables para tazas y huevos que ofrecen soluciones seguras de almacenamiento y transporte. Perfectas para cafeterías, restaurantes y negocios de servicios de alimentos."
+      },
+      "fr": {
+        "title": "Plateaux pour gobelets en fibre de bambou / Boîtes à œufs",
+        "subtitle": "Plateaux durables et biodégradables pour gobelets et œufs, offrant des solutions de stockage et de transport sécurisées. Idéal pour les cafés, restaurants et entreprises de restauration."
+      },
+      "de": {
+        "title": "Becherhalter aus Bambusfaser / Eierkartons",
+        "subtitle": "Nachhaltige, biologisch abbaubare Becherhalter und Eierkartons, die sichere Aufbewahrungs- und Transportlösungen bieten. Perfekt für Cafés, Restaurants und Gastronomiebetriebe."
+      },
+      "ja": {
+        "title": "竹繊維カップトレイ / 卵カートン",
+        "subtitle": "持続可能で生分解性のあるカップトレイと卵トレイは、安全な保管と輸送のソリューションを提供します。カフェ、レストラン、フードサービス業に最適です。"
+      },
+      "zh": {
+        "title": "竹纤维杯托 / 蛋盒",
+        "subtitle": "可持续、可生物降解的杯托和蛋托，提供安全的存储和运输解决方案。非常适合咖啡馆、餐厅和餐饮服务企业。"
+      },
+      "ar": {
+        "title": "صواني أكواب من ألياف الخيزران / علب بيض",
+        "subtitle": "صواني أكواب وعلب بيض مستدامة وقابلة للتحلل الحيوي توفر حلولًا آمنة للتخزين والنقل. مثالية للمقاهي والمطاعم وأعمال خدمات الطعام."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "C2-1",
+      "image": "assets/cup&egg/C2-1-S.webp",
+      "description": "W220*L112*H46",
+      "translations": {
+        "en": {
+          "title": "Cup Tray - 2"
+        },
+        "es": {
+          "title": "Bandeja para tazas - 2"
+        },
+        "fr": {
+          "title": "Plateau à gobelets - 2"
+        },
+        "de": {
+          "title": "Becherträger - 2"
+        },
+        "ja": {
+          "title": "カップトレイ - 2"
+        },
+        "zh": {
+          "title": "杯托 - 2"
+        },
+        "ar": {
+          "title": "صينية أكواب - 2"
+        }
+      }
+    },
+    {
+      "id": "C2-2",
+      "image": "assets/cup&egg/C2-2-S.webp",
+      "description": "W220*L112*H46",
+      "translations": {
+        "en": {
+          "title": "Cup Tray (reinforced) - 2"
+        },
+        "es": {
+          "title": "Bandeja para tazas (reforzada) - 2"
+        },
+        "fr": {
+          "title": "Plateau à gobelets (renforcé) - 2"
+        },
+        "de": {
+          "title": "Becherträger (verstärkt) - 2"
+        },
+        "ja": {
+          "title": "カップトレイ（強化）- 2"
+        },
+        "zh": {
+          "title": "杯托（加固）- 2"
+        },
+        "ar": {
+          "title": "صينية أكواب (معززة) - 2"
+        }
+      }
+    },
+    {
+      "id": "C2-3",
+      "image": "assets/cup&egg/C2-3-S.webp",
+      "description": "W223*L109*H45",
+      "translations": {
+        "en": {
+          "title": "Cup Tray (tearable) - 2"
+        },
+        "es": {
+          "title": "Bandeja para tazas (desgarrable) - 2"
+        },
+        "fr": {
+          "title": "Plateau à gobelets (déchirable) - 2"
+        },
+        "de": {
+          "title": "Becherträger (abreißbar) - 2"
+        },
+        "ja": {
+          "title": "カップトレイ（切り離し可能）- 2"
+        },
+        "zh": {
+          "title": "杯托（可撕）- 2"
+        },
+        "ar": {
+          "title": "صينية أكواب (قابلة للتمزيق) - 2"
+        }
+      }
+    },
+    {
+      "id": "C4-1",
+      "image": "assets/cup&egg/C4-1-S.webp",
+      "description": "W225*L225*H45",
+      "translations": {
+        "en": {
+          "title": "Cup Tray - 4"
+        },
+        "es": {
+          "title": "Bandeja para tazas - 4"
+        },
+        "fr": {
+          "title": "Plateau à gobelets - 4"
+        },
+        "de": {
+          "title": "Becherträger - 4"
+        },
+        "ja": {
+          "title": "カップトレイ - 4"
+        },
+        "zh": {
+          "title": "杯托 - 4"
+        },
+        "ar": {
+          "title": "صينية أكواب - 4"
+        }
+      }
+    },
+    {
+      "id": "C4-2",
+      "image": "assets/cup&egg/C4-2-S.webp",
+      "description": "W225*L225*H45",
+      "translations": {
+        "en": {
+          "title": "Cup Tray - 4"
+        },
+        "es": {
+          "title": "Bandeja para tazas - 4"
+        },
+        "fr": {
+          "title": "Plateau à gobelets - 4"
+        },
+        "de": {
+          "title": "Becherträger - 4"
+        },
+        "ja": {
+          "title": "カップトレイ - 4"
+        },
+        "zh": {
+          "title": "杯托 - 4"
+        },
+        "ar": {
+          "title": "صينية أكواب - 4"
+        }
+      }
+    },
+    {
+      "id": "E12",
+      "image": "assets/cup&egg/E12-S.webp",
+      "description": "W300*L115*H65",
+      "translations": {
+        "en": {
+          "title": "Egg Carton -12"
+        },
+        "es": {
+          "title": "Cartón de huevos - 12"
+        },
+        "fr": {
+          "title": "Boîte à œufs - 12"
+        },
+        "de": {
+          "title": "Eierkarton - 12"
+        },
+        "ja": {
+          "title": "卵パック - 12"
+        },
+        "zh": {
+          "title": "鸡蛋托 - 12"
+        },
+        "ar": {
+          "title": "كرتونة بيض - 12"
+        }
+      }
+    },
+    {
+      "id": "E15",
+      "image": "assets/cup&egg/E15-T.webp",
+      "description": "W300*L150*H70",
+      "translations": {
+        "en": {
+          "title": "Egg Carton -15"
+        },
+        "es": {
+          "title": "Cartón de huevos - 15"
+        },
+        "fr": {
+          "title": "Boîte à œufs - 15"
+        },
+        "de": {
+          "title": "Eierkarton - 15"
+        },
+        "ja": {
+          "title": "卵パック - 15"
+        },
+        "zh": {
+          "title": "鸡蛋托 - 15"
+        },
+        "ar": {
+          "title": "كرتونة بيض - 15"
+        }
+      }
+    },
+    {
+      "id": "E30",
+      "image": "assets/cup&egg/E30-T.webp",
+      "description": "W300*L250*H70",
+      "translations": {
+        "en": {
+          "title": "Egg Carton -30"
+        },
+        "es": {
+          "title": "Cartón de huevos - 30"
+        },
+        "fr": {
+          "title": "Boîte à œufs - 30"
+        },
+        "de": {
+          "title": "Eierkarton - 30"
+        },
+        "ja": {
+          "title": "卵パック - 30"
+        },
+        "zh": {
+          "title": "鸡蛋托 - 30"
+        },
+        "ar": {
+          "title": "كرتونة بيض - 30"
+        }
+      }
+    }
+  ]
+}

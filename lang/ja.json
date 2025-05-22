@@ -455,7 +455,7 @@
     "cat_title": "竹繊維プレート",
     "cat_subtitle": "優雅さと環境責任を兼ね備えた持続可能で生分解性のプレート。レストラン、カフェ、家庭の食事に最適。"
   },
-  "products": {
+  "products_page": {
     "sustainability": {
       "title": "私たちの持続可能性への取り組み",
       "description": "Bamboolutionsでは、地球に優しく、ビジネスに役立つ製品づくりに注力しています。竹繊維トレイは100％生分解性で、再生可能資源と環境に優しい製造プロセスを用いて製造しています。",
@@ -469,6 +469,6 @@
     },
     "help": "ヘルプが必要ですか？",
     "contact": "製品専門家にお問い合わせください。",
-    "product.category_title": "製品カテゴリー"
+    "product_category_title": "製品カテゴリー"
   }
 }

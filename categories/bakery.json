@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "translations": {
+      "en": {
+        "title": "Bamboo Fiber Bakery Containers",
+        "subtitle": "Eco-friendly and sustainable bakery containers that preserve freshness while protecting the environment. Perfect for bakeries, cafes, and food service businesses."
+      },
+      "es": {
+        "title": "Contenedores de Panadería de Fibra de Bambú",
+        "subtitle": "Contenedores ecológicos y sostenibles que conservan la frescura y protegen el medio ambiente. Perfectos para panaderías, cafeterías y negocios de servicios de alimentos."
+      },
+      "fr": {
+        "title": "Contenants de Boulangerie en Fibre de Bambou",
+        "subtitle": "Des contenants écologiques et durables qui conservent la fraîcheur tout en protégeant l’environnement. Parfaits pour les boulangeries, les cafés et les entreprises de restauration."
+      },
+      "de": {
+        "title": "Bäckereibehälter aus Bambusfaser",
+        "subtitle": "Umweltfreundliche und nachhaltige Bäckereibehälter, die Frische bewahren und gleichzeitig die Umwelt schützen. Ideal für Bäckereien, Cafés und Gastronomiebetriebe."
+      },
+      "ja": {
+        "title": "竹繊維製ベーカリー容器",
+        "subtitle": "環境にやさしく持続可能なベーカリー用容器で、新鮮さを保ちながら環境を守ります。パン屋、カフェ、飲食業に最適です。"
+      },
+      "zh": {
+        "title": "竹纤维烘焙容器",
+        "subtitle": "环保可持续的烘焙容器，既能保持新鲜，又能保护环境。非常适合面包店、咖啡馆和餐饮服务行业。"
+      },
+      "ar": {
+        "title": "حاويات مخبوزات من ألياف الخيزران",
+        "subtitle": "حاويات مخبوزات صديقة للبيئة ومستدامة تحافظ على الطزاجة وتحمي البيئة. مثالية للمخابز والمقاهي وأعمال تقديم الطعام."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "np-1",
+      "image": "assets/no-image.png",
+      "description": "",
+      "translations": {
+        "en": {
+          "title": "New Products Coming Soon"
+        },
+        "es": {
+          "title": "Nuevos productos próximamente"
+        },
+        "fr": {
+          "title": "Nouveaux produits bientôt disponibles"
+        },
+        "de": {
+          "title": "Neue Produkte kommen bald"
+        },
+        "ja": {
+          "title": "新製品がまもなく登場"
+        },
+        "zh": {
+          "title": "新产品即将推出"
+        },
+        "ar": {
+          "title": "منتجات جديدة قادمة قريبًا"
+        }
+      }
+    }
+  ]
+}

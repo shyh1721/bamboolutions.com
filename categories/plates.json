@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "translations": {
+      "en": {
+        "title": "Bamboo Fiber Plates",
+        "subtitle": "Sustainable, biodegradable bowls that combine elegance with environmental responsibility. Perfect for restaurants, cafes, and home dining experiences."
+      },
+      "es": {
+        "title": "Platos de Fibra de Bambú",
+        "subtitle": "Platos sostenibles y biodegradables que combinan elegancia con responsabilidad ambiental. Perfectos para restaurantes, cafeterías y comidas en casa."
+      },
+      "fr": {
+        "title": "Assiettes en Fibre de Bambou",
+        "subtitle": "Des assiettes durables et biodégradables qui allient élégance et responsabilité environnementale. Parfaites pour les restaurants, les cafés et les repas à la maison."
+      },
+      "de": {
+        "title": "Teller aus Bambusfaser",
+        "subtitle": "Nachhaltige, biologisch abbaubare Teller, die Eleganz mit Umweltverantwortung verbinden. Perfekt für Restaurants, Cafés und das Essen zu Hause."
+      },
+      "ja": {
+        "title": "竹繊維プレート",
+        "subtitle": "エレガンスと環境への配慮を兼ね備えた、持続可能で生分解性のあるプレートです。レストラン、カフェ、自宅での食事に最適です。"
+      },
+      "zh": {
+        "title": "竹纤维餐盘",
+        "subtitle": "可持续且可生物降解的餐盘，兼具优雅与环保责任。非常适合餐厅、咖啡馆和家庭用餐。"
+      },
+      "ar": {
+        "title": "أطباق من ألياف الخيزران",
+        "subtitle": "أطباق مستدامة وقابلة للتحلل تجمع بين الأناقة والمسؤولية البيئية. مثالية للمطاعم والمقاهي وتجارب تناول الطعام في المنزل."
+      }
+    }
+  },
+  "products": [
+    {
+      "id": "RP-06",
+      "image": "assets/plates/RP-06-S.webp",
+      "description": "Φ155*H15",
+      "translations": {
+        "en": {
+          "title": "6 inch Round Plates"
+        },
+        "es": {
+          "title": "Platos redondos de 6 pulgadas"
+        },
+        "fr": {
+          "title": "Assiettes rondes de 6 pouces"
+        },
+        "de": {
+          "title": "6-Zoll-Rundteller"
+        },
+        "ja": {
+          "title": "6インチ丸皿"
+        },
+        "zh": {
+          "title": "6英寸圆盘"
+        },
+        "ar": {
+          "title": "أطباق مستديرة مقاس 6 إنش"
+        }
+      }
+    },
+    {
+      "id": "RP-07",
+      "image": "assets/plates/RP-07-S.webp",
+      "description": "Φ176*H16",
+      "translations": {
+        "en": {
+          "title": "7 inch Round Plates"
+        },
+        "es": {
+          "title": "Platos redondos de 7 pulgadas"
+        },
+        "fr": {
+          "title": "Assiettes rondes de 7 pouces"
+        },
+        "de": {
+          "title": "7-Zoll-Rundteller"
+        },
+        "ja": {
+          "title": "7インチ丸皿"
+        },
+        "zh": {
+          "title": "7英寸圆盘"
+        },
+        "ar": {
+          "title": "أطباق مستديرة مقاس 7 إنش"
+        }
+      }
+    },
+    {
+      "id": "RP-09",
+      "image": "assets/plates/RP-9-S.webp",
+      "description": "Φ225*H20",
+      "translations": {
+        "en": {
+          "title": "9 inch Round Plates"
+        },
+        "es": {
+          "title": "Platos redondos de 9 pulgadas"
+        },
+        "fr": {
+          "title": "Assiettes rondes de 9 pouces"
+        },
+        "de": {
+          "title": "9-Zoll-Rundteller"
+        },
+        "ja": {
+          "title": "9インチ丸皿"
+        },
+        "zh": {
+          "title": "9英寸圆盘"
+        },
+        "ar": {
+          "title": "أطباق مستديرة مقاس 9 إنش"
+        }
+      }
+    },
+    {
+      "id": "RP-9-3",
+      "image": "assets/plates/RP-9-3-T.webp",
+      "description": "Φ225*H20",
+      "translations": {
+        "en": {
+          "title": "9 inch Round Plates - 3 Compartment"
+        },
+        "es": {
+          "title": "Platos redondos de 9 pulgadas - 3 compartimentos"
+        },
+        "fr": {
+          "title": "Assiettes rondes de 9 pouces - 3 compartiments"
+        },
+        "de": {
+          "title": "9-Zoll-Rundteller – 3 Fächer"
+        },
+        "ja": {
+          "title": "9インチ丸皿（3仕切り）"
+        },
+        "zh": {
+          "title": "9英寸圆盘（三格）"
+        },
+        "ar": {
+          "title": "أطباق مستديرة مقاس 9 إنش - 3 أقسام"
+        }
+      }
+    },
+    {
+      "id": "RP-10",
+      "image": "assets/plates/RP-10-S.webp",
+      "description": "Φ254*H20",
+      "translations": {
+        "en": {
+          "title": "10 inch Round Plates"
+        },
+        "es": {
+          "title": "Platos redondos de 10 pulgadas"
+        },
+        "fr": {
+          "title": "Assiettes rondes de 10 pouces"
+        },
+        "de": {
+          "title": "10-Zoll-Rundteller"
+        },
+        "ja": {
+          "title": "10インチ丸皿"
+        },
+        "zh": {
+          "title": "10英寸圆盘"
+        },
+        "ar": {
+          "title": "أطباق مستديرة مقاس 10 إنش"
+        }
+      }
+    },
+    {
+      "id": "OP-10",
+      "image": "assets/plates/OP-10-S.webp",
+      "description": "W259*L192*H25",
+      "translations": {
+        "en": {
+          "title": "10 inch Oval Plates"
+        },
+        "es": {
+          "title": "Platos ovalados de 10 pulgadas"
+        },
+        "fr": {
+          "title": "Assiettes ovales de 10 pouces"
+        },
+        "de": {
+          "title": "10-Zoll-Ovalteller"
+        },
+        "ja": {
+          "title": "10インチ楕円皿"
+        },
+        "zh": {
+          "title": "10英寸椭圆盘"
+        },
+        "ar": {
+          "title": "أطباق بيضاوية مقاس 10 إنش"
+        }
+      }
+    }
+  ]
+}
