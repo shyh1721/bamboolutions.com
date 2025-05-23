@@ -203,6 +203,21 @@
     "address_hk": "THE BROADWAY, NO. 54-62 LOCKHART ROAD, WANCHAI, HONG KONG",
     "zhaoqing": "肇慶",
     "contact_details": "連絡先詳細",
+    "sales_team": {
+      "title": "営業チーム",
+      "gary_liu": {
+          "name": "Gary Liu - 営業ディレクター",
+          "email": "gary@bamboolutions.com"
+      },
+      "simon_huang": {
+          "name": "Simon Huang - アカウントマネージャー",
+          "email": "simon@bamboolutions.com"
+      },
+      "josie_huang": {
+          "name": "Josie Huang - アカウントマネージャー",
+          "email": "josie@bamboolutions.com"
+      }
+    },
     "facility_add1": "湖南省懐化市靖州苗族侗族自治県曲陽鎮",
     "facility_add2": "広東省汕尾市海豊県客塘鎮長橋工業区",
     "facility_add3": "湖南省懐化市靖州苗族自治県甘棠鎮甘棠総合加工パーク",

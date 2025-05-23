@@ -203,6 +203,21 @@
     "address_hk": "THE BROADWAY, NO. 54-62 LOCKHART ROAD, WANCHAI, HONG KONG",
     "zhaoqing": "تشاو تشينغ",
     "contact_details": "تفاصيل الاتصال",
+    "sales_team": {
+      "title": "فريق المبيعات",
+      "gary_liu": {
+          "name": "غاري ليو - مدير المبيعات",
+          "email": "gary@bamboolutions.com"
+      },
+      "simon_huang": {
+          "name": "سيمون هوانغ - مدير حسابات",
+          "email": "simon@bamboolutions.com"
+      },
+      "josie_huang": {
+          "name": "جوزي هوانغ - مديرة حسابات",
+          "email": "josie@bamboolutions.com"
+      }
+    },
     "facility_add1": "بلدة تشويانغ، مقاطعة جينغتشو العرقية المياو والدونغ، مدينة هواي هوا، مقاطعة هونان",
     "facility_add2": "المنطقة الصناعية تشانغ تشياو، بلدة كيتانغ، مقاطعة هايفنغ، مدينة شانوي، مقاطعة قوانغدونغ",
     "facility_add3": "منتزه جانتانغ المتكامل للمعالجة، بلدة جانتانغ، مقاطعة جينغتشو العرقية المياو، مدينة هواي هوا، مقاطعة هونان",

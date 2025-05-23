@@ -1,0 +1,24 @@
+<Files "send_email_smtp.php">
+    # POST method enforcement
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} !^POST$
+    RewriteRule .* - [R=403,L]
+    
+    # Security headers
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "DENY"
+    Header set Content-Security-Policy "default-src 'none'; script-src 'none'; style-src 'none'"
+    
+    # IP-based rate limiting (10 requests/5 minutes)
+    <IfModule mod_ratelimit.c>
+        RLimitIP 10 300
+    </IfModule>
+</Files>
+
+# Block sensitive file types
+<FilesMatch "\.(env|log|sql|bak)$">
+    Require all denied
+</FilesMatch>
+
+# Disable directory listing
+Options -Indexes -MultiViews

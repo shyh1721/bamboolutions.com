@@ -197,6 +197,21 @@
     "address_hk": "香港湾仔骆克道54-62号百老汇大厦",
     "zhaoqing": "肇庆",
     "contact_details": "联系方式",
+    "sales_team": {
+      "title": "销售团队",
+      "gary_liu": {
+          "name": "Gary Liu - 销售总监",
+          "email": "gary@bamboolutions.com"
+      },
+      "simon_huang": {
+          "name": "Simon Huang - 客户经理",
+          "email": "simon@bamboolutions.com"
+      },
+      "josie_huang": {
+          "name": "Josie Huang - 客户经理",
+          "email": "josie@bamboolutions.com"
+      }
+    },
     "facility_add1": "湖南省怀化市靖州苗族侗族自治县渠阳镇",
     "facility_add2": "广东省汕尾市海丰县可塘镇长桥工业区",
     "facility_add3": "湖南省怀化市靖州苗族自治县甘棠镇甘棠综合加工园",
