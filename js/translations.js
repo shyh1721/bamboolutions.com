@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (attribute === 'alt') {
                     element.alt = translation;
                 } else {
-                    element.textContent = translation;
+                    element.innerHTML = translation;
                 }
             }
         });

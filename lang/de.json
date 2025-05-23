@@ -454,7 +454,47 @@
     "help": "Brauchen Sie Hilfe?",
     "contact": "Kontaktieren Sie unsere Produktspezialisten für persönliche Unterstützung.",
     "product_category_title": "Produktkategorien"
+  },
+
+  "p_details": {
+    "info": {
+      "title": "Produktinformationen anfordern",
+      "subtitle": "Interessiert an diesem Produkt? Kontaktieren Sie unser Vertriebsteam für detaillierte Informationen und Musteranfragen.",
+      "button": "Vertrieb kontaktieren"
+    },
+    "spec": {
+      "spec1": "",
+      "spec2": "",
+      "spec3": "",
+      "spec4": "Produktabmessungen",
+      "spec5": "Produktcode",
+      "spec6": "",
+      "spec7": "",
+      "feature_title": "Eigenschaften",
+      "f_text1": "Kompostierbar & biologisch abbaubar",
+      "f_text2": "Wasser- und fettabweisend.",
+      "f_text3": "Ofen-, Mikrowellen- und Kühlschrankgeeignet",
+      "spec9": "",
+      "spec10": "",
+      "spec11": ""
+    },
+    "usage": {
+      "title": "Empfohlene Anwendungen",
+      "use1": "Restaurants & Cafés",
+      "text1": "Perfekt zum Servieren von Vorspeisen, Desserts oder als Unterlage für angerichtete Speisen. Verleiht Ihrer Tischpräsentation eine umweltfreundliche Note.",
+      "use2": "Hotels & Resorts",
+      "text2": "Ideal für den Zimmerservice, Frühstückspräsentationen oder die Präsentation von Annehmlichkeiten. Unterstützt Nachhaltigkeitsinitiativen bei gleichzeitiger Wahrung eines luxuriösen Erscheinungsbilds.",
+      "use3": "Catering & Veranstaltungen",
+      "text3": "Hervorragend für Buffets, Häppchen oder Einzelportionen bei Events. Reduziert Abfall und verbessert die Präsentation.",
+      "use4": "Einzelhandel – Lebensmittelauslage",
+      "text4": "Ideal für Bäckereien, Feinkostläden und Spezialitätengeschäfte zur Produktpräsentation. Die natürliche Ästhetik unterstreicht die Qualität Ihrer Produkte.",
+      "use5": "Private Feiern",
+      "text5": "Stilvolle Lösung für das Servieren von Snacks, Käseplatten oder Cocktails bei Veranstaltungen zu Hause. Ein Gesprächsanlass über nachhaltige Entscheidungen.",
+      "use6": "Kreuzfahrtschiffe & Fluggesellschaften",
+      "text6": "Leichte Alternative für die Verpflegung, die Abfallprobleme reduziert und Nachhaltigkeitsziele unterstützt."
+    }
   }
+
 }
 
 

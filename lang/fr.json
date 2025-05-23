@@ -454,6 +454,44 @@
     "help": "Besoin d’aide ?",
     "contact": "Contactez nos spécialistes produits pour une assistance personnalisée.",
     "product_category_title": "Catégories de Produits"
+  },
+  "p_details": {
+    "info": {
+      "title": "Demander des informations sur le produit",
+      "subtitle": "Intéressé par ce produit ? Contactez notre équipe commerciale pour des informations détaillées et des demandes d'échantillons.",
+      "button": "Contacter les ventes"
+    },
+    "spec": {
+      "spec1": "",
+      "spec2": "",
+      "spec3": "",
+      "spec4": "Dimensions du produit",
+      "spec5": "Code produit",
+      "spec6": "",
+      "spec7": "",
+      "feature_title": "Caractéristiques",
+      "f_text1": "Compostable et biodégradable",
+      "f_text2": "Résistant à l’eau et à la graisse.",
+      "f_text3": "Compatible four / micro-ondes / réfrigérateur",
+      "spec9": "",
+      "spec10": "",
+      "spec11": ""
+    },
+    "usage": {
+      "title": "Applications recommandées",
+      "use1": "Restaurants et cafés",
+      "text1": "Parfait pour servir des entrées, des desserts ou comme base pour des plats dressés. Apporte une touche écologique à votre présentation.",
+      "use2": "Hôtels et resorts",
+      "text2": "Idéal pour le service en chambre, les présentations de petit-déjeuner ou les expositions de produits d’accueil. Allie développement durable et esthétique luxueuse.",
+      "use3": "Traiteurs et événements",
+      "text3": "Excellent pour les buffets, les amuse-bouches ou le service individuel lors d'événements. Réduit les déchets tout en améliorant la présentation.",
+      "use4": "Présentation alimentaire en magasin",
+      "text4": "Parfait pour les boulangeries, les épiceries fines et les commerces spécialisés pour mettre en valeur les produits. L'esthétique naturelle valorise la qualité de vos offres.",
+      "use5": "Réceptions à domicile",
+      "text5": "Solution élégante pour servir des collations, des plateaux de fromages ou des cocktails. Un point de départ pour parler de choix durables.",
+      "use6": "Croisières et compagnies aériennes",
+      "text6": "Alternative légère pour le service alimentaire, réduisant les défis liés à l’élimination des déchets tout en répondant aux objectifs de durabilité."
+    }
   }
 }
 
