@@ -36,7 +36,7 @@
       "id": "RP-06",
       "image": "assets/plates/RP-06-S.webp",
       "description": "Φ155*H15",
-      "link": "products/RP-06.html",
+      "link": "RP-06.html",
       "translations": {
         "en": {
           "title": "6 inch Round Plates"
@@ -65,7 +65,7 @@
       "id": "RP-07",
       "image": "assets/plates/RP-07-S.webp",
       "description": "Φ176*H16",
-      "link": "products/RP-07.html",
+      "link": "RP-07.html",
       "translations": {
         "en": {
           "title": "7 inch Round Plates"
@@ -94,7 +94,7 @@
       "id": "RP-09",
       "image": "assets/plates/RP-9-S.webp",
       "description": "Φ225*H20",
-      "link": "products/RP-09.html",
+      "link": "RP-09.html",
       "translations": {
         "en": {
           "title": "9 inch Round Plates"
@@ -123,7 +123,7 @@
       "id": "RP-9-3",
       "image": "assets/plates/RP-9-3-T.webp",
       "description": "Φ225*H20",
-      "link": "products/RP-9-3.html",
+      "link": "RP-9-3.html",
       "translations": {
         "en": {
           "title": "9 inch Round Plates - 3 Compartment"
@@ -152,7 +152,7 @@
       "id": "RP-10",
       "image": "assets/plates/RP-10-S.webp",
       "description": "Φ254*H20",
-      "link": "products/RP-10.html",
+      "link": "RP-10.html",
       "translations": {
         "en": {
           "title": "10 inch Round Plates"
@@ -181,7 +181,7 @@
       "id": "OP-10",
       "image": "assets/plates/OP-10-S.webp",
       "description": "W259*L192*H25",
-      "link": "products/OP-10.html",
+      "link": "OP-10.html",
       "translations": {
         "en": {
           "title": "10 inch Oval Plates"

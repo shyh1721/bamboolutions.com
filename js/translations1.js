@@ -1,86 +1,73 @@
-document.addEventListener('DOMContentLoaded', function() {
-    let currentLang = localStorage.getItem('preferredLang') || 'en';
-    let currentCategory = window.CURRENT_CATEGORY || 'trays';
-    let translations = {};
+document.addEventListener('DOMContentLoaded', async function() {
+    // Path configuration
+    const BASE_PATH = window.location.pathname.includes('/products/')
+                    ? '../'
+                    : './';
 
-    // Cache for loaded translations
-    const translationCache = new Map();
+    // Get translation context
+    const productId = document.body.dataset.productId;
+    const currentCategory = window.CURRENT_CATEGORY || document.body.dataset.category;
+    const currentLang = localStorage.getItem('preferredLang') || 'en';
 
-    async function loadAllTranslations(lang) {
-        const cacheKey = `${lang}-${currentCategory}`;
-
-        if (translationCache.has(cacheKey)) {
-            return translationCache.get(cacheKey);
-        }
-
+    async function loadTranslations() {
         try {
-            const [uiTranslations, categoryData] = await Promise.all([
-                fetch(`lang/${lang}.json`).then(r => r.json()),
-                fetch(`categories/${currentCategory}.json`).then(r => r.json())
+            // Load core translations
+            const [langData, categoryData] = await Promise.all([
+                fetch(`${BASE_PATH}lang/${currentLang}.json`).then(r => r.json()),
+                currentCategory ? fetch(`${BASE_PATH}categories/${currentCategory}.json`).then(r => r.json()) : null
             ]);
 
-            const mergedTranslations = {
-                ...flattenTranslations(uiTranslations),
-                ...flattenTranslations({
-                    category: categoryData.meta.translations[lang],
-                    products: categoryData.products.reduce((acc, product) => {
-                        acc[product.id] = product.translations[lang];
-                        return acc;
-                    }, {})
-                })
+            // Load product-specific translations if needed
+            let productTranslations = {};
+            if(productId) {
+                const productData = await fetch(`${BASE_PATH}categories/${currentCategory}.json`).then(r => r.json());
+                const product = productData.products.find(p => p.id === productId);
+                productTranslations = product?.translations?.[currentLang] || {};
+            }
+
+            // Merge translations
+            return {
+                ...langData,
+                ...(categoryData?.meta?.translations?.[currentLang] || {}),
+                products: {
+                    ...(langData.products || {}),
+                    ...(productId ? { [productId]: productTranslations } : {})
+                }
             };
 
-            translationCache.set(cacheKey, mergedTranslations);
-            return mergedTranslations;
-
-        } catch (error) {
-            console.error('Error loading translations:', error);
+        } catch(error) {
+            console.error('Translation load error:', error);
             return {};
         }
     }
 
-    function flattenTranslations(data, prefix = '') {
-        return Object.keys(data).reduce((acc, key) => {
-            const fullKey = prefix ? `${prefix}.${key}` : key;
-            if (typeof data[key] === 'object' && data[key] !== null) {
-                Object.assign(acc, flattenTranslations(data[key], fullKey));
-            } else {
-                acc[fullKey] = data[key];
-            }
-            return acc;
-        }, {});
-    }
+    // Apply translations to elements
+    window.updateTranslations = async function() {
+        const translations = await loadTranslations();
 
-    function applyTranslations() {
         document.querySelectorAll('[data-translate]').forEach(element => {
-            const [attribute, key] = element.dataset.translate.split('|');
-            const translation = key ? translations[key] : translations[element.dataset.translate];
+            const [attr, key] = element.dataset.translate.split('|').reverse();
+            const value = key.split('.').reduce((acc, k) => acc?.[k], translations);
 
-            if (translation) {
-                if (attribute === 'alt') {
-                    element.alt = translation;
+            if(value) {
+                if(attr === 'alt' && element.tagName === 'IMG') {
+                    element.alt = value;
                 } else {
-                    element.textContent = translation;
+                    element.textContent = value;
                 }
             }
         });
-    }
+    };
 
-    async function updateTranslations(lang = currentLang) {
-        translations = await loadAllTranslations(lang);
-        applyTranslations();
-    }
+    // Initialize translations
+    await window.updateTranslations();
 
+    // Language selector handlers
     document.querySelectorAll('.language-option').forEach(button => {
         button.addEventListener('click', async (e) => {
             e.preventDefault();
-            currentLang = button.dataset.lang;
-            localStorage.setItem('preferredLang', currentLang);
-            await updateTranslations();
+            localStorage.setItem('preferredLang', button.dataset.lang);
+            window.location.reload();
         });
     });
-
-    // Initial setup
-    updateTranslations();
-    window.updateTranslations = updateTranslations;
 });

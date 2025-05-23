@@ -36,7 +36,7 @@
       "id": "C2-1",
       "image": "assets/cup&egg/C2-1-S.webp",
       "description": "W220*L112*H46",
-      "link": "products/C2-1.html",
+      "link": "C2-1.html",
       "translations": {
         "en": {
           "title": "Cup Tray - 2"
@@ -65,7 +65,7 @@
       "id": "C2-2",
       "image": "assets/cup&egg/C2-2-S.webp",
       "description": "W220*L112*H46",
-      "link": "products/C2-2.html",
+      "link": "C2-2.html",
       "translations": {
         "en": {
           "title": "Cup Tray (reinforced) - 2"
@@ -94,7 +94,7 @@
       "id": "C2-3",
       "image": "assets/cup&egg/C2-3-S.webp",
       "description": "W223*L109*H45",
-      "link": "products/C2-3.html",
+      "link": "C2-3.html",
       "translations": {
         "en": {
           "title": "Cup Tray (tearable) - 2"
@@ -123,7 +123,7 @@
       "id": "C4-1",
       "image": "assets/cup&egg/C4-1-S.webp",
       "description": "W225*L225*H45",
-      "link": "products/C4-1.html",
+      "link": "C4-1.html",
       "translations": {
         "en": {
           "title": "Cup Tray - 4"
@@ -152,7 +152,7 @@
       "id": "C4-2",
       "image": "assets/cup&egg/C4-2-S.webp",
       "description": "W225*L225*H45",
-      "link": "products/C4-2.html",
+      "link": "C4-2.html",
       "translations": {
         "en": {
           "title": "Cup Tray - 4"
@@ -181,7 +181,7 @@
       "id": "E12",
       "image": "assets/cup&egg/E12-S.webp",
       "description": "W300*L115*H65",
-        "link": "products/E12.html",
+        "link": "E12.html",
       "translations": {
         "en": {
           "title": "Egg Carton -12"
@@ -210,7 +210,7 @@
       "id": "E15",
       "image": "assets/cup&egg/E15-T.webp",
       "description": "W300*L150*H70",
-        "link": "products/E15.html",
+        "link": "E15.html",
       "translations": {
         "en": {
           "title": "Egg Carton -15"
@@ -239,7 +239,7 @@
       "id": "E30",
       "image": "assets/cup&egg/E30-T.webp",
       "description": "W300*L250*H70",
-      "link": "products/E30.html",
+      "link": "E30.html",
       "translations": {
         "en": {
           "title": "Egg Carton -30"

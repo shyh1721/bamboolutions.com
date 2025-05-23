@@ -36,7 +36,7 @@
       "id": "A01",
       "image": "assets/trays/A01-S.webp",
       "description": "W260*L182*H25",
-      "link": "products/A01.html",
+      "link": "A01.html",
       "translations": {
         "en": {
           "title": "Fresh Meat Tray"
@@ -65,7 +65,7 @@
       "id": "ET7",
       "image": "assets/trays/ET7-S.webp",
       "description": "W298*L216*H59",
-      "link": "products/ET7.html",
+      "link": "ET7.html",
       "translations": {
         "en": {
           "title": "Fresh Meat Tray - Extra Thick"
@@ -94,7 +94,7 @@
       "id": "T09",
       "image": "assets/trays/T09-S.webp",
       "description": "W223*L157*H22",
-      "link": "products/T09.html",
+      "link": "T09.html",
       "translations": {
         "en": {
           "title": "Fresh Meat Tray"
@@ -123,7 +123,7 @@
       "id": "T13",
       "image": "assets/trays/T13-S.webp",
       "description": "W390*L140*H20",
-      "link": "products/T13.html",
+      "link": "T13.html",
       "translations": {
         "en": {
           "title": "Vegetable Fruit Tray"
@@ -152,7 +152,7 @@
       "id": "T18",
       "image": "assets/trays/T18-S.webp",
       "description": "W180*L125*H45",
-      "link": "products/T18.html",
+      "link": "T18.html",
       "translations": {
         "en": {
           "title": "Hot Food Tray"
@@ -181,7 +181,7 @@
       "id": "T21",
       "image": "assets/trays/T21-S.webp",
       "description": "W300*L125*H55",
-      "link": "products/T21.html",
+      "link": "T21.html",
       "translations": {
         "en": {
           "title": "Rectangle Food Tray"
@@ -210,7 +210,7 @@
       "id": "T22",
       "image": "assets/trays/T22-S.webp",
       "description": "W228*179*H45",
-      "link": "products/T22.html",
+      "link": "T22.html",
       "translations": {
         "en": {
           "title": "Meal Tray "
@@ -239,7 +239,7 @@
       "id": "T23",
       "image": "assets/trays/T23-S.webp",
       "description": "W228*179*H45",
-      "link": "products/T23.html",
+      "link": "T23.html",
       "translations": {
         "en": {
           "title": "Meal Tray - 2 Compartments"
@@ -268,7 +268,7 @@
       "id": "T24",
       "image": "assets/trays/T24-S.webp",
       "description": "W228*179*H45",
-      "link": "products/T24.html",
+      "link": "T24.html",
       "translations": {
         "en": {
           "title": "Meal Tray - 3 Compartments"
