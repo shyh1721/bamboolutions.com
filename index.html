@@ -8,7 +8,7 @@
 <script>tailwind.config={theme:{extend:{colors:{primary:'#4D8B31',secondary:'#8CC084'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
 <style>
@@ -88,14 +88,10 @@ outline: none;
 </head>
 <body class="overflow-x-hidden">
 <!-- Header Section -->
+<!-- Header Section -->
 <header class="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
-    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="flex items-baseline space-x-2">
-        <a href="index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolutions</a>
-        <span class="text-base font-['Lora'] italic text-gray-600">
-          Eco Tableware, Bamboo's Everywhere
-        </span>
-      </div>
+<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+<a href="index.html" class="text-3xl font-['Pacifico'] text-primary">Bamboolutions</a>
 <nav class="hidden md:flex items-center space-x-8">
 <a href="index.html" class="nav-link active text-gray-800 hover:text-primary font-medium transition-colors" data-translate="global.nav_home">Home</a>
 <div class="relative group">
@@ -554,7 +550,12 @@ Explore Series
 <p class="text-gray-600 mb-8" data-translate="index.cta.subtitle">Join thousands of businesses worldwide who have chosen Bamboolutions for their eco-friendly packaging needs. Our team is ready to help you find the perfect solution for your business.</p>
 <div class="flex flex-col sm:flex-row justify-center gap-4">
 <a href="contact.html" class="bg-primary hover:bg-primary/90 text-white px-8 py-3 font-medium !rounded-button whitespace-nowrap transition-colors" data-translate="index.cta.quote">Request a Quote</a>
-<a href="assets/catalog.pdf" target="_blank" class="bg-white hover:bg-gray-50 text-primary border border-primary px-8 py-3 font-medium !rounded-button whitespace-nowrap transition-colors" data-translate="index.cta.catalog">Download Catalog</a>
+<a href="assets/catalog-en.pdf"
+   target="_blank"
+   class="bg-white hover:bg-gray-50 text-primary border border-primary px-8 py-3 font-medium !rounded-button whitespace-nowrap transition-colors"
+   data-catalog-link>
+   <span data-translate="index.cta.catalog">Download Catalog</span>
+</a>
 </div>
 </div>
 </div>
@@ -786,5 +787,6 @@ dropdown.classList.toggle('hidden');
 
 </script>
 <script src="js/translations.js"></script>
+<script src="js/catalog-download.js"></script>
 </body>
 </html>
