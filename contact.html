@@ -390,12 +390,12 @@ About Us
 <div>
 <h3 class="text-lg font-semibold mb-4" data-translate="global.quick_links">Quick Links</h3>
 <ul class="space-y-3">
-<li><a href="#" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_home">Home</a></li>
-<li><a href="en/category.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_products">Products</a></li>
-<li><a href="en/company-profile.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_about">About Us</a></li>
-<li><a href="en/sustainability.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_sustainability">Sustainability</a></li>
-<li><a href="en/contact.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_contact">Contact</a></li>
-<li><a href="en/faq.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_faq">FAQ</a></li>
+<li><a href="index.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_home">Home</a></li>
+<li><a href="trays.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_products">Products</a></li>
+<li><a href="company-profile.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_about">About Us</a></li>
+<li><a href="sustainability.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_sustainability">Sustainability</a></li>
+<li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_contact">Contact</a></li>
+<li><a href="faq.html" class="text-gray-400 hover:text-white transition-colors" data-translate="global.nav_faq">FAQ</a></li>
 </ul>
 </div>
 <!-- Contact Info -->
@@ -426,7 +426,9 @@ About Us
 <div>
 <h3 class="text-lg font-semibold mb-4" data-translate="global.news.heading">Stay Updated</h3>
 <p class="text-gray-400 mb-4" data-translate="global.news.subheading">Subscribe to our newsletter for the latest product updates and sustainability news.</p>
-<form class="flex flex-col space-y-3">
+<form method="POST" action="/secure/subscribe.php">
+    <!-- Honeypot field -->
+    <input type="text" name="website" style="display:none">
 <div class="relative">
 <input type="email" placeholder="john@email.com" class="w-full px-4 py-3 bg-[#1F361F] border-none rounded text-white text-sm focus:ring-2 focus:ring-primary">
 <button type="submit" class="absolute right-1 top-1 bottom-1 bg-primary hover:bg-primary/90 px-4 !rounded-button whitespace-nowrap transition-colors" data-translate="global.news.subscribe">
@@ -571,6 +573,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const subStatus = urlParams.get('subscription');
+
+if(subStatus === 'success') {
+    alert('Thank you for subscribing!');
+    history.replaceState(null, '', window.location.pathname);
+}
+if(subStatus === 'invalid') {
+    alert('Please enter a valid email address');
+    history.replaceState(null, '', window.location.pathname);
+}
+if(subStatus === 'error') {
+    alert('Subscription failed. Please try again');
+    history.replaceState(null, '', window.location.pathname);
+}
+</script>
+
 <script src="js/translations.js"></script>
 
 </body>

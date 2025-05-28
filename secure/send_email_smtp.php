@@ -5,13 +5,13 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Get language from referring page
-$referer = $_SERVER['HTTP_REFERER'] ?? '';
-preg_match('#/([a-z]{2})/contact\.html#', $referer, $matches);
-$lang = in_array($matches[1] ?? '', ['en', 'zh', 'fr', 'es', 'de', 'ae', 'jp']) ? $matches[1] : 'en';
+$lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? 'en', 0, 2);
+$allowed_langs = ['en', 'fr', 'es', 'ar', 'de', 'ja', 'zh'];
+$lang = in_array($lang, $allowed_langs) ? $lang : 'en';
 
 // Verify POST request
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header("Location: contact.html?status=error");
+    header("Location: https://bamboolutions.com/contact.html?status=error");
     exit;
 }
 
@@ -25,7 +25,7 @@ use PHPMailer\PHPMailer\Exception;
 
 // Honeypot trap
 if (!empty($_POST['website'])) {
-    header("Location: contact.html?status=success");
+    header("Location: https://bamboolutions.com/contact.html?status=success");
     exit;
 }
 
@@ -49,7 +49,7 @@ if (empty($data['message'])) $errors[] = 'Message required';
 
 if (!empty($errors)) {
     $errorString = urlencode(implode(', ', $errors));
-    header("Location: contact.html?status=error&message=$errorString");
+    header("Location: https://bamboolutions.com/contact.html?status=error&message=$errorString");
     exit;
 }
 
@@ -80,7 +80,7 @@ try {
     $mail->addReplyTo($data['email'], $data['name']);
 
     // Content
-    $mail->Subject = "New Contact - " . strtoupper($lang);
+    $mail->Subject = "New Contact Form Submission - " . date('Y-m-d H:i');
     $mail->Body = sprintf(
         "Name: %s\nCompany: %s\nEmail: %s\nPhone: %s\nSubject: %s\n\nMessage:\n%s",
         $data['name'],
@@ -92,8 +92,8 @@ try {
     );
 
     $mail->send();
-    header("Location: contact.html?status=success");
+    header("Location: https://bamboolutions.com/contact.html?status=success");
 } catch (Exception $e) {
     error_log('Mail Error: ' . $e->getMessage());
-    header("Location: contact.html?status=error&message=Service+unavailable");
+    header("Location: https://bamboolutions.com/contact.html?status=error&message=Service+unavailable");
 }
