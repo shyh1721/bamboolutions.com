@@ -27,7 +27,8 @@
         "it": "Italiano",
         "hi": "hindī",
         "ja": "日本語",
-        "zh": "中文"
+        "zh": "中文",
+        "zh-hk": "中文（繁体)"
       },
     "company_statement": "Fabricante líder de talheres e embalagens ecológicas de fibra de bambu para empresas em todo o mundo.",
     "quick_links": "Links Rápidos",
@@ -227,7 +228,7 @@
     "faq": {
       "title": "Perguntas Frequentes",
       "moq_question": "Qual é a quantidade mínima de pedido (MOQ)?",
-      "moq_answer": "Nosso MOQ padrão é de 10.000 unidades por produto. Porém, para designs personalizados ou requisitos especiais, o MOQ pode variar. Por favor, entre em contato com nossa equipe de vendas para informações específicas.",
+      "moq_answer": "Nosso MOQ padrão é de 20.000 unidades por produto. Porém, para designs personalizados ou requisitos especiais, o MOQ pode variar. Por favor, entre em contato com nossa equipe de vendas para informações específicas.",
       "custom_question": "Vocês oferecem designs e embalagens personalizadas?",
       "custom_answer": "Sim, oferecemos soluções personalizadas incluindo design de produto, ajustes de tamanho e embalagens customizadas com sua marca. Nossa equipe de design trabalhará junto com você para criar produtos que atendam às suas necessidades específicas.",
       "lead_time_question": "Qual é o prazo para os pedidos?",

@@ -83,4 +83,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial setup
     updateTranslations();
     window.updateTranslations = updateTranslations;
+    window.applyTranslations = applyTranslations;
 });

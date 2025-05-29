@@ -166,7 +166,12 @@ About Us
          data-lang="zh"
          data-translate="global.languages.zh"
          class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+<a href="#"
+         data-lang="zh-hk"
+         data-translate="global.languages.zh-hk"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文 （繁体）</a>
     </div>
+
   </div>
   <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
     <i class="ri-menu-line text-2xl"></i>
@@ -308,20 +313,20 @@ About Us
         <!-- Question 4 -->
         <div class="faq-item">
             <div class="faq-question flex justify-between items-center py-4">
-                <h3 class="text-lg font-medium pr-8" data-translate="faq_page.product_info.q4">Are your products microwave and dishwasher safe?</h3>
+                <h3 class="text-lg font-medium pr-8" data-translate="faq_page.product_info.q4">Are your products microwave and oven safe?</h3>
                 <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
                     <i class="ri-arrow-down-s-line text-primary"></i>
                 </div>
             </div>
             <div class="faq-answer text-gray-600" data-translate="faq_page.product_info.a4">
-                <p><strong>Microwave:</strong> Yes, our products are microwave safe for reheating food for up to 3 minutes at standard power settings. They can withstand temperatures up to 120°C.</p>
-                <p class="mt-2"><strong>Dishwasher:</strong> While our products can technically withstand dishwasher cleaning, we recommend hand washing for prolonged product life. If using a dishwasher, place items on the top rack and use eco-friendly detergents. Please note that repeated dishwasher use may gradually affect the appearance of the products over time.</p>
-                <p class="mt-2">For optimal product longevity, we recommend gentle hand washing with mild soap and warm water.</p>
+                <p><strong>Microwave:</strong> Yes, our products are microwave safe for reheating food for up to 5 minutes at standard power settings. They can withstand temperatures up to 120°C.</p>
+                <p class="mt-2"><strong>Oven:</strong>Our products can be used in an oven at temperatures up to 120°C for a maximum of 10 minutes.</p>
+                <p class="mt-2">For optimal product performance, avoid exposing the tableware to direct flame or high heat sources and always follow recommended time and temperature limits.</p>
             </div>
         </div>
 
         <!-- Question 5 -->
-        <div class="faq-item">
+        <div class="faq-item hidden">
             <div class="faq-question flex justify-between items-center py-4">
                 <h3 class="text-lg font-medium pr-8" data-translate="faq_page.product_info.q5">How long do your products last with regular use?</h3>
                 <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
@@ -387,15 +392,15 @@ About Us
             <div class="faq-answer text-gray-600" data-translate="faq_page.ordering_shipping.a2">
                 <p>Our standard production and shipping timeframes are as follows:</p>
                 <ul class="list-disc pl-5 mt-2 space-y-1">
-                    <li><strong>Standard products:</strong> 25-30 days production time + shipping time</li>
-                    <li><strong>Custom products:</strong> 45-60 days production time + shipping time</li>
-                    <li><strong>Sample orders:</strong> 7-10 days + express shipping (typically 3-5 days)</li>
+                    <li><strong>Standard products:</strong> 3-7 days production time</li>
+                    <li><strong>Custom products:</strong> 7-15 days production time after mold confirmation</li>
+                    <li><strong>Sample orders:</strong> 2-3 days preparation time</li>
                 </ul>
                 <p class="mt-2">Shipping times vary by destination:</p>
                 <ul class="list-disc pl-5 mt-2 space-y-1">
                     <li>Asia-Pacific: 7-14 days</li>
                     <li>Europe: 25-35 days</li>
-                    <li>North America: 30-40 days</li>
+                    <li>North America: 14-30 days</li>
                     <li>Middle East: 20-30 days</li>
                     <li>Africa: 30-45 days</li>
                     <li>South America: 35-45 days</li>
@@ -449,7 +454,7 @@ About Us
                 <ul class="list-disc pl-5 mt-2 space-y-1">
                     <li>FOB (Free On Board)</li>
                     <li>CIF (Cost, Insurance, and Freight)</li>
-                    <li>DDP (Delivered Duty Paid) for select destinations</li>
+                    <li>DDU (Delivered Duty Unpaid)</li>
                 </ul>
                 <p class="mt-2">Our logistics team will provide guidance on the most suitable shipping method based on your location, order size, and timeline requirements.</p>
             </div>
@@ -585,7 +590,7 @@ About Us
         </div>
 
         <!-- Question 5 -->
-        <div class="faq-item">
+        <div class="faq-item hidden">
             <div class="faq-question flex justify-between items-center py-4">
                 <h3 class="text-lg font-medium pr-8" data-translate="faq_page.sustainability.q5">Do you offer carbon footprint information for your products?</h3>
                 <div class="faq-icon w-6 h-6 flex items-center justify-center flex-shrink-0">
@@ -886,7 +891,7 @@ About Us
 <div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
 <i class="ri-map-pin-line"></i>
 </div>
-<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China</span>
+<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, China</span>
 </li>
 <li class="flex items-center">
 <div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
@@ -1144,6 +1149,8 @@ dropdown.classList.toggle('hidden');
 });
 });
 </script>
-<script src="js/translations.js"></script>
+ <script src="js/translations.js"></script>
+ <script src="js/mobile-menu.js"></script>
+
 </body>
 </html>

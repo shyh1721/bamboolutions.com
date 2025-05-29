@@ -25,273 +25,160 @@
                 "title": "竹纤维托盘",
                 "subtitle": "可持续且可生物降解的餐具解决方案，兼具优雅与环保责任。非常适合餐饮服务、餐饮配送和零售应用。"
             },
+            "zh-hk": {
+                "title": "竹纖維托盤",
+                "subtitle": "可持續且可生物降解的餐具方案，兼具優雅與環保責任。非常適合餐飲服務、到會及零售用途。"
+            },
             "ar": {
                 "title": "صواني من ألياف الخيزران",
                 "subtitle": "حلول تقديم مستدامة وقابلة للتحلل تجمع بين الأناقة والمسؤولية البيئية. مثالية لخدمات الطعام والتموين وتطبيقات البيع بالتجزئة."
             }
         }
     },
-  "products": [
-    {
-      "id": "A01",
-      "image": "assets/trays/A01-S.webp",
-      "description": "W260*L182*H25",
-      "link": "A01.html",
-      "translations": {
-        "en": {
-          "title": "Fresh Meat Tray"
-        },
-        "es": {
-          "title": "Bandeja de Carne Fresca"
-        },
-        "fr": {
-          "title": "Plateau de Viande Fraîche"
-        },
-        "de": {
-          "title": "Frischfleischschale"
-        },
-        "ja": {
-          "title": "新鮮肉用トレイ"
-        },
-        "zh": {
-          "title": "鲜肉托盘"
-        },
-        "ar": {
-          "title": "صينية لحم طازج"
+    "products": [
+      {
+        "id": "A01",
+        "image": "assets/trays/A01-S.webp",
+        "description": "W260*L182*H25",
+        "link": "A01.html",
+        "translations": {
+          "en": { "title": "Fresh Meat Tray" },
+          "es": { "title": "Bandeja de Carne Fresca" },
+          "fr": { "title": "Plateau de Viande Fraîche" },
+          "de": { "title": "Frischfleischschale" },
+          "ja": { "title": "新鮮肉用トレイ" },
+          "zh": { "title": "鲜肉托盘" },
+          "zh-hk": { "title": "鮮肉托盤" },
+          "ar": { "title": "صينية لحم طازج" }
+        }
+      },
+      {
+        "id": "ET7",
+        "image": "assets/trays/ET7-S.webp",
+        "description": "W298*L216*H59",
+        "link": "ET7.html",
+        "translations": {
+          "en": { "title": "Fresh Meat Tray - Extra Thick" },
+          "es": { "title": "Bandeja de Carne Fresca - Extra Gruesa" },
+          "fr": { "title": "Plateau de Viande Fraîche - Extra Épais" },
+          "de": { "title": "Frischfleischschale – Extra Dick" },
+          "ja": { "title": "新鮮肉用トレイ - 特厚" },
+          "zh": { "title": "鲜肉托盘 - 加厚型" },
+          "zh-hk": { "title": "鮮肉托盤 - 加厚型" },
+          "ar": { "title": "صينية لحم طازج - سميكة جدًا" }
+        }
+      },
+      {
+        "id": "T09",
+        "image": "assets/trays/T09-S.webp",
+        "description": "W223*L157*H22",
+        "link": "T09.html",
+        "translations": {
+          "en": { "title": "Fresh Meat Tray" },
+          "es": { "title": "Bandeja de Carne Fresca" },
+          "fr": { "title": "Plateau de Viande Fraîche" },
+          "de": { "title": "Frischfleischschale" },
+          "ja": { "title": "新鮮肉用トレイ" },
+          "zh": { "title": "鲜肉托盘" },
+          "zh-hk": { "title": "鮮肉托盤" },
+          "ar": { "title": "صينية لحم طازج" }
+        }
+      },
+      {
+        "id": "T13",
+        "image": "assets/trays/T13-S.webp",
+        "description": "W390*L140*H20",
+        "link": "T13.html",
+        "translations": {
+          "en": { "title": "Vegetable Fruit Tray" },
+          "es": { "title": "Bandeja de Verduras y Frutas" },
+          "fr": { "title": "Plateau de Légumes et Fruits" },
+          "de": { "title": "Gemüse-Obst-Schale" },
+          "ja": { "title": "野菜・果物トレイ" },
+          "zh": { "title": "蔬果托盘" },
+          "zh-hk": { "title": "蔬果托盤" },
+          "ar": { "title": "صينية خضار وفواكه" }
+        }
+      },
+      {
+        "id": "T18",
+        "image": "assets/trays/T18-S.webp",
+        "description": "W180*L125*H45",
+        "link": "T18.html",
+        "translations": {
+          "en": { "title": "Hot Food Tray" },
+          "es": { "title": "Bandeja de Comida Caliente" },
+          "fr": { "title": "Plateau de Plats Chauds" },
+          "de": { "title": "Warmessensschale" },
+          "ja": { "title": "ホットフード用トレイ" },
+          "zh": { "title": "热食托盘" },
+          "zh-hk": { "title": "熱食托盤" },
+          "ar": { "title": "صينية طعام ساخن" }
+        }
+      },
+      {
+        "id": "T21",
+        "image": "assets/trays/T21-S.webp",
+        "description": "W300*L125*H55",
+        "link": "T21.html",
+        "translations": {
+          "en": { "title": "Rectangle Food Tray" },
+          "es": { "title": "Bandeja de Comida Rectangular" },
+          "fr": { "title": "Plateau Alimentaire Rectangulaire" },
+          "de": { "title": "Rechteckige Lebensmittelschale" },
+          "ja": { "title": "長方形フードトレイ" },
+          "zh": { "title": "长方形食品托盘" },
+          "zh-hk": { "title": "長方形食品托盤" },
+          "ar": { "title": "صينية طعام مستطيلة" }
+        }
+      },
+      {
+        "id": "T22",
+        "image": "assets/trays/T22-S.webp",
+        "description": "W228*179*H45",
+        "link": "T22.html",
+        "translations": {
+          "en": { "title": "Meal Tray " },
+          "es": { "title": "Bandeja de Comida" },
+          "fr": { "title": "Plateau Repas" },
+          "de": { "title": "Essensschale" },
+          "ja": { "title": "ミールトレイ" },
+          "zh": { "title": "餐盘" },
+          "zh-hk": { "title": "餐盤" },
+          "ar": { "title": "صينية وجبات" }
+        }
+      },
+      {
+        "id": "T23",
+        "image": "assets/trays/T23-S.webp",
+        "description": "W228*179*H45",
+        "link": "T23.html",
+        "translations": {
+          "en": { "title": "Meal Tray - 2 Compartments" },
+          "es": { "title": "Bandeja de Comida - 2 Compartimentos" },
+          "fr": { "title": "Plateau Repas - 2 Compartiments" },
+          "de": { "title": "Essensschale – 2 Fächer" },
+          "ja": { "title": "ミールトレイ - 2区画" },
+          "zh": { "title": "餐盘 - 两格" },
+          "zh-hk": { "title": "餐盤 - 兩格" },
+          "ar": { "title": "صينية وجبات - مقسمة إلى خانتين" }
+        }
+      },
+      {
+        "id": "T24",
+        "image": "assets/trays/T24-S.webp",
+        "description": "W228*179*H45",
+        "link": "T24.html",
+        "translations": {
+          "en": { "title": "Meal Tray - 3 Compartments" },
+          "es": { "title": "Bandeja de Comida - 3 Compartimentos" },
+          "fr": { "title": "Plateau Repas - 3 Compartiments" },
+          "de": { "title": "Essensschale – 3 Fächer" },
+          "ja": { "title": "ミールトレイ - 3区画" },
+          "zh": { "title": "餐盘 - 三格" },
+          "zh-hk": { "title": "餐盤 - 三格" },
+          "ar": { "title": "صينية وجبات - مقسمة إلى ثلاث خانات" }
         }
       }
-    },
-    {
-      "id": "ET7",
-      "image": "assets/trays/ET7-S.webp",
-      "description": "W298*L216*H59",
-      "link": "ET7.html",
-      "translations": {
-        "en": {
-          "title": "Fresh Meat Tray - Extra Thick"
-        },
-        "es": {
-          "title": "Bandeja de Carne Fresca - Extra Gruesa"
-        },
-        "fr": {
-          "title": "Plateau de Viande Fraîche - Extra Épais"
-        },
-        "de": {
-          "title": "Frischfleischschale – Extra Dick"
-        },
-        "ja": {
-          "title": "新鮮肉用トレイ - 特厚"
-        },
-        "zh": {
-          "title": "鲜肉托盘 - 加厚型"
-        },
-        "ar": {
-          "title": "صينية لحم طازج - سميكة جدًا"
-        }
-      }
-    },
-    {
-      "id": "T09",
-      "image": "assets/trays/T09-S.webp",
-      "description": "W223*L157*H22",
-      "link": "T09.html",
-      "translations": {
-        "en": {
-          "title": "Fresh Meat Tray"
-        },
-        "es": {
-          "title": "Bandeja de Carne Fresca"
-        },
-        "fr": {
-          "title": "Plateau de Viande Fraîche"
-        },
-        "de": {
-          "title": "Frischfleischschale"
-        },
-        "ja": {
-          "title": "新鮮肉用トレイ"
-        },
-        "zh": {
-          "title": "鲜肉托盘"
-        },
-        "ar": {
-          "title": "صينية لحم طازج"
-        }
-      }
-    },
-    {
-      "id": "T13",
-      "image": "assets/trays/T13-S.webp",
-      "description": "W390*L140*H20",
-      "link": "T13.html",
-      "translations": {
-        "en": {
-          "title": "Vegetable Fruit Tray"
-        },
-        "es": {
-          "title": "Bandeja de Verduras y Frutas"
-        },
-        "fr": {
-          "title": "Plateau de Légumes et Fruits"
-        },
-        "de": {
-          "title": "Gemüse-Obst-Schale"
-        },
-        "ja": {
-          "title": "野菜・果物トレイ"
-        },
-        "zh": {
-          "title": "蔬果托盘"
-        },
-        "ar": {
-          "title": "صينية خضار وفواكه"
-        }
-      }
-    },
-    {
-      "id": "T18",
-      "image": "assets/trays/T18-S.webp",
-      "description": "W180*L125*H45",
-      "link": "T18.html",
-      "translations": {
-        "en": {
-          "title": "Hot Food Tray"
-        },
-        "es": {
-          "title": "Bandeja de Comida Caliente"
-        },
-        "fr": {
-          "title": "Plateau de Plats Chauds"
-        },
-        "de": {
-          "title": "Warmessensschale"
-        },
-        "ja": {
-          "title": "ホットフード用トレイ"
-        },
-        "zh": {
-          "title": "热食托盘"
-        },
-        "ar": {
-          "title": "صينية طعام ساخن"
-        }
-      }
-    },
-    {
-      "id": "T21",
-      "image": "assets/trays/T21-S.webp",
-      "description": "W300*L125*H55",
-      "link": "T21.html",
-      "translations": {
-        "en": {
-          "title": "Rectangle Food Tray"
-        },
-        "es": {
-          "title": "Bandeja de Comida Rectangular"
-        },
-        "fr": {
-          "title": "Plateau Alimentaire Rectangulaire"
-        },
-        "de": {
-          "title": "Rechteckige Lebensmittelschale"
-        },
-        "ja": {
-          "title": "長方形フードトレイ"
-        },
-        "zh": {
-          "title": "长方形食品托盘"
-        },
-        "ar": {
-          "title": "صينية طعام مستطيلة"
-        }
-      }
-    },
-    {
-      "id": "T22",
-      "image": "assets/trays/T22-S.webp",
-      "description": "W228*179*H45",
-      "link": "T22.html",
-      "translations": {
-        "en": {
-          "title": "Meal Tray "
-        },
-        "es": {
-          "title": "Bandeja de Comida"
-        },
-        "fr": {
-          "title": "Plateau Repas"
-        },
-        "de": {
-          "title": "Essensschale"
-        },
-        "ja": {
-          "title": "ミールトレイ"
-        },
-        "zh": {
-          "title": "餐盘"
-        },
-        "ar": {
-          "title": "صينية وجبات"
-        }
-      }
-    },
-    {
-      "id": "T23",
-      "image": "assets/trays/T23-S.webp",
-      "description": "W228*179*H45",
-      "link": "T23.html",
-      "translations": {
-        "en": {
-          "title": "Meal Tray - 2 Compartments"
-        },
-        "es": {
-          "title": "Bandeja de Comida - 2 Compartimentos"
-        },
-        "fr": {
-          "title": "Plateau Repas - 2 Compartiments"
-        },
-        "de": {
-          "title": "Essensschale – 2 Fächer"
-        },
-        "ja": {
-          "title": "ミールトレイ - 2区画"
-        },
-        "zh": {
-          "title": "餐盘 - 两格"
-        },
-        "ar": {
-          "title": "صينية وجبات - مقسمة إلى خانتين"
-        }
-      }
-    },
-    {
-      "id": "T24",
-      "image": "assets/trays/T24-S.webp",
-      "description": "W228*179*H45",
-      "link": "T24.html",
-      "translations": {
-        "en": {
-          "title": "Meal Tray - 3 Compartments"
-        },
-        "es": {
-          "title": "Bandeja de Comida - 3 Compartimentos"
-        },
-        "fr": {
-          "title": "Plateau Repas - 3 Compartiments"
-        },
-        "de": {
-          "title": "Essensschale – 3 Fächer"
-        },
-        "ja": {
-          "title": "ミールトレイ - 3区画"
-        },
-        "zh": {
-          "title": "餐盘 - 三格"
-        },
-        "ar": {
-          "title": "صينية وجبات - مقسمة إلى ثلاث خانات"
-        }
-      }
-    }
   ]
 }

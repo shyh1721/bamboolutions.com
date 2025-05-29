@@ -27,7 +27,8 @@
         "it": "Italiano",
         "hi": "hindī",
         "ja": "日本語",
-        "zh": "中文"
+        "zh": "中文",
+        "zh-hk": "中文（繁体)"
       },
     "company_statement": "Produttore leader di stoviglie e soluzioni di imballaggio in fibra di bambù ecologiche per aziende in tutto il mondo.",
     "quick_links": "Link Rapidi",
@@ -225,7 +226,7 @@
     "faq": {
       "title": "Perguntas Frequentes",
       "moq_question": "Qual é a quantidade mínima de pedido (MOQ)?",
-      "moq_answer": "Nosso MOQ padrão é de 10.000 unidades por produto. Porém, para designs personalizados ou requisitos especiais, o MOQ pode variar. Por favor, entre em contato com nossa equipe de vendas para informações específicas.",
+      "moq_answer": "Nosso MOQ padrão é de 20.000 unidades por produto. Porém, para designs personalizados ou requisitos especiais, o MOQ pode variar. Por favor, entre em contato com nossa equipe de vendas para informações específicas.",
       "custom_question": "Vocês oferecem designs e embalagens personalizadas?",
       "custom_answer": "Sim, oferecemos soluções personalizadas incluindo design de produto, ajustes de tamanho e embalagens customizadas com sua marca. Nossa equipe de design trabalhará junto com você para criar produtos que atendam às suas necessidades específicas.",
       "lead_time_question": "Qual é o prazo para os pedidos?",
@@ -267,7 +268,7 @@
     "faq": {
       "title": "Domande Frequenti",
       "moq_question": "Qual è la quantità minima d’ordine (MOQ)?",
-      "moq_answer": "La nostra MOQ standard è di 10.000 pezzi per prodotto. Tuttavia, per design personalizzati o requisiti speciali, la MOQ può variare. Contatta il nostro team commerciale per informazioni specifiche.",
+      "moq_answer": "La nostra MOQ standard è di 20.000 pezzi per prodotto. Tuttavia, per design personalizzati o requisiti speciali, la MOQ può variare. Contatta il nostro team commerciale per informazioni specifiche.",
       "custom_question": "Offrite design e confezioni personalizzate?",
       "custom_answer": "Sì, offriamo soluzioni personalizzate inclusi design del prodotto, adattamenti di dimensioni e confezioni personalizzate con il tuo marchio. Il nostro team di design lavorerà a stretto contatto con te per creare prodotti che soddisfino le tue esigenze specifiche.",
       "lead_time_question": "Qual è il tempo di consegna per gli ordini?",

@@ -164,7 +164,12 @@ About Us
          data-lang="zh"
          data-translate="global.languages.zh"
          class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+<a href="#"
+         data-lang="zh-hk"
+         data-translate="global.languages.zh-hk"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文 （繁体）</a>
     </div>
+
   </div>
   <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
     <i class="ri-menu-line text-2xl"></i>
@@ -475,7 +480,7 @@ Download Certificate
 <div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
 <i class="ri-map-pin-line"></i>
 </div>
-<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China</span>
+<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, China</span>
 </li>
 <li class="flex items-center">
 <div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
@@ -543,76 +548,7 @@ checkmark.classList.add('hidden');
 });
 });
 });
-document.addEventListener('DOMContentLoaded', function() {
-// Mobile menu toggle
-const menuButton = document.querySelector('.ri-menu-line').parentElement;
-menuButton.addEventListener('click', function() {
-const mobileMenu = document.createElement('div');
-mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
-mobileMenu.innerHTML = `
-<div class="bg-white w-3/4 h-full overflow-y-auto">
-<div class="p-4 flex justify-between items-center border-b">
-<span class="text-xl font-medium">Menu</span>
-<button class="w-10 h-10 flex items-center justify-center text-gray-700">
-<i class="ri-close-line text-2xl"></i>
-</button>
-</div>
-<nav class="p-4">
-<a href="../index.html" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-gray-800">
-<span>Products</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4 hidden">
-<a href="product/trays/trays.html" class="block py-2 text-gray-700">Trays</a>
-<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">Bowls</a>
-<a href="product/plates/plates.html" class="block py-2 text-gray-700">Plates</a>
-<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">Clamshell Containers</a>
-<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">Sushi Containers</a>
-<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">Bakery Containers</a>
-<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">Cup Trays / Egg Cartons</a>
-</div>
-</div>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-gray-800">
-<span>About Us</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4 hidden">
-<a href="company-profile.html" class="block py-2 text-gray-700">Company Profile</a>
-<a href="plantation.html" class="block py-2 text-gray-700">Bamboo Plantation</a>
-<a href="processing-plant.html" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
-<a href="tableware-facility.html" class="block py-2 text-gray-700">Eco Tableware Factory</a>
-</div>
-</div>
-<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-primary font-medium">Sustainability</a>
-<a href="contact.html" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
-</nav>
-</div>
-`;
-document.body.appendChild(mobileMenu);
-document.body.style.overflow = 'hidden';
-// Close mobile menu
-const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
-closeButton.addEventListener('click', function() {
-document.body.removeChild(mobileMenu);
-document.body.style.overflow = '';
-});
-// Dropdown toggles
-const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
-dropdownToggles.forEach(toggle => {
-toggle.parentElement.addEventListener('click', function() {
-const dropdown = this.parentElement.nextElementSibling;
-dropdown.classList.toggle('hidden');
-});
-});
-});
-});
+
 document.addEventListener('DOMContentLoaded', function() {
 // Certificate modal functionality
 const modal = document.getElementById('certificateModal');
@@ -723,6 +659,8 @@ document.body.style.overflow = '';
 });
 });
 </script>
-<script src="js/translations.js"></script>
+ <script src="js/translations.js"></script>
+ <script src="js/mobile-menu.js"></script>
+
 </body>
 </html>

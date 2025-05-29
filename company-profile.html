@@ -169,7 +169,12 @@ About Us
          data-lang="zh"
          data-translate="global.languages.zh"
          class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文</a>
+<a href="#"
+         data-lang="zh-hk"
+         data-translate="global.languages.zh-hk"
+         class="language-option block px-4 py-2 hover:bg-gray-100 text-sm">中文 （繁体）</a>
     </div>
+
   </div>
   <button class="md:hidden w-10 h-10 flex items-center justify-center text-gray-700">
     <i class="ri-menu-line text-2xl"></i>
@@ -198,9 +203,10 @@ About Us
 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 <div>
 <h2 class="text-3xl font-bold text-gray-800 mb-6" data-translate="profile.overview.heading">Company Overview</h2>
-<p class="text-gray-600 mb-4" data-translate="profile.overview.subheading1">Since our founding in 2013, Bamboolutions has been at the forefront of sustainable packaging innovation, dedicated to providing eco-friendly alternatives to traditional plastic products.</p>
-<p class="text-gray-600 mb-4" data-translate="profile.overview.subheading2">With 12 years of industry experience, we've established ourselves as a leading manufacturer of premium bamboo fiber tableware and food packaging solutions that combine functionality with environmental responsibility.</p>
-<p class="text-gray-600 mb-4" data-translate="profile.overview.subheading3">Our headquarters in Guangzhou, China, serves as the central hub for our global operations, coordinating between our three integrated production bases and our international distribution network that spans across Europe, North America, Australia, and Asia.</p>
+<p class="text-gray-600 mb-4" data-translate="profile.overview.subheading1">At Bamboolutions Global Ltd, we are committed to reshaping the future of disposable food packaging through innovation, sustainability, and performance. Drawing on over 12 years of specialized manufacturing experience, we deliver premium bamboo fiber tableware and packaging solutions designed to meet the highest standards of environmental responsibility and product quality.</p>
+<p class="text-gray-600 mb-4" data-translate="profile.overview.subheading2">Our advanced research and development efforts have led to patented technologies that push the boundaries of what bamboo fiber can achieve—creating products that are fully biodegradable, non-toxic, and engineered to outperform traditional plastic, paper, and bagasse alternatives in strength, heat resistance, and moisture protection.</p>
+<p class="text-gray-600 mb-4" data-translate="profile.overview.subheading3">With a fully integrated supply chain that spans from raw bamboo cultivation to finished product manufacturing, we maintain complete oversight of our production process to ensure unmatched consistency and sustainability at every stage.</p>
+<p class="text-gray-600 mb-4" data-translate="profile.overview.subheading4">Our headquarters in Hong Kong, serve as the central hub for our global operations. With office in Guangdong, China coordinating between our three state-of-the-art production facilities and our expanding distribution network—reaching partners and markets across Europe, North America, Australia, and Asia.</p>
 <div class="flex items-center mt-8">
 <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mr-4">
 <div class="w-8 h-8 flex items-center justify-center text-primary">
@@ -208,8 +214,8 @@ About Us
 </div>
 </div>
 <div>
-<h3 class="text-xl font-semibold text-gray-800 " data-translate="profile.overview.subheading4">12+ Years</h3>
-<p class="text-gray-600" data-translate="profile.overview.subheading5">Of industry experience and innovation</p>
+<h3 class="text-xl font-semibold text-gray-800 " data-translate="profile.overview.subheading5">12+ Years</h3>
+<p class="text-gray-600" data-translate="profile.overview.subheading6">Of industry experience and innovation</p>
 </div>
 </div>
 </div>
@@ -537,7 +543,7 @@ Learn More
 <div class="w-5 h-5 mt-1 flex-shrink-0 flex items-center justify-center">
 <i class="ri-map-pin-line"></i>
 </div>
-<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, 526060, China</span>
+<span class="ml-3 text-gray-400" data-translate="global.address">West Xin An Road Duanzhou, Zhaoqing, Guangdong, China</span>
 </li>
 <li class="flex items-center">
 <div class="w-5 h-5 flex-shrink-0 flex items-center justify-center">
@@ -605,77 +611,10 @@ checkmark.classList.add('hidden');
 });
 });
 });
-document.addEventListener('DOMContentLoaded', function() {
-// Mobile menu toggle
-const menuButton = document.querySelector('.ri-menu-line').parentElement;
-menuButton.addEventListener('click', function() {
-const mobileMenu = document.createElement('div');
-mobileMenu.className = 'fixed inset-0 bg-black/50 z-50 flex justify-end';
-mobileMenu.innerHTML = `
-<div class="bg-white w-3/4 h-full overflow-y-auto">
-<div class="p-4 flex justify-between items-center border-b">
-<span class="text-xl font-medium">Menu</span>
-<button class="w-10 h-10 flex items-center justify-center text-gray-700">
-<i class="ri-close-line text-2xl"></i>
-</button>
-</div>
-<nav class="p-4">
-<a href="../index.html" data-readdy="true" class="block py-3 border-b border-gray-100 text-gray-800">Home</a>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-gray-800">
-<span>Products</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4 hidden">
-<a href="product/trays/trays.html" data-readdy="true" class="block py-2 text-gray-700">Trays</a>
-<a href="product/bowls/bowls.html" class="block py-2 text-gray-700">Bowls</a>
-<a href="product/plates/plates.html" class="block py-2 text-gray-700">Plates</a>
-<a href="product/clamshell/clamshell.html" class="block py-2 text-gray-700">Clamshell Containers</a>
-<a href="product/sushi/sushi.html" class="block py-2 text-gray-700">Sushi Containers</a>
-<a href="product/bakery/bakery.html" class="block py-2 text-gray-700">Bakery Containers</a>
-<a href="product/cup&egg/cup&egg.html" class="block py-2 text-gray-700">Cup Trays / Egg Cartons</a>
-</div>
-</div>
-<div class="py-3 border-b border-gray-100">
-<div class="flex justify-between items-center text-primary font-medium">
-<span>About Us</span>
-<div class="w-8 h-8 flex items-center justify-center">
-<i class="ri-arrow-down-s-line"></i>
-</div>
-</div>
-<div class="mt-2 pl-4">
-<a href="company-profile.html" data-readdy="true" class="block py-2 text-primary font-medium">Company Profile</a>
-<a href="plantation.html" data-readdy="true" class="block py-2 text-gray-700">Bamboo Plantation</a>
-<a href="processing-plant.html" data-readdy="true" class="block py-2 text-gray-700">Bamboo Fiber Plant</a>
-<a href="tableware-facility.html" data-readdy="true" class="block py-2 text-gray-700">Eco Tableware Factory</a>
-</div>
-</div>
-<a href="sustainability.html" class="block py-3 border-b border-gray-100 text-gray-800">Sustainability</a>
-<a href="contact.html" class="block py-3 border-b border-gray-100 text-gray-800">Contact</a>
-</nav>
-</div>
-`;
-document.body.appendChild(mobileMenu);
-document.body.style.overflow = 'hidden';
-// Close mobile menu
-const closeButton = mobileMenu.querySelector('.ri-close-line').parentElement;
-closeButton.addEventListener('click', function() {
-document.body.removeChild(mobileMenu);
-document.body.style.overflow = '';
-});
-// Dropdown toggles
-const dropdownToggles = mobileMenu.querySelectorAll('.ri-arrow-down-s-line');
-dropdownToggles.forEach(toggle => {
-toggle.parentElement.addEventListener('click', function() {
-const dropdown = this.parentElement.nextElementSibling;
-dropdown.classList.toggle('hidden');
-});
-});
-});
-});
+
 </script>
-<script src="js/translations.js"></script>
+ <script src="js/translations.js"></script>
+ <script src="js/mobile-menu.js"></script>
+
 </body>
 </html>
