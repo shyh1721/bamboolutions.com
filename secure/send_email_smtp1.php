@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 // Get language from referring page
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? 'en', 0, 2);
-$allowed_langs = ['en', 'fr', 'es', 'ar', 'de', 'ja', 'zh', 'zh-hk'];
+$allowed_langs = ['en', 'fr', 'es', 'ar', 'de', 'ja', 'zh'];
 $lang = in_array($lang, $allowed_langs) ? $lang : 'en';
 
 // Verify POST request
@@ -26,26 +26,6 @@ use PHPMailer\PHPMailer\Exception;
 // Honeypot trap
 if (!empty($_POST['website'])) {
     header("Location: https://bamboolutions.com/contact.html?status=success");
-    exit;
-}
-
-// reCAPTCHA Verification
-$recaptchaSecret = '6Ler808rAAAAACcqzmdl75aan0JCgmrZZ7-iXOQW'; // REPLACE WITH YOUR SECRET KEY
-$recaptchaToken = $_POST['g-recaptcha-response'] ?? '';
-
-if (empty($recaptchaToken)) {
-    header("Location: https://bamboolutions.com/contact.html?status=error&message=reCAPTCHA+validation+failed");
-    exit;
-}
-
-// Verify with Google
-$recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify?secret=$recaptchaSecret&response=$recaptchaToken";
-$recaptchaResponse = file_get_contents($recaptchaUrl);
-$recaptchaData = json_decode($recaptchaResponse);
-
-// Validate reCAPTCHA response
-if (!$recaptchaData->success || $recaptchaData->score < 0.5 || $recaptchaData->action !== 'submit') {
-    header("Location: https://bamboolutions.com/contact.html?status=error&message=reCAPTCHA+validation+failed");
     exit;
 }
 

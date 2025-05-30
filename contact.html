@@ -284,11 +284,45 @@ About Us
 <div class="max-w-4xl mx-auto">
 <h2 class="text-3xl font-bold text-center mb-4" data-translate="contact.form.title">Send Us a Message</h2>
 <p class="text-gray-600 text-center mb-10" data-translate="contact.form.subtitle">Fill out the form below and our team will get back to you as soon as possible.</p>
+
+<!-- Add reCAPTCHA script -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Ler808rAAAAAOE8-vI45lmVgjLJzjpzKhMeepNU"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Get fresh reCAPTCHA token
+      grecaptcha.ready(function() {
+        grecaptcha.execute('6Ler808rAAAAAOE8-vI45lmVgjLJzjpzKhMeepNU', {action: 'submit'}).then(function(token) {
+          document.getElementById('g-recaptcha-response').value = token;
+
+          // Submit form after token is set
+          form.submit();
+        });
+      });
+    });
+  });
+</script>
+
 <form action="/secure/send_email_smtp.php" method="POST">
+<!-- Add hidden reCAPTCHA field -->
+<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+
+<!-- Add honeypot field -->
+<div style="position: absolute; left: -9999px;">
+  <label for="website">Leave this field blank</label>
+  <input type="text" id="website" name="website" tabindex="-1">
+</div>
+
 <div class="md:col-span-1">
 <label for="name" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.full_name">Full Name*</label>
 <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary" required>
 </div>
+
+<!-- Rest of your form fields remain unchanged -->
 <div class="md:col-span-1">
 <label for="company" class="block text-sm font-medium text-gray-700 mb-2" data-translate="contact.form.company_name">Company Name</label>
 <input type="text" id="company" name="company" class="w-full px-4 py-3 border border-gray-300 rounded text-gray-800 text-sm focus:ring-2 focus:ring-primary focus:border-primary">
