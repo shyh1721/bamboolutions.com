@@ -234,6 +234,9 @@
       },
       "submit_button": "Nachricht senden"
     },
+    "success_title": "Nachricht gesendet!",
+    "success_message": "Vielen Dank für Ihre Kontaktaufnahme. Unser Vertriebsteam wird sich so schnell wie möglich bei Ihnen melden.",
+    "error_title": "Nachricht konnte nicht gesendet werden!",
     "faq": {
       "title": "Häufig gestellte Fragen",
       "moq_question": "Was ist die Mindestbestellmenge (MOQ)?",

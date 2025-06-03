@@ -238,6 +238,9 @@
         },
         "submit_button": "發送查詢"
       },
+      "success_title": "訊息已發送！",
+      "success_message": "感謝您聯絡我們。我們的銷售團隊會盡快與您聯絡。",
+      "error_title": "訊息發送失敗！",
       "faq": {
         "title": "常見問題解答",
         "moq_question": "起訂量是多少？",

@@ -234,6 +234,9 @@
       },
       "submit_button": "Envoyer le message"
     },
+    "success_title": "Message envoyé !",
+    "success_message": "Merci de nous avoir contactés. Notre équipe commerciale vous répondra dans les plus brefs délais.",
+    "error_title": "Échec de l'envoi du message !",
     "faq": {
       "title": "Questions Fréquemment Posées",
       "moq_question": "Quelle est la quantité minimale de commande (MOQ) ?",

@@ -234,6 +234,9 @@
         },
       "submit_button": "发送留言"
     },
+    "success_title": "消息已发送！",
+    "success_message": "感谢您与我们联系。我们的销售团队将尽快与您联系。",
+    "error_title": "消息发送失败！",
     "faq": {
       "title": "常见问题解答",
       "moq_question": "起订量是多少？",
